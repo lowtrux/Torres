@@ -1,0 +1,27 @@
+.l-distWines {
+  .imageContainer {
+    @media only screen and (min-width: 768px) {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      flex-shrink: 0;
+    }
+  }
+  .logoTorres {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 200px;
+    @media only screen and (min-width: 3000px) {
+      width: 300px;
+    }
+  }
+  main {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    justify-content: center;
+    padding: 0;
+  }
+}

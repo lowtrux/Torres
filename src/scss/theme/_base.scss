@@ -1,0 +1,77 @@
+/*BASE.SCSS*/
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+:focus {
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+input[type="submit"] {
+  border: 0 none;
+  margin: 20px 0 0 0;
+}
+select::-ms-expand {
+  display: none;
+}
+a {
+  color: $black;
+  text-decoration: none;
+  &:hover,
+  &:visited {
+    color: $black;
+  }
+}
+body {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  font: 16px/100% "Open Sans", serif;
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+button {
+  border: 0 none;
+  padding: 0;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: $black;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 38px;
+  margin: 0;
+}
+h2 {
+  color: $black;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 20px;
+}
+h5 {
+  margin: 0;
+}
+main {
+  padding: 20px 0;
+}
+p {
+  color: $black;
+  font-size: 14px;
+  line-height: 20px;
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

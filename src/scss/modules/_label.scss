@@ -1,0 +1,28 @@
+.label {
+  border: none;
+  display: block;
+  font-weight: 600;
+  letter-spacing: 0.094em;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.labelMenu {
+  color: $brown;
+  font-size: 1.2em;
+  &:hover {
+    color: $brown;
+    text-decoration: underline;
+  }
+}
+.labelSecondary {
+  font: 24px "MyWebFont2", serif;
+}
+.labelSecondaryVinaEsmeralda {
+  color: $darkGreen2;
+}
+.labelDistro {
+  color: $red;
+  font: 24px "MyWebFont2", serif;
+}

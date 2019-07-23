@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <title>Torres: Product</title>
+  </head>
+  <body>
+    <div class="l-pageContainer">
+      <%= require('html-loader!./partials/headerProductPartial.html') %>
+      <main class="container l-mainContainer">
+        <div class="l-content">
+          <div class="l-row">
+            <%= require('html-loader!./partials/ProductMenuPartial.html') %>
+            <div class="l-mainContent l-9-cols">
+              <div class="componentContent l-row">
+                <div class="componentContent__image l-12-cols">
+                  <div class="l-row">
+                    <span class="label labelSecondary">Monovarieties</span>
+                  </div>
+                  <div class="l-row">
+                    <button class="b_regular b_sangreToro centered">
+                      Download
+                    </button>
+                  </div>
+                  <div class="componentContent__image-wrapper">
+                    <img src="./images/product.png" alt="Producto" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="l-footer l-footerSangreToro">
+          <div class="container-fluid">
+            <div class="ctn">
+              <nav>
+                <ul>
+                  <li><a href="#">LEGAL NOTICE</a></li>
+                  <li><a href="#">COOKIE POLICY</a></li>
+                  <li><a href="#">PRIVACY POLICY</a></li>
+                </ul>
+              </nav>
+              <div class="social-networks">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><img src="images/icon-instagram.png" alt="Instagram"
+                    /></a>
+                  </li>
+              </div>
+              <a class="siteLink" href="http://www.vinaesmeralda.com">Sangre De Toro</a>
+            </div>
+          </div>
+      </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>

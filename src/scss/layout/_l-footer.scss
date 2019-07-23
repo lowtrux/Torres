@@ -1,0 +1,87 @@
+.l-footer {
+  align-items: center;
+  background-color: $brown;
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  .ctn {
+    padding: 50px 0;
+    text-align: center;
+    nav {
+      margin: 0 0 0.5em 0;
+    }
+    ul {
+      li {
+        text-align: left;
+        border-bottom: 1px solid $med-brown;
+        @media only screen and (min-width: 768px) {
+          display: inline-block;
+          border-bottom: none;
+        }
+        a {
+          display: block;
+          font: 20px "MyWebFont2", serif;
+          letter-spacing: 0.1em;
+          padding: 1em 0;
+          @media only screen and (min-width: 768px) {
+            border: none;
+            padding: 0;
+          }
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    .social-networks {
+      display: inline-block;
+      padding: 0.5em 3em 0 3em;
+      text-align: center;
+      @media only screen and (min-width: 768px) {
+        border-top: 1px solid $light-brown;
+      }
+      ul {
+        li {
+          display: inline-block;
+          border-bottom: none;
+          &:last-child a {
+            margin-right: 0;
+          }
+          a {
+            border-bottom: none;
+            display: block;
+            /*margin: 0 1.5em 0 0;*/
+            img {
+              @media only screen and (min-width: 320px) {
+                width: 30px;
+                height: 30px;
+              }
+              @media only screen and (min-width: 768px) {
+                width: 15px;
+                height: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .siteLink {
+      display: block;
+      font: 16px "MyWebFont2", serif;
+      letter-spacing: 0.1em;
+      margin-top: 5px;
+    }
+  }
+}
+.l-footerSangreToro {
+  background-color: $black;
+  a {
+    color: $white;
+  }
+}
+.l-footerVinaEsmeralda {
+  background-color: $light-green;
+  a {
+    color: $darkGreen2;
+  }
+}

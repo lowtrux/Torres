@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <title>Torres</title>
+  </head>
+  <body>
+    <div class="l-pageContainer">
+      <%= require('html-loader!./partials/headerPartial.html') %>
+      <main class="container">
+        <div class="l-content">
+          <div class="l-row">
+            <div class="l-mainContent l-12-cols">
+              <div class="l-row">
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+              </div>
+              <div class="l-row">
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+              </div>
+              <div class="l-row">
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+                <div class="l-4-cols product">
+                  <img src="./images/logoProduct.png" alt="Producto" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <%= require('html-loader!./partials/footerPartial.html') %>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>

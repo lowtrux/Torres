@@ -1,0 +1,92 @@
+#s4-workspace {
+  height: 100% !important;
+  overflow: hidden;
+}
+.brand-toolkit-rowscontent {
+  .l-row:first-child {
+    margin-top: 20px;
+  }
+}
+.centered {
+  margin: 0 auto;
+}
+.flex-column {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: center;
+  img {
+    flex-shrink: 0;
+  }
+}
+.flex-horizontal {
+  align-items: center;
+  flex: 0 0 50%;
+  height: 50%;
+  width: 100%;
+}
+.halfBrown {
+  background-color: $brown;
+}
+.hideSection {
+  display: none !important;
+}
+.imageContainer {
+  padding-top: 150px;
+  @media only screen and (min-width: 1024px) {
+    padding: 0;
+  }
+}
+.logo-column {
+  img {
+    display: block;
+    margin-top: 20px !important;
+    flex-shrink: 0;
+  }
+}
+.logo-row {
+  img {
+    display: block;
+    flex-shrink: 0;
+    margin-top: 20px;
+    align-self: center;
+    &:first-child {
+      margin-left: 0;
+    }
+    @media only screen and (min-width: 1024px) {
+      margin-left: 20px;
+      margin-top: 0;
+    }
+  }
+}
+.logo2x {
+  display: block;
+  height: auto;
+  width: 200px;
+}
+.logo1x {
+  display: block;
+  height: auto;
+  width: 200px;
+}
+.logoV {
+  width: 150px;
+}
+.product > span:first-child {
+  color: transparent;
+  cursor: pointer;
+  margin: 13px 0;
+  background-size: auto 100%;
+  height: 33px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-image: url(../images/more-icon.png);
+}
+.productselected .product > span:first-child {
+  background-image: url(../images/less-icon.png);
+  cursor: pointer;
+}
+.showSection {
+  display: block !important;
+}

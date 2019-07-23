@@ -1,0 +1,35 @@
+.l-primaryNav {
+  ul {
+    li {
+      a {
+        font: 22px "MyWebFont2", serif;
+        letter-spacing: 0.1em;
+        line-height: normal;
+        display: block;
+        padding: 0 0 0 5px;
+        text-transform: uppercase;
+        overflow: hidden;
+        &:hover {
+          color: $white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+.sangreToroNav {
+  a {
+    color: $red;
+    &:hover {
+      background-color: $black;
+    }
+  }
+}
+.vinaEsmeraldaNav {
+  a {
+    color: $darkGreen2;
+    &:hover {
+      background-color: $darkGreen2;
+    }
+  }
+}

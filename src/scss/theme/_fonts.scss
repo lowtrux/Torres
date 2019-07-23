@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "MyWebFont";
+  src: url("../fonts/AdobeCaslonProRegular.eot");
+  src: url("../fonts/AdobeCaslonProRegular.eot#iefix")
+      format("embedded-opentype"),
+    url("../fonts/AdobeCaslonProRegular.ttf");
+}
+@font-face {
+  font-family: "MyWebFont2";
+  src: url("../fonts/HeroicCondensed-Bold.eot");
+  src: url("../fonts/HeroicCondensed-Bold.eot#iefix")
+      format("embedded-opentype"),
+    url("../fonts/HeroicCondensed-Bold.ttf"),
+    url("../fonts/HeroicCondensed-Bold.woff"),
+    url("../fonts/HeroicCondensed-Bold.woff2");
+}

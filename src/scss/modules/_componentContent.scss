@@ -1,0 +1,42 @@
+.componentContent {
+  &__gallery {
+    img {
+      margin-bottom: 20px;
+      width: 100%;
+      @media only screen and (min-width: 768px) {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__image {
+    &-wrapper {
+      margin-top: 20px;
+      text-align: center;
+      img {
+        max-width: 270px;
+        max-height: 453px;
+      }
+    }
+  }
+  &__slogan {
+    background-color: $grey;
+    min-height: 400px;
+    text-align: center;
+    padding: 20px;
+    h1 {
+      color: $red;
+      font-family: "DM Serif Display", serif;
+      font-size: 3em;
+      line-height: 1.2em;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    p {
+      font: 18px "MyWebFont", serif;
+      line-height: 1.25em;
+    }
+  }
+  &__title {
+    width: 220px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "plugins": {
+    "autoprefixer": true,
+    "postcss-font-magician": {
+        variants: {
+            'Open Sans': {
+                '300': [],
+                '400': [],
+                '700': []
+            }
+        },
+        foundries: ['google']        
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.keyVisual {
+  text-align: center;
+  &__picture {
+    margin-top: 20px;
+    width: 100%;
+  }
+  input {
+    margin: auto;
+    display: block;
+  }
+}

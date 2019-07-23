@@ -1,0 +1,38 @@
+.l-home {
+  body {
+    background-color: transparent;
+    height: 100%;
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @media only screen and (min-width: 768px) {
+      align-items: center;
+      display: -ms-flexbox;
+      display: flex;
+      justify-content: center;
+      overflow-y: hidden;
+    }
+    .container {
+      .imageContainer {
+        @media only screen and (min-width: 768px) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .logoCorporate {
+        width: 150px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      a,
+      a:visited {
+        color: $white;
+        font-size: 1.8em;
+        margin-top: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <title>Torres</title>
+  </head>
+  <body>
+    <div class="l-pageContainer">
+      <%= require('html-loader!./partials/headerPartial.html') %>
+      <main class="container l-mainContainer">
+        <div class="l-content">
+          <div class="l-row">
+            <div class="l-mainContent l-12-cols">
+              <nav class="indexNav">
+                <ul>
+                  <li>
+                    <a href="./home.html">Home</a>
+                  </li>
+                  <li>
+                    <a href="./distProd.html"
+                      >Distribuidora Marcas y Productos</a
+                    >
+                  </li>
+                  <li>
+                    <a href="./distWines.html">Distribuidora Wines</a>
+                  </li>
+                  <li><a href="./family.html">Familia</a></li>
+                  <li><a href="./sangreDeToro.html">Sangre de Toro</a></li>
+                  <li><a href="./vinaEsmeralda.html">Viña Esmeralda</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </main>
+      <%= require('html-loader!./partials/footerPartial.html') %>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>

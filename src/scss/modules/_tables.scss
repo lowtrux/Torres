@@ -1,0 +1,28 @@
+.tableRegular {
+  margin-top: 20px;
+  width: 100%;
+  thead {
+    tr {
+      th {
+        padding-bottom: 20px;
+        text-align: left;
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:nth-child(even) {
+        background-color: #eee;
+      }
+      td {
+        padding: 10px;
+        text-align: left;
+        p,
+        span {
+          margin-bottom: 0;
+          display: inline-block;
+        }
+      }
+    }
+  }
+}

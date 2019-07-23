@@ -1,0 +1,99 @@
+/* Custom Breakpoints*/
+$grid-breakpoints: (
+  xs: 0,
+  sm: 320px,
+  md: 668px,
+  lg: 769px,
+  xl: 1024px
+);
+/* Custom max-widths containers */
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 1366px
+);
+
+/*Containers Fluid*/
+.container-fluid {
+  @include make-container();
+}
+
+/* Custom Column Gutter */
+$grid-gutter-width: 20px;
+
+/* Rows */
+.l-row {
+  @include make-row();
+  margin-top: 20px;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+/* Columns */
+.l-1-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(1);
+  }
+}
+.l-2-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(2);
+  }
+}
+.l-3-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(3);
+  }
+}
+.l-4-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(4);
+  }
+}
+.l-5-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(5);
+  }
+}
+.l-6-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(6);
+  }
+}
+.l-7-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(7);
+  }
+}
+.l-8-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(8);
+  }
+}
+.l-9-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(9);
+  }
+}
+.l-10-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(10);
+  }
+}
+.l-12-cols {
+  @include make-col-ready();
+  @include media-breakpoint-up(lg) {
+    @include make-col(12);
+  }
+}

@@ -1,0 +1,42 @@
+.l-breadcrumb {
+  margin-top: 20px;
+  .ms-breadcrumb {
+    span {
+      display: inline-block;
+      &:first-child {
+        a {
+          margin-left: 0;
+        }
+        img {
+          height: 15px;
+          width: 15px;
+          vertical-align: bottom;
+        }
+      }
+      &:last-child {
+        a {
+          background: none;
+        }
+      }
+      a {
+        background: url("../images/icon-breadCrumb.png") no-repeat right 50%;
+        color: $darkGrey;
+        display: block;
+        font-weight: 400;
+        margin-left: 5px;
+        padding-right: 15px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      &.ms-breadcrumbCurrentNode {
+        a {
+          color: $darkGrey;
+        }
+      }
+      &:nth-child(2n + 0) {
+        display: none;
+      }
+    }
+  }
+}

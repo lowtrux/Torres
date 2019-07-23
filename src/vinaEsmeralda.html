@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <title>Viña Esmeralda</title>
+  </head>
+  <body>
+    <div class="l-pageContainer">
+      <%= require('html-loader!./partials/vinaEsmeraldaHeader.html') %>
+      <main class="container l-mainContainer">
+        <div class="l-content">
+          <div class="l-row">
+            <nav class="l-primaryNav vinaEsmeraldaNav l-3-cols">
+              <ul>
+                <li><a href="#">bottle shot</a></li>
+                <li><a href="#">key visual</a></li>
+                <li><a href="#">logos</a></li>
+                <li>
+                  <a href="#">prizes and awards</a>
+                </li>
+                <li>
+                  <a href="#">pictures</a>
+                </li>
+                <li><a href="#">technical sheets</a></li>
+                <li><a href="#">videos</a></li>
+              </ul>
+            </nav>
+            <div class="l-mainContent l-9-cols">
+              <div class="componentContent l-row">
+                <div class="componentContent__image l-12-cols">
+                  <div class="l-row">
+                    <span
+                      class="label labelSecondary labelSecondaryVinaEsmeralda"
+                      >Monovarieties</span
+                    >
+                  </div>
+                  <div class="l-row">
+                    <button class="b_regular b_vinaEsmeralda centered">
+                      Download
+                    </button>
+                  </div>
+                  <div class="componentContent__image-wrapper">
+                    <img src="./images/product.png" alt="Producto" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="l-footer l-footerVinaEsmeralda">
+        <div class="container-fluid">
+          <div class="ctn">
+            <nav>
+              <ul>
+                <li><a href="#">TERMS AND CONDITIONS</a></li>
+                <li><a href="#">COOKIES POLICY</a></li>
+                <li><a href="#">WEB MAP</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </nav>
+            <div class="social-networks">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="/images/icon-instagram.png" alt="Instagram"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <a class="siteLink" href="http://www.vinaesmeralda.com"
+              >Viña Esmeralda</a
+            >
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>
