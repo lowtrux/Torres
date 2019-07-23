@@ -35,7 +35,7 @@ module.exports = {
           {
             loader: "style-loader",
             options: {
-              sourceMap: true
+              sourceMap: false
             }
           },
           MiniCssExtractPlugin.loader,
@@ -43,20 +43,20 @@ module.exports = {
             loader: "css-loader",
             options: {
               url: false,
-              sourceMap: true
+              sourceMap: false
             }
           },
           {
             loader: "postcss-loader",
             options: {
-              sourceMap: true
+              sourceMap: false
             }
           },
           {
             loader: "sass-loader",
             options: {
               importer: globImporter(),
-              sourceMap: true
+              sourceMap: false
             }
           }
         ]
@@ -88,7 +88,6 @@ module.exports = {
     contentBase: "dist",
     overlay: true
   },
-  devtool: "source-map",
   plugins: [
     new CleanWebpackPlugin("dist", {}),
     new MiniCssExtractPlugin({

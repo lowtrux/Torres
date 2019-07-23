@@ -117,7 +117,7 @@ var insertInto;
 
 
 
-var options = {"sourceMap":true,"hmr":true}
+var options = {"sourceMap":false,"hmr":true}
 
 options.transform = transform
 options.insertInto = undefined;
@@ -1025,4 +1025,3 @@ module.exports = "../fonts/HeroicCondensed-Bold.ttf";
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=main.js.map
