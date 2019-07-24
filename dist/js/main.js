@@ -101,7 +101,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__(5);
 
-__webpack_require__(52);
+__webpack_require__(53);
 
 /***/ }),
 /* 1 */
@@ -682,8 +682,9 @@ var map = {
 	"./torresCorporateLogo.png": 47,
 	"./torresProperties.png": 48,
 	"./vinaEsmeralda.png": 49,
-	"./vinaEsmeraldaW.png": 50,
-	"./wineIcons.png": 51
+	"./vinaEsmeraldaGold.png": 50,
+	"./vinaEsmeraldaW.png": 51,
+	"./wineIcons.png": 52
 };
 
 
@@ -974,21 +975,27 @@ module.exports = __webpack_require__.p + "images/vinaEsmeralda.png";
 /* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaGold.png";
 
 /***/ }),
 /* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/wineIcons.png";
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
 
 /***/ }),
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "images/wineIcons.png";
+
+/***/ }),
+/* 53 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var map = {
-	"./AdobeCaslonProRegular.ttf": 53,
-	"./HeroicCondensed-Bold.ttf": 54
+	"./AdobeCaslonProRegular.ttf": 54,
+	"./HeroicCondensed-Bold.ttf": 55
 };
 
 
@@ -1009,16 +1016,16 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 52;
+webpackContext.id = 53;
 
 /***/ }),
-/* 53 */
+/* 54 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/AdobeCaslonProRegular.ttf";
 
 /***/ }),
-/* 54 */
+/* 55 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/HeroicCondensed-Bold.ttf";
