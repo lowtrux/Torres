@@ -972,6 +972,10 @@ ul {
   src: url("../fonts/HeroicCondensed-Bold.eot");
   src: url("../fonts/HeroicCondensed-Bold.eot#iefix") format("embedded-opentype"), url("../fonts/HeroicCondensed-Bold.ttf"), url("../fonts/HeroicCondensed-Bold.woff"), url("../fonts/HeroicCondensed-Bold.woff2"); }
 
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf"); }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -1474,7 +1478,6 @@ th {
           border-bottom: none; } }
       .l-footer .ctn ul li a {
         display: block;
-        font: 20px "MyWebFont2", serif;
         letter-spacing: 0.1em;
         padding: 1em 0; }
         @media only screen and (min-width: 768px) {
@@ -1509,19 +1512,20 @@ th {
               height: 15px; } }
     .l-footer .ctn .siteLink {
       display: block;
-      font: 16px "MyWebFont2", serif;
       letter-spacing: 0.1em;
       margin-top: 5px; }
 
 .l-footerSangreToro {
   background-color: #000; }
   .l-footerSangreToro a {
-    color: #fff; }
+    color: #fff;
+    font: 16px "MyWebFont2", serif; }
 
 .l-footerVinaEsmeralda {
   background-color: #f1f6e9; }
   .l-footerVinaEsmeralda a {
-    color: #1b4624; }
+    color: #1b4624;
+    font: 16px "Lato", serif; }
 
 .l-header {
   position: relative;
@@ -1921,11 +1925,7 @@ th {
   min-height: 100%; }
 
 .l-primaryNav ul li a {
-  font: 22px "MyWebFont2", serif;
-  letter-spacing: 0.1em;
-  line-height: normal;
   display: block;
-  padding: 0 0 0 5px;
   text-transform: uppercase;
   overflow: hidden; }
   .l-primaryNav ul li a:hover {
@@ -1933,12 +1933,19 @@ th {
     text-decoration: none; }
 
 .sangreToroNav a {
-  color: #dd0b2b; }
+  color: #dd0b2b;
+  font: 22px "MyWebFont2", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
   .sangreToroNav a:hover {
     background-color: #000; }
 
 .vinaEsmeraldaNav a {
-  color: #1b4624; }
+  color: #1b4624;
+  font: 16px "Lato", serif;
+  padding: 5px;
+  display: block; }
   .vinaEsmeraldaNav a:hover {
     background-color: #1b4624; }
 

@@ -995,7 +995,8 @@ module.exports = __webpack_require__.p + "images/wineIcons.png";
 
 var map = {
 	"./AdobeCaslonProRegular.ttf": 54,
-	"./HeroicCondensed-Bold.ttf": 55
+	"./HeroicCondensed-Bold.ttf": 55,
+	"./Lato-Regular.ttf": 56
 };
 
 
@@ -1029,6 +1030,12 @@ module.exports = "../fonts/AdobeCaslonProRegular.ttf";
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/HeroicCondensed-Bold.ttf";
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/Lato-Regular.ttf";
 
 /***/ })
 /******/ ]);

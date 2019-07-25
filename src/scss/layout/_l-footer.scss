@@ -20,7 +20,6 @@
         }
         a {
           display: block;
-          font: 20px "MyWebFont2", serif;
           letter-spacing: 0.1em;
           padding: 1em 0;
           @media only screen and (min-width: 768px) {
@@ -67,7 +66,6 @@
     }
     .siteLink {
       display: block;
-      font: 16px "MyWebFont2", serif;
       letter-spacing: 0.1em;
       margin-top: 5px;
     }
@@ -77,11 +75,13 @@
   background-color: $black;
   a {
     color: $white;
+    font: 16px "MyWebFont2", serif;
   }
 }
 .l-footerVinaEsmeralda {
   background-color: $light-green;
   a {
     color: $darkGreen2;
+    font: 16px "Lato", serif;
   }
 }

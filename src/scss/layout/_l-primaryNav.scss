@@ -2,11 +2,7 @@
   ul {
     li {
       a {
-        font: 22px "MyWebFont2", serif;
-        letter-spacing: 0.1em;
-        line-height: normal;
         display: block;
-        padding: 0 0 0 5px;
         text-transform: uppercase;
         overflow: hidden;
         &:hover {
@@ -20,6 +16,10 @@
 .sangreToroNav {
   a {
     color: $red;
+    font: 22px "MyWebFont2", serif;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    padding: 0 0 0 5px;
     &:hover {
       background-color: $black;
     }
@@ -28,6 +28,9 @@
 .vinaEsmeraldaNav {
   a {
     color: $darkGreen2;
+    font: 16px "Lato", serif;
+    padding: 5px;
+    display: block;
     &:hover {
       background-color: $darkGreen2;
     }
