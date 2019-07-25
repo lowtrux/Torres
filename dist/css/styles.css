@@ -1854,13 +1854,13 @@ th {
         .l-header .submenu-categories span a:hover {
           text-decoration: underline !important; }
 
-.l-headerProduct .secondary-navigation {
+.l-headerSangreToro .secondary-navigation {
   background-color: #dd0b2b; }
 
-.l-headerProduct .header-search {
+.l-headerSangreToro .header-search {
   display: none; }
 
-.l-headerProduct nav ul li a {
+.l-headerSangreToro nav ul li a {
   color: #fff; }
 
 .l-headerVinaEsmeralda .secondary-navigation {
