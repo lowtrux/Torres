@@ -1325,7 +1325,8 @@ th {
 
 #s4-workspace {
   height: 100% !important;
-  overflow: hidden; }
+  overflow: hidden;
+  width: auto !important; }
 
 .brand-toolkit-rowscontent .l-row:first-child {
   margin-top: 20px; }
@@ -1968,6 +1969,7 @@ th {
       display: none; }
 
 .b_regular {
+  background-color: #dd0b2b;
   color: #fff;
   font-size: 0.75em;
   font-weight: 600;
@@ -1975,17 +1977,8 @@ th {
   padding: 10px;
   text-transform: uppercase; }
   .b_regular:hover {
-    text-decoration: underline; }
-
-.b_sangreToro {
-  background-color: #dd0b2b; }
-  .b_sangreToro:hover {
+    text-decoration: underline;
     background-color: #dd0b2b; }
-
-.b_vinaEsmeralda {
-  background-color: #1b4624; }
-  .b_vinaEsmeralda:hover {
-    background-color: #1b4624; }
 
 .componentContent__gallery img {
   margin-bottom: 20px;

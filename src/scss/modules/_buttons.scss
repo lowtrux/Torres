@@ -1,4 +1,5 @@
 .b_regular {
+  background-color: $red;
   color: $white;
   font-size: 0.75em;
   font-weight: 600;
@@ -7,17 +8,6 @@
   text-transform: uppercase;
   &:hover {
     text-decoration: underline;
-  }
-}
-.b_sangreToro {
-  background-color: $red;
-  &:hover {
     background-color: $red;
-  }
-}
-.b_vinaEsmeralda {
-  background-color: $darkGreen2;
-  &:hover {
-    background-color: $darkGreen2;
   }
 }
