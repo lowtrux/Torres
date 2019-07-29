@@ -19,6 +19,8 @@
 @import "theme/_fonts.scss";
 @import "theme/_normalize.scss";
 @import "theme/_utilities.scss";
+@import "theme/_stTheme.scss";
+@import "theme/_veTheme.scss";
 
 // ----------------------------------*\
 // LAYOUT MODULES
@@ -43,7 +45,6 @@
 @import "modules/_keyVisual.scss";
 @import "modules/_label.scss";
 @import "modules/_logos.scss";
-@import "modules/_modals.scss";
 @import "modules/_nav.scss";
 @import "modules/_product.scss";
 @import "modules/_searchBox.scss";

@@ -10,14 +10,46 @@
     />
     <title>Torres: Familia</title>
   </head>
-  <body>
+  <body class="stTheme">
     <div class="l-pageContainer">
-      <%= require('html-loader!./partials/headerProductPartial.html') %>
+      <header class="l-header" role="banner">
+        <div class="secondary-navigation">
+          <div class="container-fluid">
+            <div class="ctn">
+              <!--LOGO-->
+              <div class="logo">
+                <a href="../index.html">
+                  <img
+                    src="../images/logoProduct.png"
+                    alt="Logo"
+                    class="logo-corp-main"
+                  />
+                </a>
+              </div>
+              <!--LOGO END-->
+            </div>
+          </div>
+        </div>
+      </header>           
       <main class="container l-mainContainer">
         <div class="l-content">
           <div class="l-row">
-            <%= require('html-loader!./partials/mainNavPartial.html') %>
-            <div class="l-mainContent l-10-cols">
+            <nav class="l-primaryNav l-3-cols">
+                <ul>
+                  <li><a href="#">bottle shot</a></li>
+                  <li><a href="#">key visual</a></li>
+                  <li><a href="#">logos</a></li>
+                  <li>
+                    <a href="#">prizes and awards</a>
+                  </li>
+                  <li>
+                    <a href="#">pictures</a>
+                  </li>
+                  <li><a href="#">technical sheets</a></li>
+                  <li><a href="#">videos</a></li>
+                </ul>
+            </nav>            
+            <div class="l-mainContent l-9-cols">
               <section class="componentContent showSection" id="home">
                 <div class="componentContent__slogan">
                   <img
@@ -81,8 +113,28 @@
           </div>
         </div>
       </main>
-      <%= require('html-loader!./partials/footerProductPartial.html') %>
+      <footer class="l-footer">
+        <div class="container-fluid">
+          <div class="ctn">
+            <nav>
+              <ul>
+                <li><a href="#">LEGAL NOTICE</a></li>
+                <li><a href="#">COOKIE POLICY</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+              </ul>
+            </nav>
+            <div class="social-networks">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="images/icon-instagram.png" alt="Instagram"
+                  /></a>
+                </li>
+            </div>
+            <a class="siteLink" href="http://www.vinaesmeralda.com">Sangre De Toro</a>
+          </div>
+        </div>
+      </footer>      
     </div>
-    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
 </html>

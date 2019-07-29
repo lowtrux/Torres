@@ -10,13 +10,31 @@
     />
     <title>Viña Esmeralda</title>
   </head>
-  <body>
+  <body class="veTheme">
     <div class="l-pageContainer">
-      <%= require('html-loader!./partials/vinaEsmeraldaHeader.html') %>
+      <header class="l-header" role="banner">
+        <div class="secondary-navigation">
+          <div class="container-fluid">
+            <div class="ctn">
+              <!--LOGO-->
+              <div class="logo">
+                <a href="../index.html">
+                  <img
+                    src="../images/vinaEsmeraldaGold.png"
+                    alt="Logo"
+                    class="logo-corp-main"
+                  />
+                </a>
+              </div>
+              <!--LOGO END-->
+            </div>
+          </div>
+        </div>
+      </header>
       <main class="container l-mainContainer">
         <div class="l-content">
           <div class="l-row">
-            <nav class="l-primaryNav vinaEsmeraldaNav l-3-cols">
+            <nav class="l-primaryNav l-3-cols">
               <ul>
                 <li><a href="#">bottle shot</a></li>
                 <li><a href="#">key visual</a></li>
@@ -54,7 +72,7 @@
           </div>
         </div>
       </main>
-      <footer class="l-footer l-footerVinaEsmeralda">
+      <footer class="l-footer">
         <div class="container-fluid">
           <div class="ctn">
             <nav>

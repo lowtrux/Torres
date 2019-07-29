@@ -1417,6 +1417,55 @@ th {
 .showSection {
   display: block !important; }
 
+.stTheme {
+  font: 18px "MyWebFont", serif;
+  line-height: 1.25em; }
+  .stTheme p {
+    font: 18px "MyWebFont", serif;
+    line-height: 1.25em; }
+  .stTheme .l-header .secondary-navigation {
+    background-color: #dd0b2b; }
+  .stTheme .l-header .header-search {
+    display: none; }
+  .stTheme .l-header nav ul li a {
+    color: #fff; }
+  .stTheme .l-footer {
+    background-color: #000; }
+    .stTheme .l-footer a {
+      color: #fff;
+      font: 16px "MyWebFont2", serif; }
+  .stTheme .l-primaryNav a {
+    color: #dd0b2b;
+    font: 22px "MyWebFont2", serif;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    padding: 0 0 0 5px; }
+    .stTheme .l-primaryNav a:hover {
+      background-color: #000; }
+
+.veTheme .l-header .secondary-navigation {
+  background-color: #f1f6e9; }
+
+.veTheme .l-header .header-search {
+  display: none; }
+
+.veTheme .l-header nav ul li a {
+  color: #fff; }
+
+.veTheme .l-footer {
+  background-color: #f1f6e9; }
+  .veTheme .l-footer a {
+    color: #1b4624;
+    font: 16px "Lato", serif; }
+
+.veTheme .l-primaryNav a {
+  color: #1b4624;
+  font: 16px "Lato", serif;
+  padding: 5px;
+  display: block; }
+  .veTheme .l-primaryNav a:hover {
+    background-color: #1b4624; }
+
 .l-content {
   margin: 40px 0 40px 0; }
 
@@ -1514,18 +1563,6 @@ th {
       display: block;
       letter-spacing: 0.1em;
       margin-top: 5px; }
-
-.l-footerSangreToro {
-  background-color: #000; }
-  .l-footerSangreToro a {
-    color: #fff;
-    font: 16px "MyWebFont2", serif; }
-
-.l-footerVinaEsmeralda {
-  background-color: #f1f6e9; }
-  .l-footerVinaEsmeralda a {
-    color: #1b4624;
-    font: 16px "Lato", serif; }
 
 .l-header {
   position: relative;
@@ -1859,24 +1896,6 @@ th {
         .l-header .submenu-categories span a:hover {
           text-decoration: underline !important; }
 
-.l-headerSangreToro .secondary-navigation {
-  background-color: #dd0b2b; }
-
-.l-headerSangreToro .header-search {
-  display: none; }
-
-.l-headerSangreToro nav ul li a {
-  color: #fff; }
-
-.l-headerVinaEsmeralda .secondary-navigation {
-  background-color: #f1f6e9; }
-
-.l-headerVinaEsmeralda .header-search {
-  display: none; }
-
-.l-headerVinaEsmeralda nav ul li a {
-  color: #fff; }
-
 .l-home body {
   background-color: transparent;
   height: 100%;
@@ -1931,23 +1950,6 @@ th {
   .l-primaryNav ul li a:hover {
     color: #fff;
     text-decoration: none; }
-
-.sangreToroNav a {
-  color: #dd0b2b;
-  font: 22px "MyWebFont2", serif;
-  letter-spacing: 0.1em;
-  line-height: normal;
-  padding: 0 0 0 5px; }
-  .sangreToroNav a:hover {
-    background-color: #000; }
-
-.vinaEsmeraldaNav a {
-  color: #1b4624;
-  font: 16px "Lato", serif;
-  padding: 5px;
-  display: block; }
-  .vinaEsmeraldaNav a:hover {
-    background-color: #1b4624; }
 
 .l-breadcrumb {
   margin-top: 20px; }
@@ -2006,16 +2008,6 @@ th {
   min-height: 400px;
   text-align: center;
   padding: 20px; }
-  .componentContent__slogan h1 {
-    color: #dd0b2b;
-    font-family: "DM Serif Display", serif;
-    font-size: 3em;
-    line-height: 1.2em;
-    text-align: center;
-    text-transform: capitalize; }
-  .componentContent__slogan p {
-    font: 18px "MyWebFont", serif;
-    line-height: 1.25em; }
 
 .componentContent__title {
   width: 220px; }
@@ -2073,56 +2065,6 @@ th {
   .logosContent img {
     margin-top: 20px;
     width: 100%; }
-
-.modal {
-  -webkit-overflow-scrolling: touch;
-  bottom: 0;
-  display: none;
-  left: 0;
-  outline: 0;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1050; }
-  .modal .modal-dialog {
-    margin: 10px;
-    position: relative;
-    width: auto; }
-    @media only screen and (min-width: 768px) {
-      .modal .modal-dialog {
-        margin: 30px auto;
-        width: 600px; } }
-
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto; }
-
-.modal-content {
-  background-clip: padding-box;
-  background-color: #fff;
-  border-radius: 6px;
-  border: 1px solid #999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  outline: 0;
-  position: relative; }
-  @media only screen and (min-width: 768px) {
-    .modal-content {
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); } }
-  .modal-content .modal-header {
-    border-bottom: 1px solid #e5e5e5;
-    min-height: 16.43px;
-    padding: 15px; }
-    .modal-content .modal-header:before, .modal-content .modal-header:after {
-      content: " ";
-      display: table; }
-    .modal-content .modal-header button {
-      margin-top: 0 !important;
-      min-width: 0 !important; }
-    .modal-content .modal-header .modal-title {
-      margin: 0;
-      line-height: 1.42857; }
 
 .indexNav ul {
   text-align: left;

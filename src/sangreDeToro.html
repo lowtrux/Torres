@@ -10,13 +10,45 @@
     />
     <title>Torres: Product</title>
   </head>
-  <body>
+  <body class="stTheme">
     <div class="l-pageContainer">
-      <%= require('html-loader!./partials/headerProductPartial.html') %>
+      <header class="l-header" role="banner">
+        <div class="secondary-navigation">
+          <div class="container-fluid">
+            <div class="ctn">
+              <!--LOGO-->
+              <div class="logo">
+                <a href="../index.html">
+                  <img
+                    src="../images/logoProduct.png"
+                    alt="Logo"
+                    class="logo-corp-main"
+                  />
+                </a>
+              </div>
+              <!--LOGO END-->
+            </div>
+          </div>
+        </div>
+      </header>      
       <main class="container l-mainContainer">
         <div class="l-content">
           <div class="l-row">
-            <%= require('html-loader!./partials/ProductMenuPartial.html') %>
+            <nav class="l-primaryNav l-3-cols">
+              <ul>
+                <li><a href="#">bottle shot</a></li>
+                <li><a href="#">key visual</a></li>
+                <li><a href="#">logos</a></li>
+                <li>
+                  <a href="#">prizes and awards</a>
+                </li>
+                <li>
+                  <a href="#">pictures</a>
+                </li>
+                <li><a href="#">technical sheets</a></li>
+                <li><a href="#">videos</a></li>
+              </ul>
+            </nav>
             <div class="l-mainContent l-9-cols">
               <div class="componentContent l-row">
                 <div class="componentContent__image l-12-cols">
@@ -37,7 +69,7 @@
           </div>
         </div>
       </main>
-      <footer class="l-footer l-footerSangreToro">
+      <footer class="l-footer">
           <div class="container-fluid">
             <div class="ctn">
               <nav>

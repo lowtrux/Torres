@@ -1,0 +1,31 @@
+.veTheme {
+  .l-header {
+    .secondary-navigation {
+      background-color: $light-green;
+    }
+    .header-search {
+      display: none;
+    }
+    nav ul li a {
+      color: $white;
+    }
+  }
+  .l-footer {
+    background-color: $light-green;
+    a {
+      color: $darkGreen2;
+      font: 16px "Lato", serif;
+    }
+  }
+  .l-primaryNav {
+    a {
+      color: $darkGreen2;
+      font: 16px "Lato", serif;
+      padding: 5px;
+      display: block;
+      &:hover {
+        background-color: $darkGreen2;
+      }
+    }
+  }
+}
