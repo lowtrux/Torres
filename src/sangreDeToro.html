@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
     />
-    <title>Torres: Product</title>
+    <title>Torres: Familia</title>
   </head>
   <body class="stTheme">
     <div class="l-pageContainer">
@@ -22,7 +22,7 @@
                   <img
                     src="../images/logoProduct.png"
                     alt="Logo"
-                    class="logo-corp-main"
+                    class="logoFigure"
                   />
                 </a>
               </div>
@@ -30,68 +30,111 @@
             </div>
           </div>
         </div>
-      </header>      
+      </header>           
       <main class="container l-mainContainer">
         <div class="l-content">
           <div class="l-row">
             <nav class="l-primaryNav l-3-cols">
-              <ul>
-                <li><a href="#">bottle shot</a></li>
-                <li><a href="#">key visual</a></li>
-                <li><a href="#">logos</a></li>
-                <li>
-                  <a href="#">prizes and awards</a>
-                </li>
-                <li>
-                  <a href="#">pictures</a>
-                </li>
-                <li><a href="#">technical sheets</a></li>
-                <li><a href="#">videos</a></li>
-              </ul>
-            </nav>
+                <ul>
+                  <li><a href="#">bottle shot</a></li>
+                  <li><a href="#">key visual</a></li>
+                  <li><a href="#">logos</a></li>
+                  <li>
+                    <a href="#">prizes and awards</a>
+                  </li>
+                  <li>
+                    <a href="#">pictures</a>
+                  </li>
+                  <li><a href="#">technical sheets</a></li>
+                  <li><a href="#">videos</a></li>
+                </ul>
+            </nav>            
             <div class="l-mainContent l-9-cols">
-              <div class="componentContent l-row">
-                <div class="componentContent__image l-12-cols">
+              <section class="componentContent showSection" id="home">
+                <div class="componentContent__slogan">
+                  <img
+                    src="./images/brandText.png"
+                    alt="Brand Text"
+                    class="componentContent__title"
+                  />
                   <div class="l-row">
-                    <span class="label labelSecondary">Monovarieties</span>
+                    <div class="l-4-cols offset-md-4">
+                      <p>
+                        Meeting some friends for some drinks and food. After
+                        dinner until 9pm. Improvised family meetins. And it's
+                        this way; we like to enjoy the small pleasures of life.
+                      </p>
+                      <p>
+                        Since 1954, Sangre de Toro is the ambassador of the
+                        Spanish way of life, a reflection of our land, our
+                        people and this way of living
+                      </p>
+                    </div>
                   </div>
-                  <div class="l-row">
-                    <button class="b_regular centered">
-                      Download
-                    </button>
-                  </div>
-                  <div class="componentContent__image-wrapper">
-                    <img src="./images/product.png" alt="Producto" />
+                  <div class="l-row componentContent__gallery">
+                    <div class="l-4-cols">
+                      <img src="./images/img1.png" alt="" />
+                    </div>
+                    <div class="l-4-cols">
+                      <img src="./images/img2.png" alt="" />
+                    </div>
+                    <div class="l-4-cols">
+                      <img src="./images/img3.png" alt="" />
+                    </div>
                   </div>
                 </div>
-              </div>
+              </section>
+              <section class="hideSection" id="productRange">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  aliquam laudantium voluptatum maxime ipsum nostrum dolores,
+                  omnis eveniet magni magnam! Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Ea aliquam laudantium voluptatum
+                  maxime ipsum nostrum dolores, omnis eveniet magni magnam!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  aliquam laudantium voluptatum maxime ipsum nostrum dolores,
+                  omnis eveniet magni magnam!
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                  molestias eius accusamus perspiciatis velit voluptatibus,
+                  veritatis nobis fugiat et ipsa! Voluptas dolorem beatae ipsum
+                  possimus optio amet consectetur earum corporis.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  illo beatae eum maxime, quibusdam alias esse voluptatum amet
+                  laborum porro?
+                </p>
+              </section>
+              <section class="hideSection" id="media"></section>
+              <section class="hideSection" id="digitalAssets"></section>
             </div>
           </div>
         </div>
       </main>
       <footer class="l-footer">
-          <div class="container-fluid">
-            <div class="ctn">
-              <nav>
-                <ul>
-                  <li><a href="#">LEGAL NOTICE</a></li>
-                  <li><a href="#">COOKIE POLICY</a></li>
-                  <li><a href="#">PRIVACY POLICY</a></li>
-                </ul>
-              </nav>
-              <div class="social-networks">
-                <ul>
-                  <li>
-                    <a href="#"
-                      ><img src="images/icon-instagram.png" alt="Instagram"
-                    /></a>
-                  </li>
-              </div>
-              <a class="siteLink" href="http://www.vinaesmeralda.com">Sangre De Toro</a>
+        <div class="container-fluid">
+          <div class="ctn">
+            <nav>
+              <ul>
+                <li><a href="#">LEGAL NOTICE</a></li>
+                <li><a href="#">COOKIE POLICY</a></li>
+                <li><a href="#">PRIVACY POLICY</a></li>
+              </ul>
+            </nav>
+            <div class="social-networks">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><img src="images/icon-instagram.png" alt="Instagram"
+                  /></a>
+                </li>
             </div>
+            <a class="siteLink" href="http://www.vinaesmeralda.com">Sangre De Toro</a>
           </div>
-      </footer>
+        </div>
+      </footer>      
     </div>
-    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-.stTheme {
+.torresBrandyTheme {
   font: 18px "MyWebFont", serif;
   line-height: 1.25em;
   p {
@@ -6,35 +6,29 @@
     line-height: 1.25em;
   }
   .l-header {
-    .logoFigure {
-      width: 200px;
-    }
     .secondary-navigation {
-      background-color: $red;
-    }
-    .header-search {
-      display: none;
+      background-color: $black;
     }
     nav ul li a {
-      color: $white;
+      color: $$yellow;
     }
   }
   .l-footer {
     background-color: $black;
     a {
-      color: $white;
+      color: $yellow;
       font: 16px "MyWebFont2", serif;
     }
   }
   .l-primaryNav {
     a {
-      color: $red;
+      color: $black;
       font: 22px "MyWebFont2", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;
       &:hover {
-        background-color: $black;
+        background-color: $yellow;
       }
     }
   }

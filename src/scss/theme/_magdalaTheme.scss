@@ -1,4 +1,4 @@
-.stTheme {
+.magdalaTheme {
   font: 18px "MyWebFont", serif;
   line-height: 1.25em;
   p {
@@ -7,34 +7,31 @@
   }
   .l-header {
     .logoFigure {
-      width: 200px;
+      width: 180px;
     }
     .secondary-navigation {
-      background-color: $red;
-    }
-    .header-search {
-      display: none;
+      background-color: $orange;
     }
     nav ul li a {
-      color: $white;
+      color: $gold;
     }
   }
   .l-footer {
-    background-color: $black;
+    background-color: $orange;
     a {
-      color: $white;
+      color: $gold;
       font: 16px "MyWebFont2", serif;
     }
   }
   .l-primaryNav {
     a {
-      color: $red;
+      color: $gold;
       font: 22px "MyWebFont2", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;
       &:hover {
-        background-color: $black;
+        background-color: $orange;
       }
     }
   }

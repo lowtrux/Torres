@@ -1,4 +1,4 @@
-.stTheme {
+.rocadoTheme {
   font: 18px "MyWebFont", serif;
   line-height: 1.25em;
   p {
@@ -7,20 +7,17 @@
   }
   .l-header {
     .logoFigure {
-      width: 200px;
+      width: 300px;
     }
     .secondary-navigation {
-      background-color: $red;
-    }
-    .header-search {
-      display: none;
+      background-color: $brown;
     }
     nav ul li a {
       color: $white;
     }
   }
   .l-footer {
-    background-color: $black;
+    background-color: $brown;
     a {
       color: $white;
       font: 16px "MyWebFont2", serif;
@@ -28,13 +25,13 @@
   }
   .l-primaryNav {
     a {
-      color: $red;
+      color: $brown;
       font: 22px "MyWebFont2", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;
       &:hover {
-        background-color: $black;
+        background-color: $brown;
       }
     }
   }

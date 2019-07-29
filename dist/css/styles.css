@@ -1361,7 +1361,7 @@ th {
   width: 100%; }
 
 .halfBrown {
-  background-color: #262626; }
+  background-color: #beb0aa; }
 
 .hideSection {
   display: none !important; }
@@ -1417,12 +1417,121 @@ th {
 .showSection {
   display: block !important; }
 
+.governadorTheme {
+  font: 18px "MyWebFont", serif;
+  line-height: 1.25em; }
+  .governadorTheme p {
+    font: 18px "MyWebFont", serif;
+    line-height: 1.25em; }
+  .governadorTheme .l-header .logoFigure {
+    width: 225px; }
+  .governadorTheme .l-header nav ul li a {
+    color: #000; }
+  .governadorTheme .l-header .secondary-navigation {
+    background-color: #e1e640; }
+  .governadorTheme .l-footer {
+    background-color: #000; }
+    .governadorTheme .l-footer a {
+      color: #fff;
+      font: 16px "MyWebFont2", serif; }
+  .governadorTheme .l-primaryNav a {
+    color: #000;
+    font: 22px "MyWebFont2", serif;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    padding: 0 0 0 5px; }
+    .governadorTheme .l-primaryNav a:hover {
+      background-color: #e1e640;
+      color: #000; }
+
+.magdalaTheme {
+  font: 18px "MyWebFont", serif;
+  line-height: 1.25em; }
+  .magdalaTheme p {
+    font: 18px "MyWebFont", serif;
+    line-height: 1.25em; }
+  .magdalaTheme .l-header .logoFigure {
+    width: 180px; }
+  .magdalaTheme .l-header .secondary-navigation {
+    background-color: #f47d4c; }
+  .magdalaTheme .l-header nav ul li a {
+    color: #ad976e; }
+  .magdalaTheme .l-footer {
+    background-color: #f47d4c; }
+    .magdalaTheme .l-footer a {
+      color: #ad976e;
+      font: 16px "MyWebFont2", serif; }
+  .magdalaTheme .l-primaryNav a {
+    color: #ad976e;
+    font: 22px "MyWebFont2", serif;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    padding: 0 0 0 5px; }
+    .magdalaTheme .l-primaryNav a:hover {
+      background-color: #f47d4c; }
+
+.marimarTheme {
+  font: 18px "MyWebFont", serif;
+  line-height: 1.25em; }
+  .marimarTheme p {
+    font: 18px "MyWebFont", serif;
+    line-height: 1.25em; }
+  .marimarTheme .l-header .secondary-navigation {
+    background-color: #fff; }
+  .marimarTheme .l-header .logoFigure {
+    width: 200px; }
+  .marimarTheme .l-header .header-search {
+    display: none; }
+  .marimarTheme .l-header nav ul li a {
+    color: #fff; }
+  .marimarTheme .l-footer {
+    background-color: #fff; }
+    .marimarTheme .l-footer a {
+      color: #fff;
+      font: 16px "MyWebFont2", serif; }
+  .marimarTheme .l-primaryNav a {
+    color: #dd0b2b;
+    font: 22px "MyWebFont2", serif;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    padding: 0 0 0 5px; }
+    .marimarTheme .l-primaryNav a:hover {
+      background-color: #000; }
+
+.rocadoTheme {
+  font: 18px "MyWebFont", serif;
+  line-height: 1.25em; }
+  .rocadoTheme p {
+    font: 18px "MyWebFont", serif;
+    line-height: 1.25em; }
+  .rocadoTheme .l-header .logoFigure {
+    width: 300px; }
+  .rocadoTheme .l-header .secondary-navigation {
+    background-color: #beb0aa; }
+  .rocadoTheme .l-header nav ul li a {
+    color: #fff; }
+  .rocadoTheme .l-footer {
+    background-color: #beb0aa; }
+    .rocadoTheme .l-footer a {
+      color: #fff;
+      font: 16px "MyWebFont2", serif; }
+  .rocadoTheme .l-primaryNav a {
+    color: #beb0aa;
+    font: 22px "MyWebFont2", serif;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    padding: 0 0 0 5px; }
+    .rocadoTheme .l-primaryNav a:hover {
+      background-color: #beb0aa; }
+
 .stTheme {
   font: 18px "MyWebFont", serif;
   line-height: 1.25em; }
   .stTheme p {
     font: 18px "MyWebFont", serif;
     line-height: 1.25em; }
+  .stTheme .l-header .logoFigure {
+    width: 200px; }
   .stTheme .l-header .secondary-navigation {
     background-color: #dd0b2b; }
   .stTheme .l-header .header-search {
@@ -1508,7 +1617,7 @@ th {
 .l-footer {
   -webkit-box-align: center;
           align-items: center;
-  background-color: #262626;
+  background-color: #beb0aa;
   margin-top: auto;
   width: 100%;
   display: -webkit-box;
@@ -1581,8 +1690,10 @@ th {
         transition: color 0.3s ease-in-out; }
         .l-header nav ul li a:hover {
           text-decoration: none; }
+  .l-header .header-search {
+    display: none; }
   .l-header .primary-navigation {
-    background-color: #262626; }
+    background-color: #beb0aa; }
     @media only screen and (min-width: 768px) {
       .l-header .primary-navigation {
         height: 40px;
@@ -1631,7 +1742,6 @@ th {
       opacity: 0;
       top: 6.25em;
       z-index: 10;
-      -webkit-transition: opacity, 0.5s ease-in-out, visibility, 0.5s ease-in-out;
       -webkit-transition: opacity, 0.5s ease-in-out, visibility, 0.5s ease-in-out;
       transition: opacity, 0.5s ease-in-out, visibility, 0.5s ease-in-out; }
       .l-header .primary-navigation .menu-mobile.open {
@@ -1680,7 +1790,7 @@ th {
           .l-header .primary-navigation .menu-mobile nav.products ul li.current .sub-menu {
             height: 100%; }
       .l-header .primary-navigation .menu-mobile .languages-responsive {
-        background-color: #262626;
+        background-color: #beb0aa;
         padding: 2em 0;
         text-align: center; }
         .l-header .primary-navigation .menu-mobile .languages-responsive li {
@@ -1773,7 +1883,7 @@ th {
             padding: 0 0 0 3em;
             text-transform: uppercase; }
     .l-header .primary-navigation .dropdown-menu {
-      background-color: #262626;
+      background-color: #beb0aa;
       box-shadow: none;
       border-radius: 0;
       padding: 0; }
@@ -1822,7 +1932,7 @@ th {
         .l-header .primary-navigation nav ul li a {
           padding: 0 1.875em; } }
   .l-header .secondary-navigation {
-    background-color: #262626;
+    background-color: #beb0aa;
     height: 5.9375em;
     line-height: 5.9375em;
     padding: 0;
@@ -2044,10 +2154,10 @@ th {
   text-transform: uppercase; }
 
 .labelMenu {
-  color: #262626;
+  color: #beb0aa;
   font-size: 1.2em; }
   .labelMenu:hover {
-    color: #262626;
+    color: #beb0aa;
     text-decoration: underline; }
 
 .labelSecondary {
@@ -2135,7 +2245,7 @@ th {
     .header-search .header-search_input[type="text"]:focus {
       width: 200px; } }
   .header-search .header-search_input {
-    background-color: #262626;
+    background-color: #beb0aa;
     border: none;
     color: #979797;
     font-size: 0.625em;

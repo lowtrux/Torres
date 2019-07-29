@@ -1,4 +1,4 @@
-.stTheme {
+.governadorTheme {
   font: 18px "MyWebFont", serif;
   line-height: 1.25em;
   p {
@@ -7,16 +7,13 @@
   }
   .l-header {
     .logoFigure {
-      width: 200px;
-    }
-    .secondary-navigation {
-      background-color: $red;
-    }
-    .header-search {
-      display: none;
+      width: 225px;
     }
     nav ul li a {
-      color: $white;
+      color: $black;
+    }
+    .secondary-navigation {
+      background-color: $yellowGreen;
     }
   }
   .l-footer {
@@ -28,13 +25,14 @@
   }
   .l-primaryNav {
     a {
-      color: $red;
+      color: $black;
       font: 22px "MyWebFont2", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;
       &:hover {
-        background-color: $black;
+        background-color: $yellowGreen;
+        color: $black;
       }
     }
   }

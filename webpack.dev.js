@@ -130,10 +130,34 @@ module.exports = {
       filename: "distWines.html"
     }),
     new HtmlWebpackPlugin({
+      template: "./src/elgobernador.html",
+      inject: false,
+      hash: false,
+      filename: "elgobernador.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "./src/family.html",
       inject: false,
       hash: false,
       filename: "family.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/magdala.html",
+      inject: false,
+      hash: false,
+      filename: "magdala.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/marimar.html",
+      inject: false,
+      hash: false,
+      filename: "marimar.html"
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/rocado.html",
+      inject: false,
+      hash: false,
+      filename: "rocado.html"
     }),
     new HtmlWebpackPlugin({
       template: "./src/sangreDeToro.html",

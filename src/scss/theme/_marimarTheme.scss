@@ -1,4 +1,4 @@
-.stTheme {
+.marimarTheme {
   font: 18px "MyWebFont", serif;
   line-height: 1.25em;
   p {
@@ -6,11 +6,11 @@
     line-height: 1.25em;
   }
   .l-header {
+    .secondary-navigation {
+      background-color: $white;
+    }
     .logoFigure {
       width: 200px;
-    }
-    .secondary-navigation {
-      background-color: $red;
     }
     .header-search {
       display: none;
@@ -20,7 +20,7 @@
     }
   }
   .l-footer {
-    background-color: $black;
+    background-color: $white;
     a {
       color: $white;
       font: 16px "MyWebFont2", serif;
