@@ -1575,6 +1575,9 @@ th {
   .veTheme .l-primaryNav a:hover {
     background-color: #1b4624; }
 
+.ms-tileview-tile-detailsBox {
+  display: none; }
+
 .l-content {
   margin: 40px 0 40px 0; }
 
