@@ -17,6 +17,11 @@
       font: 16px "Lato", serif;
     }
   }
+  .lmaincontainer {
+    .labelDistro {
+      color: $darkGreen2;
+    }
+  }
   .l-primaryNav {
     a {
       color: $darkGreen2;
@@ -26,6 +31,12 @@
       &:hover {
         background-color: $darkGreen2;
       }
+    }
+  }
+  .componentContent__slogan {
+    background-color: $white;
+    p {
+      font: 18px "Hoefler", serif;
     }
   }
 }

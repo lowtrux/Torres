@@ -1,36 +1,43 @@
 .magdalaTheme {
-  font: 18px "MyWebFont", serif;
-  line-height: 1.25em;
-  p {
-    font: 18px "MyWebFont", serif;
-    line-height: 1.25em;
+  .componentContent__slogan {
+    padding: 20px;
+    p {
+      font: 16px "Roboto", serif;
+      line-height: 1.25em;
+    }
+  }
+  .lmaincontainer {
+    .labelDistro {
+      color: $orange;
+    }
   }
   .l-header {
+    padding: 10px 0;
+    background-color: $orange;
     .logoFigure {
       width: 180px;
     }
     .secondary-navigation {
       background-color: $orange;
-    }
-    nav ul li a {
-      color: $gold;
+      overflow: hidden;
     }
   }
   .l-footer {
-    background-color: $orange;
+    background-color: $black;
     a {
-      color: $gold;
+      color: $white;
       font: 16px "MyWebFont2", serif;
     }
   }
   .l-primaryNav {
     a {
-      color: $gold;
-      font: 22px "MyWebFont2", serif;
+      color: $black;
+      font: 18px "Noto", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;
       &:hover {
+        color: $black;
         background-color: $orange;
       }
     }

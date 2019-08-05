@@ -976,6 +976,18 @@ ul {
   font-family: "Lato";
   src: url("../fonts/Lato-Regular.ttf"); }
 
+@font-face {
+  font-family: "Hoefler";
+  src: url("../fonts/HoeflerText.ttf"); }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf"); }
+
+@font-face {
+  font-family: "Noto";
+  src: url("../fonts/NotoSerif-Regular.ttf"); }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -1353,12 +1365,46 @@ th {
     flex-shrink: 0; }
 
 .flex-horizontal {
-  -webkit-box-align: center;
-          align-items: center;
-  -webkit-box-flex: 0;
-          flex: 0 0 50%;
-  height: 50%;
-  width: 100%; }
+  padding: 50px 0; }
+  @media only screen and (min-width: 1024px) {
+    .flex-horizontal {
+      align-content: center;
+      -webkit-box-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-direction: column;
+      flex-wrap: wrap;
+      height: 50%;
+      -webkit-box-pack: center;
+              justify-content: center;
+      padding: 0; } }
+
+@media only screen and (min-width: 1024px) {
+  .flex-row {
+    -webkit-box-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: flex;
+    margin-top: 40px; }
+    .flex-row:first-child {
+      margin-top: 0; } }
+
+.flex-row img {
+  flex-shrink: 0;
+  min-height: 0;
+  -o-object-fit: contain;
+     object-fit: contain; }
+
+.flex-space-between {
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+
+.flex-h-center {
+  -webkit-box-pack: center;
+          justify-content: center; }
 
 .halfBrown {
   background-color: #262626; }
@@ -1366,39 +1412,22 @@ th {
 .hideSection {
   display: none !important; }
 
-@media only screen and (min-width: 1024px) {
-  .imageContainer {
-    padding: 0; } }
-
 .logo-column img {
   display: block;
   margin-top: 20px !important;
   flex-shrink: 0; }
 
-.logo-row img {
+.logoRow a {
   display: block;
   flex-shrink: 0;
   margin-top: 20px;
   align-self: center; }
-  .logo-row img:first-child {
+  .logoRow a:first-child {
     margin-left: 0; }
   @media only screen and (min-width: 1024px) {
-    .logo-row img {
-      margin-left: 20px;
+    .logoRow a {
+      margin-left: 100px;
       margin-top: 0; } }
-
-.logo2x {
-  display: block;
-  height: auto;
-  width: 200px; }
-
-.logo1x {
-  display: block;
-  height: auto;
-  width: 200px; }
-
-.logoV {
-  width: 150px; }
 
 .product > span:first-child {
   color: transparent;
@@ -1417,58 +1446,70 @@ th {
 .showSection {
   display: block !important; }
 
-.governadorTheme {
-  font: 18px "MyWebFont", serif;
-  line-height: 1.25em; }
-  .governadorTheme p {
-    font: 18px "MyWebFont", serif;
+.governadorTheme .componentContent__slogan {
+  padding: 20px; }
+  .governadorTheme .componentContent__slogan p {
+    font: 18px "Roboto", serif;
     line-height: 1.25em; }
-  .governadorTheme .l-header .logoFigure {
-    width: 225px; }
-  .governadorTheme .l-header nav ul li a {
-    color: #000; }
-  .governadorTheme .l-header .secondary-navigation {
-    background-color: #e1e640; }
-  .governadorTheme .l-footer {
-    background-color: #000; }
-    .governadorTheme .l-footer a {
-      color: #fff;
-      font: 16px "MyWebFont2", serif; }
-  .governadorTheme .l-primaryNav a {
-    color: #000;
-    font: 22px "MyWebFont2", serif;
-    letter-spacing: 0.1em;
-    line-height: normal;
-    padding: 0 0 0 5px; }
-    .governadorTheme .l-primaryNav a:hover {
-      background-color: #e1e640;
-      color: #000; }
 
-.magdalaTheme {
-  font: 18px "MyWebFont", serif;
-  line-height: 1.25em; }
-  .magdalaTheme p {
-    font: 18px "MyWebFont", serif;
+.governadorTheme .l-header .logoFigure {
+  width: 225px; }
+
+.governadorTheme .l-header nav ul li a {
+  color: #000; }
+
+.governadorTheme .l-header .secondary-navigation {
+  background-color: #e1e640; }
+
+.governadorTheme .l-footer {
+  background-color: #000; }
+  .governadorTheme .l-footer a {
+    color: #fff;
+    font: 16px "MyWebFont2", serif; }
+
+.governadorTheme .l-primaryNav a {
+  color: #000;
+  font: 18px "Noto", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
+  .governadorTheme .l-primaryNav a:hover {
+    background-color: #e1e640;
+    color: #000; }
+
+.magdalaTheme .componentContent__slogan {
+  padding: 20px; }
+  .magdalaTheme .componentContent__slogan p {
+    font: 16px "Roboto", serif;
     line-height: 1.25em; }
+
+.magdalaTheme .lmaincontainer .labelDistro {
+  color: #f47d4c; }
+
+.magdalaTheme .l-header {
+  padding: 10px 0;
+  background-color: #f47d4c; }
   .magdalaTheme .l-header .logoFigure {
     width: 180px; }
   .magdalaTheme .l-header .secondary-navigation {
+    background-color: #f47d4c;
+    overflow: hidden; }
+
+.magdalaTheme .l-footer {
+  background-color: #000; }
+  .magdalaTheme .l-footer a {
+    color: #fff;
+    font: 16px "MyWebFont2", serif; }
+
+.magdalaTheme .l-primaryNav a {
+  color: #000;
+  font: 18px "Noto", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
+  .magdalaTheme .l-primaryNav a:hover {
+    color: #000;
     background-color: #f47d4c; }
-  .magdalaTheme .l-header nav ul li a {
-    color: #ad976e; }
-  .magdalaTheme .l-footer {
-    background-color: #f47d4c; }
-    .magdalaTheme .l-footer a {
-      color: #ad976e;
-      font: 16px "MyWebFont2", serif; }
-  .magdalaTheme .l-primaryNav a {
-    color: #ad976e;
-    font: 22px "MyWebFont2", serif;
-    letter-spacing: 0.1em;
-    line-height: normal;
-    padding: 0 0 0 5px; }
-    .magdalaTheme .l-primaryNav a:hover {
-      background-color: #f47d4c; }
 
 .marimarTheme {
   font: 18px "MyWebFont", serif;
@@ -1498,59 +1539,75 @@ th {
     .marimarTheme .l-primaryNav a:hover {
       background-color: #000; }
 
-.rocadoTheme {
-  font: 18px "MyWebFont", serif;
-  line-height: 1.25em; }
-  .rocadoTheme p {
-    font: 18px "MyWebFont", serif;
+.rocadoTheme .componentContent__slogan {
+  padding: 20px; }
+  .rocadoTheme .componentContent__slogan p {
+    font: 16px "Roboto", serif;
     line-height: 1.25em; }
-  .rocadoTheme .l-header .logoFigure {
-    width: 300px; }
-  .rocadoTheme .l-header .secondary-navigation {
-    background-color: #beb0aa; }
-  .rocadoTheme .l-header nav ul li a {
-    color: #fff; }
-  .rocadoTheme .l-footer {
-    background-color: #beb0aa; }
-    .rocadoTheme .l-footer a {
-      color: #fff;
-      font: 16px "MyWebFont2", serif; }
-  .rocadoTheme .l-primaryNav a {
-    color: #beb0aa;
-    font: 22px "MyWebFont2", serif;
-    letter-spacing: 0.1em;
-    line-height: normal;
-    padding: 0 0 0 5px; }
-    .rocadoTheme .l-primaryNav a:hover {
-      background-color: #beb0aa; }
 
-.stTheme {
-  font: 18px "MyWebFont", serif;
-  line-height: 1.25em; }
-  .stTheme p {
+.rocadoTheme .lmaincontainer .labelDistro {
+  color: #000; }
+
+.rocadoTheme .l-header .logoFigure {
+  width: 300px; }
+
+.rocadoTheme .l-header .secondary-navigation {
+  background-color: #beb0aa; }
+
+.rocadoTheme .l-header nav ul li a {
+  color: #fff; }
+
+.rocadoTheme .l-footer {
+  background-color: #000; }
+  .rocadoTheme .l-footer a {
+    color: #fff;
+    font: 13px "Noto", serif; }
+
+.rocadoTheme .l-primaryNav a {
+  color: #000;
+  font: 18px "Noto", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
+  .rocadoTheme .l-primaryNav a:hover {
+    color: #000;
+    background-color: #beb0aa; }
+
+.stTheme .componentContent__slogan {
+  padding: 20px; }
+  .stTheme .componentContent__slogan p {
     font: 18px "MyWebFont", serif;
     line-height: 1.25em; }
-  .stTheme .l-header .logoFigure {
-    width: 200px; }
-  .stTheme .l-header .secondary-navigation {
-    background-color: #dd0b2b; }
-  .stTheme .l-header .header-search {
-    display: none; }
-  .stTheme .l-header nav ul li a {
-    color: #fff; }
-  .stTheme .l-footer {
+
+.stTheme .lmaincontainer .labelDistro {
+  color: #dd0b2b; }
+
+.stTheme .l-header .logoFigure {
+  width: 200px; }
+
+.stTheme .l-header .secondary-navigation {
+  background-color: #dd0b2b; }
+
+.stTheme .l-header .header-search {
+  display: none; }
+
+.stTheme .l-header nav ul li a {
+  color: #fff; }
+
+.stTheme .l-footer {
+  background-color: #000; }
+  .stTheme .l-footer a {
+    color: #fff;
+    font: 16px "MyWebFont2", serif; }
+
+.stTheme .l-primaryNav a {
+  color: #dd0b2b;
+  font: 22px "MyWebFont2", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
+  .stTheme .l-primaryNav a:hover {
     background-color: #000; }
-    .stTheme .l-footer a {
-      color: #fff;
-      font: 16px "MyWebFont2", serif; }
-  .stTheme .l-primaryNav a {
-    color: #dd0b2b;
-    font: 22px "MyWebFont2", serif;
-    letter-spacing: 0.1em;
-    line-height: normal;
-    padding: 0 0 0 5px; }
-    .stTheme .l-primaryNav a:hover {
-      background-color: #000; }
 
 .veTheme .l-header .secondary-navigation {
   background-color: #f1f6e9; }
@@ -1567,6 +1624,9 @@ th {
     color: #1b4624;
     font: 16px "Lato", serif; }
 
+.veTheme .lmaincontainer .labelDistro {
+  color: #1b4624; }
+
 .veTheme .l-primaryNav a {
   color: #1b4624;
   font: 16px "Lato", serif;
@@ -1574,6 +1634,11 @@ th {
   display: block; }
   .veTheme .l-primaryNav a:hover {
     background-color: #1b4624; }
+
+.veTheme .componentContent__slogan {
+  background-color: #fff; }
+  .veTheme .componentContent__slogan p {
+    font: 18px "Hoefler", serif; }
 
 .ms-tileview-tile-detailsBox {
   display: none; }
@@ -1587,35 +1652,19 @@ th {
   .l-distWines #s4-bodyContainer > div {
     height: 100%; }
 
-@media only screen and (min-width: 768px) {
-  .l-distWines .imageContainer {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-pack: center;
-            justify-content: center; } }
-
-.l-distWines .imageContainer img {
-  flex-shrink: 0; }
-
-.l-distWines .logoTorres {
-  display: block;
-  height: auto;
-  margin: 0 auto;
-  width: 200px; }
-  @media only screen and (min-width: 3000px) {
-    .l-distWines .logoTorres {
-      width: 300px; } }
-
 .l-distWines main {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-          flex-flow: column nowrap;
-  height: 100vh;
-  -webkit-box-pack: center;
-          justify-content: center;
-  padding: 0; }
+  padding: 0;
+  text-align: center; }
+  @media only screen and (min-width: 1024px) {
+    .l-distWines main {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+              flex-flow: column nowrap;
+      height: 100vh;
+      -webkit-box-pack: center;
+              justify-content: center; } }
 
 .l-footer {
   -webkit-box-align: center;
@@ -2091,8 +2140,8 @@ th {
       display: none; }
 
 .b_regular {
-  background-color: #dd0b2b;
-  color: #fff;
+  background-color: #f0f0f0;
+  color: #000;
   font-size: 0.75em;
   font-weight: 600;
   letter-spacing: 0.094em;
@@ -2119,8 +2168,7 @@ th {
 .componentContent__slogan {
   background-color: #f0f0f0;
   min-height: 400px;
-  text-align: center;
-  padding: 20px; }
+  text-align: center; }
 
 .componentContent__title {
   width: 220px; }
@@ -2170,7 +2218,6 @@ th {
   color: #1b4624; }
 
 .labelDistro {
-  color: #dd0b2b;
   font: 24px "MyWebFont2", serif; }
 
 .logosContent {

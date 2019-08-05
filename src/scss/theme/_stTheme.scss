@@ -1,9 +1,15 @@
 .stTheme {
-  font: 18px "MyWebFont", serif;
-  line-height: 1.25em;
-  p {
-    font: 18px "MyWebFont", serif;
-    line-height: 1.25em;
+  .componentContent__slogan {
+    padding: 20px;
+    p {
+      font: 18px "MyWebFont", serif;
+      line-height: 1.25em;
+    }
+  }
+  .lmaincontainer {
+    .labelDistro {
+      color: $red;
+    }
   }
   .l-header {
     .logoFigure {
