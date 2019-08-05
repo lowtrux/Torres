@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="l-distMainMenu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <title>Torres</title>
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid flex-horizontal">
+        <div class="flex-row">
+          <a href="#">
+            <img
+              src="./images/masterDistillers.png"
+              alt="Logo Torres Masters Distillers"
+            />
+          </a>
+        </div>
+        <div class="flex-row logoRow">
+          <a href="#"
+            ><img src="./images/torresBrandy.png" alt="Logo Torres Brandy"
+          /></a>
+          <a href="#"
+            ><img src="./images/elgobernador.png" alt="Logo El Gobernador"
+          /></a>
+          <a href="#"><img src="./images/magdala.png" alt="Logo JL"/></a>
+          <a href="#"
+            ><img src="./images/rocadoSpirits.png" alt="Logo Rocado Spirits"
+          /></a>
+        </div>
+      </div>
+    </main>
+    <footer class="l-footer">
+      <div class="container-fluid">
+        <div class="ctn">
+          <nav>
+            <ul>
+              <li>
+                <a href="https://www.vinaesmeralda.com/en/legal-notice"
+                  >LEGAL NOTICE</a
+                >
+              </li>
+              <li>
+                <a href="https://www.vinaesmeralda.com/en/cookie-policy"
+                  >COOKIES POLICY</a
+                >
+              </li>
+              <li>
+                <a href="https://www.vinaesmeralda.com/en/privacy-policy"
+                  >PRIVACY POLICY</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="social-networks">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="/images/icon-instagram.png" alt="Instagram"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="/images/icon-facebook.png" alt="Facebook"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <a class="siteLink" href="#">Juan Torres Master Distiller</a>
+        </div>
+      </div>
+    </footer>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>

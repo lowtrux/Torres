@@ -963,12 +963,12 @@ ul {
   list-style-type: none; }
 
 @font-face {
-  font-family: "MyWebFont";
+  font-family: "Caslon";
   src: url("../fonts/AdobeCaslonProRegular.eot");
   src: url("../fonts/AdobeCaslonProRegular.eot#iefix") format("embedded-opentype"), url("../fonts/AdobeCaslonProRegular.ttf"); }
 
 @font-face {
-  font-family: "MyWebFont2";
+  font-family: "Heroic";
   src: url("../fonts/HeroicCondensed-Bold.eot");
   src: url("../fonts/HeroicCondensed-Bold.eot#iefix") format("embedded-opentype"), url("../fonts/HeroicCondensed-Bold.ttf"), url("../fonts/HeroicCondensed-Bold.woff"), url("../fonts/HeroicCondensed-Bold.woff2"); }
 
@@ -1376,7 +1376,7 @@ th {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
               flex-direction: column;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       height: 50%;
       -webkit-box-pack: center;
               justify-content: center;
@@ -1465,7 +1465,7 @@ th {
   background-color: #000; }
   .governadorTheme .l-footer a {
     color: #fff;
-    font: 16px "MyWebFont2", serif; }
+    font: 16px "Heroic", serif; }
 
 .governadorTheme .l-primaryNav a {
   color: #000;
@@ -1499,7 +1499,7 @@ th {
   background-color: #000; }
   .magdalaTheme .l-footer a {
     color: #fff;
-    font: 16px "MyWebFont2", serif; }
+    font: 16px "Heroic", serif; }
 
 .magdalaTheme .l-primaryNav a {
   color: #000;
@@ -1512,10 +1512,10 @@ th {
     background-color: #f47d4c; }
 
 .marimarTheme {
-  font: 18px "MyWebFont", serif;
+  font: 18px "Caslon", serif;
   line-height: 1.25em; }
   .marimarTheme p {
-    font: 18px "MyWebFont", serif;
+    font: 18px "Caslon", serif;
     line-height: 1.25em; }
   .marimarTheme .l-header .secondary-navigation {
     background-color: #fff; }
@@ -1529,10 +1529,10 @@ th {
     background-color: #fff; }
     .marimarTheme .l-footer a {
       color: #fff;
-      font: 16px "MyWebFont2", serif; }
+      font: 16px "Heroic", serif; }
   .marimarTheme .l-primaryNav a {
     color: #dd0b2b;
-    font: 22px "MyWebFont2", serif;
+    font: 22px "Heroic", serif;
     letter-spacing: 0.1em;
     line-height: normal;
     padding: 0 0 0 5px; }
@@ -1576,7 +1576,7 @@ th {
 .stTheme .componentContent__slogan {
   padding: 20px; }
   .stTheme .componentContent__slogan p {
-    font: 18px "MyWebFont", serif;
+    font: 18px "Caslon", serif;
     line-height: 1.25em; }
 
 .stTheme .lmaincontainer .labelDistro {
@@ -1598,11 +1598,11 @@ th {
   background-color: #000; }
   .stTheme .l-footer a {
     color: #fff;
-    font: 16px "MyWebFont2", serif; }
+    font: 16px "Heroic", serif; }
 
 .stTheme .l-primaryNav a {
   color: #dd0b2b;
-  font: 22px "MyWebFont2", serif;
+  font: 22px "Heroic", serif;
   letter-spacing: 0.1em;
   line-height: normal;
   padding: 0 0 0 5px; }
@@ -1646,17 +1646,17 @@ th {
 .l-content {
   margin: 40px 0 40px 0; }
 
-.l-distWines #s4-bodyContainer {
+.l-distMainMenu #s4-bodyContainer {
   height: 100%;
   padding-bottom: 0; }
-  .l-distWines #s4-bodyContainer > div {
+  .l-distMainMenu #s4-bodyContainer > div {
     height: 100%; }
 
-.l-distWines main {
+.l-distMainMenu main {
   padding: 0;
   text-align: center; }
   @media only screen and (min-width: 1024px) {
-    .l-distWines main {
+    .l-distMainMenu main {
       display: -webkit-box;
       display: flex;
       -webkit-box-orient: vertical;
@@ -1665,6 +1665,12 @@ th {
       height: 100vh;
       -webkit-box-pack: center;
               justify-content: center; } }
+
+.l-distMainMenu .l-footer {
+  background-color: #211916; }
+  .l-distMainMenu .l-footer a {
+    color: #fff;
+    font-size: 14px; }
 
 .l-footer {
   -webkit-box-align: center;
@@ -1710,17 +1716,17 @@ th {
           margin-right: 0; }
         .l-footer .ctn .social-networks ul li a {
           border-bottom: none;
-          display: block;
-          /*margin: 0 1.5em 0 0;*/ }
+          display: block; }
           @media only screen and (min-width: 320px) {
             .l-footer .ctn .social-networks ul li a img {
               width: 30px;
               height: 30px; } }
           @media only screen and (min-width: 768px) {
             .l-footer .ctn .social-networks ul li a img {
-              width: 15px;
-              height: 15px; } }
+              width: 20px;
+              height: 20px; } }
     .l-footer .ctn .siteLink {
+      font-size: 12px;
       display: block;
       letter-spacing: 0.1em;
       margin-top: 5px; }
@@ -2148,8 +2154,8 @@ th {
   padding: 10px;
   text-transform: uppercase; }
   .b_regular:hover {
-    text-decoration: underline;
-    background-color: #dd0b2b; }
+    background-color: #dd0b2b;
+    text-decoration: underline; }
 
 .componentContent__gallery img {
   margin-bottom: 20px;
@@ -2212,13 +2218,13 @@ th {
     text-decoration: underline; }
 
 .labelSecondary {
-  font: 24px "MyWebFont2", serif; }
+  font: 24px "Heroic", serif; }
 
 .labelSecondaryVinaEsmeralda {
   color: #1b4624; }
 
 .labelDistro {
-  font: 24px "MyWebFont2", serif; }
+  font: 24px "Heroic", serif; }
 
 .logosContent {
   text-align: center; }

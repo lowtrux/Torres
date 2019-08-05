@@ -94,16 +94,16 @@ module.exports = {
       filename: "css/styles.css"
     }),
     new HtmlWebpackPlugin({
-      template: "./src/distWinesSpirits.html",
+      template: "./src/distWines.html",
       inject: false,
       hash: false,
       filename: "distWines.html"
     }),
     new HtmlWebpackPlugin({
-      template: "./src/distWinesSpirits.html",
+      template: "./src/distSpirits.html",
       inject: false,
       hash: false,
-      filename: "distWinesSpirits.html"
+      filename: "distSpirits.html"
     }),
     new HtmlWebpackPlugin({
       template: "./src/home.html",

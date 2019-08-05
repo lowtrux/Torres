@@ -1,4 +1,4 @@
-.l-distWines {
+.l-distMainMenu {
   #s4-bodyContainer {
     height: 100%;
     padding-bottom: 0;
@@ -14,6 +14,13 @@
       flex-flow: column nowrap;
       height: 100vh;
       justify-content: center;
+    }
+  }
+  .l-footer {
+    background-color: $homeBrown;
+    a {
+      color: $white;
+      font-size: 14px;
     }
   }
 }
