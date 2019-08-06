@@ -24,9 +24,18 @@
   }
   .l-footer {
     background-color: $black;
-    a {
+    nav {
+      ul {
+        li {
+          a {
+            color: $white;
+            font: 18px "Heroic", serif;
+          }
+        }
+      }
+    }
+    .siteLink {
       color: $white;
-      font: 16px "Heroic", serif;
     }
   }
   .l-primaryNav {

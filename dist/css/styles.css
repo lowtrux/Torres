@@ -1465,7 +1465,7 @@ th {
   background-color: #000; }
   .governadorTheme .l-footer a {
     color: #fff;
-    font: 16px "Heroic", serif; }
+    font: 14px "Roboto", serif; }
 
 .governadorTheme .l-primaryNav a {
   color: #000;
@@ -1497,9 +1497,11 @@ th {
 
 .magdalaTheme .l-footer {
   background-color: #000; }
-  .magdalaTheme .l-footer a {
+  .magdalaTheme .l-footer nav ul li a {
     color: #fff;
-    font: 16px "Heroic", serif; }
+    font: 18px "Heroic", serif; }
+  .magdalaTheme .l-footer .siteLink {
+    color: #fff; }
 
 .magdalaTheme .l-primaryNav a {
   color: #000;
@@ -1561,7 +1563,7 @@ th {
   background-color: #000; }
   .rocadoTheme .l-footer a {
     color: #fff;
-    font: 13px "Noto", serif; }
+    font: 14px "Roboto", serif; }
 
 .rocadoTheme .l-primaryNav a {
   color: #000;
@@ -1640,8 +1642,19 @@ th {
   .veTheme .componentContent__slogan p {
     font: 18px "Hoefler", serif; }
 
-.ms-tileview-tile-detailsBox {
+.ms-tileview-tile-detailsBox,
+.s4-itm-selected.ms-tileview-tile-selectionBox,
+.ms-listviewtable thead {
   display: none; }
+
+.ms-tileview-tile-content {
+  background-color: transparent !important; }
+  .ms-tileview-tile-content a {
+    display: block; }
+    .ms-tileview-tile-content a img {
+      height: 142px;
+      right: 0 !important;
+      width: 150px; }
 
 .l-content {
   margin: 40px 0 40px 0; }
@@ -1685,35 +1698,35 @@ th {
     text-align: center; }
     .l-footer .ctn nav {
       margin: 0 0 0.5em 0; }
-    .l-footer .ctn ul li {
-      text-align: left;
-      border-bottom: 1px solid #979797; }
-      @media only screen and (min-width: 768px) {
-        .l-footer .ctn ul li {
-          display: inline-block;
-          border-bottom: none; } }
-      .l-footer .ctn ul li a {
-        display: block;
-        letter-spacing: 0.1em;
-        padding: 1em 0; }
+      .l-footer .ctn nav ul li {
+        text-align: left;
+        border-bottom: 1px solid #979797; }
+        .l-footer .ctn nav ul li:first-child a {
+          margin-left: 0; }
         @media only screen and (min-width: 768px) {
-          .l-footer .ctn ul li a {
-            border: none;
-            padding: 0; } }
-        .l-footer .ctn ul li a:hover {
-          text-decoration: none; }
+          .l-footer .ctn nav ul li {
+            display: inline-block;
+            border-bottom: none; } }
+        .l-footer .ctn nav ul li a {
+          display: block;
+          letter-spacing: 0.1em;
+          padding: 1em 0;
+          margin-left: 10px; }
+          @media only screen and (min-width: 768px) {
+            .l-footer .ctn nav ul li a {
+              border: none;
+              padding: 0; } }
+          .l-footer .ctn nav ul li a:hover {
+            text-decoration: none; }
     .l-footer .ctn .social-networks {
       display: inline-block;
       padding: 0.5em 3em 0 3em;
       text-align: center; }
-      @media only screen and (min-width: 768px) {
-        .l-footer .ctn .social-networks {
-          border-top: 1px solid #a09484; } }
       .l-footer .ctn .social-networks ul li {
         display: inline-block;
-        border-bottom: none; }
+        border-bottom: 0 none; }
         .l-footer .ctn .social-networks ul li:last-child a {
-          margin-right: 0; }
+          margin-left: 5px; }
         .l-footer .ctn .social-networks ul li a {
           border-bottom: none;
           display: block; }
@@ -1723,13 +1736,13 @@ th {
               height: 30px; } }
           @media only screen and (min-width: 768px) {
             .l-footer .ctn .social-networks ul li a img {
-              width: 20px;
-              height: 20px; } }
+              width: 25px;
+              height: 25px; } }
     .l-footer .ctn .siteLink {
-      font-size: 12px;
+      font-size: 14px;
       display: block;
       letter-spacing: 0.1em;
-      margin-top: 5px; }
+      margin-top: 10px; }
 
 .l-header {
   position: relative;
@@ -2364,7 +2377,8 @@ th {
     .tableRegular tbody tr td p,
     .tableRegular tbody tr td span {
       margin-bottom: 0;
-      display: inline-block; }
+      display: inline-block;
+      font-size: 14px; }
 
 .videosContent {
   text-align: center; }

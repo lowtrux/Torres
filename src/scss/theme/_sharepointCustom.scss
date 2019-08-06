@@ -1,3 +1,16 @@
-.ms-tileview-tile-detailsBox {
+.ms-tileview-tile-detailsBox,
+.s4-itm-selected.ms-tileview-tile-selectionBox,
+.ms-listviewtable thead {
   display: none;
+}
+.ms-tileview-tile-content {
+  background-color: transparent !important;
+  a {
+    display: block;
+    img {
+      height: 142px;
+      right: 0 !important;
+      width: 150px;
+    }
+  }
 }

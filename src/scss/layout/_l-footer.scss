@@ -9,25 +9,31 @@
     text-align: center;
     nav {
       margin: 0 0 0.5em 0;
-    }
-    ul {
-      li {
-        text-align: left;
-        border-bottom: 1px solid $med-brown;
-        @media only screen and (min-width: 768px) {
-          display: inline-block;
-          border-bottom: none;
-        }
-        a {
-          display: block;
-          letter-spacing: 0.1em;
-          padding: 1em 0;
-          @media only screen and (min-width: 768px) {
-            border: none;
-            padding: 0;
+      ul {
+        li {
+          text-align: left;
+          border-bottom: 1px solid $med-brown;
+          &:first-child {
+            a {
+              margin-left: 0;
+            }
           }
-          &:hover {
-            text-decoration: none;
+          @media only screen and (min-width: 768px) {
+            display: inline-block;
+            border-bottom: none;
+          }
+          a {
+            display: block;
+            letter-spacing: 0.1em;
+            padding: 1em 0;
+            margin-left: 10px;
+            @media only screen and (min-width: 768px) {
+              border: none;
+              padding: 0;
+            }
+            &:hover {
+              text-decoration: none;
+            }
           }
         }
       }
@@ -36,15 +42,12 @@
       display: inline-block;
       padding: 0.5em 3em 0 3em;
       text-align: center;
-      @media only screen and (min-width: 768px) {
-        border-top: 1px solid $light-brown;
-      }
       ul {
         li {
           display: inline-block;
-          border-bottom: none;
+          border-bottom: 0 none;
           &:last-child a {
-            margin-right: 0;
+            margin-left: 5px;
           }
           a {
             border-bottom: none;
@@ -55,8 +58,8 @@
                 height: 30px;
               }
               @media only screen and (min-width: 768px) {
-                width: 20px;
-                height: 20px;
+                width: 25px;
+                height: 25px;
               }
             }
           }
@@ -64,10 +67,10 @@
       }
     }
     .siteLink {
-      font-size: 12px;
+      font-size: 14px;
       display: block;
       letter-spacing: 0.1em;
-      margin-top: 5px;
+      margin-top: 10px;
     }
   }
 }
