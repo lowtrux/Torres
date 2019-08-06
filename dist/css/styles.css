@@ -1652,8 +1652,10 @@ th {
   .ms-tileview-tile-content a {
     display: block; }
     .ms-tileview-tile-content a img {
+      bottom: 0 !important;
       height: 142px;
       right: 0 !important;
+      top: 0 !important;
       width: 150px; }
 
 .l-content {
@@ -2167,8 +2169,8 @@ th {
   padding: 10px;
   text-transform: uppercase; }
   .b_regular:hover {
-    background-color: #dd0b2b;
-    text-decoration: underline; }
+    text-decoration: underline;
+    background-color: #f0f0f0; }
 
 .componentContent__gallery img {
   margin-bottom: 20px;
