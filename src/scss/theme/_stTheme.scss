@@ -1,5 +1,6 @@
 .stTheme {
   .componentContent__slogan {
+    background-color: $grey;
     padding: 20px;
     p {
       font: 18px "Caslon", serif;
@@ -29,7 +30,7 @@
     background-color: $black;
     a {
       color: $white;
-      font: 16px "Heroic", serif;
+      font: 18px "Heroic", serif;
     }
   }
   .l-primaryNav {

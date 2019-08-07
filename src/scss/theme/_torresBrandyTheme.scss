@@ -10,13 +10,13 @@
       background-color: $black;
     }
     nav ul li a {
-      color: $$yellow;
+      color: $yellow;
     }
   }
   .l-footer {
-    background-color: $black;
+    background-color: $yellow;
     a {
-      color: $yellow;
+      color: $black;
       font: 16px "Heroic", serif;
     }
   }
@@ -29,6 +29,7 @@
       padding: 0 0 0 5px;
       &:hover {
         background-color: $yellow;
+        color: $black;
       }
     }
   }

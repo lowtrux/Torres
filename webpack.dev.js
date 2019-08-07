@@ -160,6 +160,12 @@ module.exports = {
       filename: "sangreDeToro.html"
     }),
     new HtmlWebpackPlugin({
+      template: "./src/torresBrandy.html",
+      inject: false,
+      hash: false,
+      filename: "torresBrandy.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "./src/vinaEsmeralda.html",
       inject: false,
       hash: false,
