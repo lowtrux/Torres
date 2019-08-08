@@ -1516,7 +1516,7 @@ th {
     font: 18px "Caslon", serif;
     line-height: 1.25em; }
   .marimarTheme .l-header .secondary-navigation {
-    background-color: #fff; }
+    background-color: #beb0aa; }
   .marimarTheme .l-header .logoFigure {
     width: 200px; }
   .marimarTheme .l-header .header-search {
@@ -1524,7 +1524,7 @@ th {
   .marimarTheme .l-header nav ul li a {
     color: #fff; }
   .marimarTheme .l-footer {
-    background-color: #fff; }
+    background-color: #000; }
     .marimarTheme .l-footer a {
       color: #fff;
       font: 16px "Heroic", serif; }
@@ -1679,7 +1679,7 @@ th {
       width: 150px; }
 
 .l-content {
-  margin: 40px 0 40px 0; }
+  margin: 20px 0 40px 0; }
 
 .l-distMainMenu #s4-bodyContainer {
   height: 100%;
@@ -2026,8 +2026,8 @@ th {
           padding: 0 1.875em; } }
   .l-header .secondary-navigation {
     background-color: #beb0aa;
-    height: 5.9375em;
-    line-height: 5.9375em;
+    line-height: 100px;
+    min-height: 100px;
     padding: 0;
     position: relative;
     text-align: center;

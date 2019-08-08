@@ -385,8 +385,8 @@
   }
   .secondary-navigation {
     background-color: $brown;
-    height: 5.9375em;
-    line-height: 5.9375em;
+    line-height: 100px;
+    min-height: 100px;
     padding: 0;
     position: relative;
     text-align: center;
