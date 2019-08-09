@@ -1536,6 +1536,8 @@ th {
     .marimarTheme .l-footer a {
       color: #fff;
       font: 16px "Heroic", serif; }
+    .marimarTheme .l-footer .sitelink {
+      color: #fff; }
   .marimarTheme .l-primaryNav a {
     color: #000;
     font: 18px "PlayfairDisplay", serif;
