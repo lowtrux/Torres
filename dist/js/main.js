@@ -101,7 +101,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__(5);
 
-__webpack_require__(84);
+__webpack_require__(85);
 
 /***/ }),
 /* 1 */
@@ -710,12 +710,13 @@ var map = {
 	"./torresBrandy.png": 75,
 	"./torresBrandyHome1.png": 76,
 	"./torresBrandyHome2.png": 77,
-	"./torresBrandyWhite.png": 78,
-	"./torresCorporateLogo.png": 79,
-	"./vinaEsmeralda.png": 80,
-	"./vinaEsmeraldaGold.png": 81,
-	"./vinaEsmeraldaW.png": 82,
-	"./wineIcons.png": 83
+	"./torresBrandyHome3.png": 78,
+	"./torresBrandyWhite.png": 79,
+	"./torresCorporateLogo.png": 80,
+	"./vinaEsmeralda.png": 81,
+	"./vinaEsmeraldaGold.png": 82,
+	"./vinaEsmeraldaW.png": 83,
+	"./wineIcons.png": 84
 };
 
 
@@ -1174,51 +1175,57 @@ module.exports = __webpack_require__.p + "images/torresBrandyHome2.png";
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/torresBrandyWhite.png";
+module.exports = __webpack_require__.p + "images/torresBrandyHome3.png";
 
 /***/ }),
 /* 79 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/torresCorporateLogo.png";
+module.exports = __webpack_require__.p + "images/torresBrandyWhite.png";
 
 /***/ }),
 /* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeralda.png";
+module.exports = __webpack_require__.p + "images/torresCorporateLogo.png";
 
 /***/ }),
 /* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeraldaGold.png";
+module.exports = __webpack_require__.p + "images/vinaEsmeralda.png";
 
 /***/ }),
 /* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaGold.png";
 
 /***/ }),
 /* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/wineIcons.png";
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
 
 /***/ }),
 /* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "images/wineIcons.png";
+
+/***/ }),
+/* 85 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var map = {
-	"./AdobeCaslonProRegular.ttf": 85,
-	"./HeroicCondensed-Bold.ttf": 86,
-	"./HoeflerText.ttf": 87,
-	"./Lato-Regular.ttf": 88,
-	"./Montserrat-Light.ttf": 89,
-	"./NotoSerif-Regular.ttf": 90,
-	"./PlayfairDisplay-Regular.ttf": 91,
-	"./Roboto-Regular.ttf": 92
+	"./AdobeCaslonProRegular.ttf": 86,
+	"./HeroicCondensed-Bold.ttf": 87,
+	"./HoeflerText.ttf": 88,
+	"./Lato-Regular.ttf": 89,
+	"./Montserrat-Light.ttf": 90,
+	"./NotoSerif-Regular.ttf": 91,
+	"./PlayfairDisplay-Regular.ttf": 92,
+	"./Roboto-Regular.ttf": 93
 };
 
 
@@ -1239,52 +1246,52 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 84;
-
-/***/ }),
-/* 85 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AdobeCaslonProRegular.ttf";
+webpackContext.id = 85;
 
 /***/ }),
 /* 86 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HeroicCondensed-Bold.ttf";
+module.exports = "../fonts/AdobeCaslonProRegular.ttf";
 
 /***/ }),
 /* 87 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HoeflerText.ttf";
+module.exports = "../fonts/HeroicCondensed-Bold.ttf";
 
 /***/ }),
 /* 88 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Lato-Regular.ttf";
+module.exports = "../fonts/HoeflerText.ttf";
 
 /***/ }),
 /* 89 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Montserrat-Light.ttf";
+module.exports = "../fonts/Lato-Regular.ttf";
 
 /***/ }),
 /* 90 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/NotoSerif-Regular.ttf";
+module.exports = "../fonts/Montserrat-Light.ttf";
 
 /***/ }),
 /* 91 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
+module.exports = "../fonts/NotoSerif-Regular.ttf";
 
 /***/ }),
 /* 92 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
+
+/***/ }),
+/* 93 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/Roboto-Regular.ttf";
