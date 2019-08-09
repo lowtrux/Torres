@@ -1,8 +1,8 @@
 .marimarTheme {
-  font: 18px "Caslon", serif;
+  font: 18px "Montserrat", serif;
   line-height: 1.25em;
   p {
-    font: 18px "Caslon", serif;
+    font: 18px "Montserrat", serif;
     line-height: 1.25em;
   }
   .l-header {
@@ -28,13 +28,14 @@
   }
   .l-primaryNav {
     a {
-      color: $red;
-      font: 22px "Heroic", serif;
+      color: $black;
+      font: 18px "PlayfairDisplay", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;
       &:hover {
-        background-color: $black;
+        background-color: $brown;
+        color: $black;
       }
     }
   }

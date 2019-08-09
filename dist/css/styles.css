@@ -988,6 +988,14 @@ ul {
   font-family: "Noto";
   src: url("../fonts/NotoSerif-Regular.ttf"); }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-Light.ttf"); }
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../fonts/PlayfairDisplay-Regular.ttf"); }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -1510,10 +1518,10 @@ th {
     background-color: #f47d4c; }
 
 .marimarTheme {
-  font: 18px "Caslon", serif;
+  font: 18px "Montserrat", serif;
   line-height: 1.25em; }
   .marimarTheme p {
-    font: 18px "Caslon", serif;
+    font: 18px "Montserrat", serif;
     line-height: 1.25em; }
   .marimarTheme .l-header .secondary-navigation {
     background-color: #beb0aa; }
@@ -1529,13 +1537,14 @@ th {
       color: #fff;
       font: 16px "Heroic", serif; }
   .marimarTheme .l-primaryNav a {
-    color: #dd0b2b;
-    font: 22px "Heroic", serif;
+    color: #000;
+    font: 18px "PlayfairDisplay", serif;
     letter-spacing: 0.1em;
     line-height: normal;
     padding: 0 0 0 5px; }
     .marimarTheme .l-primaryNav a:hover {
-      background-color: #000; }
+      background-color: #beb0aa;
+      color: #000; }
 
 .rocadoTheme .componentContent__slogan p {
   font: 16px "Roboto", serif;
@@ -1747,7 +1756,9 @@ th {
       .l-footer .ctn .social-networks ul li {
         display: inline-block;
         border-bottom: 0 none; }
-        .l-footer .ctn .social-networks ul li:last-child a {
+        .l-footer .ctn .social-networks ul li:first-child a {
+          margin-left: 0; }
+        .l-footer .ctn .social-networks ul li a {
           margin-left: 5px; }
         .l-footer .ctn .social-networks ul li a {
           border-bottom: none;

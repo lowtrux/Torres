@@ -46,7 +46,12 @@
         li {
           display: inline-block;
           border-bottom: 0 none;
-          &:last-child a {
+          &:first-child {
+            a {
+              margin-left: 0;
+            }
+          }
+          a {
             margin-left: 5px;
           }
           a {
