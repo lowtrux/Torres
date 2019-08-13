@@ -669,40 +669,40 @@ var map = {
 	"./icon-pinterest.png": 34,
 	"./icon-twitter.png": 35,
 	"./icon-youtube.png": 36,
-	"./img1.png": 37,
-	"./img2.png": 38,
-	"./img3.png": 39,
-	"./jlWhite.png": 40,
-	"./language-flag.png": 41,
-	"./logo-corp-footer.png": 42,
-	"./logo-corp-header.png": 43,
-	"./logo-corp-login.png": 44,
-	"./logoFamiliaTorres.png": 45,
-	"./logoJL.png": 46,
-	"./logoProduct.png": 47,
-	"./logoTorres.png": 48,
-	"./magdala.png": 49,
-	"./magdala1.jpg": 50,
-	"./magdala2.jpg": 51,
-	"./magdala3.jpg": 52,
-	"./marimar.png": 53,
-	"./marimarHome1.png": 54,
-	"./marimarHome2.png": 55,
-	"./marimarHome3.png": 56,
-	"./marimarState.png": 57,
-	"./marimarWhite.png": 58,
-	"./masterDistillers.png": 59,
-	"./menuWines.png": 60,
-	"./otherBrands.png": 61,
-	"./product-2.png": 62,
-	"./product.png": 63,
-	"./propertiesWhite.png": 64,
-	"./rocado.png": 65,
-	"./rocado1.jpg": 66,
-	"./rocado2.jpg": 67,
-	"./rocado3.jpg": 68,
-	"./rocadoHome.jpg": 69,
-	"./rocadoSpirits.png": 70,
+	"./jlWhite.png": 37,
+	"./language-flag.png": 38,
+	"./logo-corp-footer.png": 39,
+	"./logo-corp-header.png": 40,
+	"./logo-corp-login.png": 41,
+	"./logoFamiliaTorres.png": 42,
+	"./logoJL.png": 43,
+	"./logoProduct.png": 44,
+	"./logoTorres.png": 45,
+	"./magdala.png": 46,
+	"./magdala1.jpg": 47,
+	"./magdala2.jpg": 48,
+	"./magdala3.jpg": 49,
+	"./marimar.png": 50,
+	"./marimarHome1.png": 51,
+	"./marimarHome2.png": 52,
+	"./marimarHome3.png": 53,
+	"./marimarState.png": 54,
+	"./marimarWhite.png": 55,
+	"./masterDistillers.png": 56,
+	"./menuWines.png": 57,
+	"./otherBrands.png": 58,
+	"./product-2.png": 59,
+	"./product.png": 60,
+	"./propertiesWhite.png": 61,
+	"./rocado.png": 62,
+	"./rocado1.jpg": 63,
+	"./rocado2.jpg": 64,
+	"./rocado3.jpg": 65,
+	"./rocadoHome.jpg": 66,
+	"./rocadoSpirits.png": 67,
+	"./sangreToroHome1.png": 68,
+	"./sangreToroHome2.png": 69,
+	"./sangreToroHome3.png": 70,
 	"./sangreToroLogo.png": 71,
 	"./search.png": 72,
 	"./show-submenu.png": 73,
@@ -929,205 +929,205 @@ module.exports = __webpack_require__.p + "images/icon-youtube.png";
 /* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/img1.png";
+module.exports = __webpack_require__.p + "images/jlWhite.png";
 
 /***/ }),
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/img2.png";
+module.exports = __webpack_require__.p + "images/language-flag.png";
 
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/img3.png";
+module.exports = __webpack_require__.p + "images/logo-corp-footer.png";
 
 /***/ }),
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/jlWhite.png";
+module.exports = __webpack_require__.p + "images/logo-corp-header.png";
 
 /***/ }),
 /* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/language-flag.png";
+module.exports = __webpack_require__.p + "images/logo-corp-login.png";
 
 /***/ }),
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logo-corp-footer.png";
+module.exports = __webpack_require__.p + "images/logoFamiliaTorres.png";
 
 /***/ }),
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logo-corp-header.png";
+module.exports = __webpack_require__.p + "images/logoJL.png";
 
 /***/ }),
 /* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logo-corp-login.png";
+module.exports = __webpack_require__.p + "images/logoProduct.png";
 
 /***/ }),
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logoFamiliaTorres.png";
+module.exports = __webpack_require__.p + "images/logoTorres.png";
 
 /***/ }),
 /* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logoJL.png";
+module.exports = __webpack_require__.p + "images/magdala.png";
 
 /***/ }),
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logoProduct.png";
+module.exports = __webpack_require__.p + "images/magdala1.jpg";
 
 /***/ }),
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logoTorres.png";
+module.exports = __webpack_require__.p + "images/magdala2.jpg";
 
 /***/ }),
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/magdala.png";
+module.exports = __webpack_require__.p + "images/magdala3.jpg";
 
 /***/ }),
 /* 50 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/magdala1.jpg";
+module.exports = __webpack_require__.p + "images/marimar.png";
 
 /***/ }),
 /* 51 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/magdala2.jpg";
+module.exports = __webpack_require__.p + "images/marimarHome1.png";
 
 /***/ }),
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/magdala3.jpg";
+module.exports = __webpack_require__.p + "images/marimarHome2.png";
 
 /***/ }),
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/marimar.png";
+module.exports = __webpack_require__.p + "images/marimarHome3.png";
 
 /***/ }),
 /* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/marimarHome1.png";
+module.exports = __webpack_require__.p + "images/marimarState.png";
 
 /***/ }),
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/marimarHome2.png";
+module.exports = __webpack_require__.p + "images/marimarWhite.png";
 
 /***/ }),
 /* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/marimarHome3.png";
+module.exports = __webpack_require__.p + "images/masterDistillers.png";
 
 /***/ }),
 /* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/marimarState.png";
+module.exports = __webpack_require__.p + "images/menuWines.png";
 
 /***/ }),
 /* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/marimarWhite.png";
+module.exports = __webpack_require__.p + "images/otherBrands.png";
 
 /***/ }),
 /* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/masterDistillers.png";
+module.exports = __webpack_require__.p + "images/product-2.png";
 
 /***/ }),
 /* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/menuWines.png";
+module.exports = __webpack_require__.p + "images/product.png";
 
 /***/ }),
 /* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/otherBrands.png";
+module.exports = __webpack_require__.p + "images/propertiesWhite.png";
 
 /***/ }),
 /* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/product-2.png";
+module.exports = __webpack_require__.p + "images/rocado.png";
 
 /***/ }),
 /* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/product.png";
+module.exports = __webpack_require__.p + "images/rocado1.jpg";
 
 /***/ }),
 /* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/propertiesWhite.png";
+module.exports = __webpack_require__.p + "images/rocado2.jpg";
 
 /***/ }),
 /* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/rocado.png";
+module.exports = __webpack_require__.p + "images/rocado3.jpg";
 
 /***/ }),
 /* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/rocado1.jpg";
+module.exports = __webpack_require__.p + "images/rocadoHome.jpg";
 
 /***/ }),
 /* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/rocado2.jpg";
+module.exports = __webpack_require__.p + "images/rocadoSpirits.png";
 
 /***/ }),
 /* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/rocado3.jpg";
+module.exports = __webpack_require__.p + "images/sangreToroHome1.png";
 
 /***/ }),
 /* 69 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/rocadoHome.jpg";
+module.exports = __webpack_require__.p + "images/sangreToroHome2.png";
 
 /***/ }),
 /* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/rocadoSpirits.png";
+module.exports = __webpack_require__.p + "images/sangreToroHome3.png";
 
 /***/ }),
 /* 71 */
