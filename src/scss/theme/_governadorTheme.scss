@@ -23,6 +23,12 @@
       font: 14px "Roboto", serif;
     }
   }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $yellowGreen;
+    }
+  }
   .l-primaryNav {
     a {
       color: $black;

@@ -5,6 +5,12 @@
     font: 18px "Caslon", serif;
     line-height: 1.25em;
   }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $black;
+    }
+  }
   .l-header {
     .secondary-navigation {
       background-color: $black;

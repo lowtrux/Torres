@@ -1,0 +1,42 @@
+.torresChileTheme {
+  font: 18px "Caslon", serif;
+  line-height: 1.25em;
+  p {
+    font: 18px "Caslon", serif;
+    line-height: 1.25em;
+  }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $black;
+    }
+  }
+  .l-header {
+    .secondary-navigation {
+      background-color: $darkGreen;
+    }
+    nav ul li a {
+      color: $white;
+    }
+  }
+  .l-footer {
+    background-color: $black;
+    a {
+      color: $white;
+      font: 16px "Heroic", serif;
+    }
+  }
+  .l-primaryNav {
+    a {
+      color: $black;
+      font: 22px "Heroic", serif;
+      letter-spacing: 0.1em;
+      line-height: normal;
+      padding: 0 0 0 5px;
+      &:hover {
+        background-color: $darkGreen;
+        color: $gold;
+      }
+    }
+  }
+}

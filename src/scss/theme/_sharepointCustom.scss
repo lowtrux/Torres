@@ -1,5 +1,6 @@
 .ms-tileview-tile-detailsBox,
-.s4-itm-selected.ms-tileview-tile-selectionBox,
+.s4-itm-selected.ms-tileview-tile-selectionBox {
+}
 .ms-listviewtable thead {
   display: none;
 }
@@ -9,10 +10,8 @@
     display: block;
     img {
       bottom: 0 !important;
-      height: 142px;
       right: 0 !important;
       top: 0 !important;
-      width: 150px;
     }
   }
 }

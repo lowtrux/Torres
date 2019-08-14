@@ -5,9 +5,10 @@
       line-height: 1.25em;
     }
   }
-  .lmaincontainer {
-    .labelDistro {
-      color: $black;
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $brown;
     }
   }
   .l-header {

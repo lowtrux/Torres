@@ -5,6 +5,12 @@
     font: 18px "Montserrat", serif;
     line-height: 1.25em;
   }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $brown;
+    }
+  }
   .l-header {
     .secondary-navigation {
       background-color: $brown;

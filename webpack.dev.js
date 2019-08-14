@@ -166,6 +166,12 @@ module.exports = {
       filename: "torresBrandy.html"
     }),
     new HtmlWebpackPlugin({
+      template: "./src/torresChile.html",
+      inject: false,
+      hash: false,
+      filename: "torresChile.html"
+    }),    
+    new HtmlWebpackPlugin({
       template: "./src/vinaEsmeralda.html",
       inject: false,
       hash: false,

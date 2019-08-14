@@ -1,4 +1,10 @@
 .veTheme {
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $darkGreen2;
+    }
+  }
   .l-header {
     .secondary-navigation {
       background-color: $light-green;
