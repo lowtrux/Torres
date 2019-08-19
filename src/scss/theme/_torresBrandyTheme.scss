@@ -23,7 +23,10 @@
     background-color: $yellow;
     a {
       color: $black;
-      font: 16px "Heroic", serif;
+      font: 18px "Heroic", serif;
+    }
+    .ico-svg {
+      fill: $black;
     }
   }
   .l-primaryNav {

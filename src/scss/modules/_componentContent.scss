@@ -21,6 +21,9 @@
   &__slogan {
     min-height: 400px;
     text-align: center;
+    p {
+      text-align: justify;
+    }
   }
   &__title {
     width: 220px;

@@ -1,0 +1,44 @@
+.otherBrandsTheme {
+  p {
+    color: $darkGrey;
+    font: 18px "Arial", serif;
+    line-height: 1.25em;
+  }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $darkGrey;
+    }
+  }
+  .l-header {
+    .secondary-navigation {
+      background-color: $darkGrey;
+    }
+  }
+  .l-footer {
+    background-color: $darkGrey;
+    a {
+      color: $white;
+      font: 16px "Heroic", serif;
+    }
+    .ico-svg {
+      fill: $white;
+    }
+  }
+  .l-primaryNav {
+    li {
+      a {
+        color: $darkGrey;
+        font: 16px "Georgia", serif;
+        letter-spacing: 0.1em;
+        line-height: normal;
+        padding: 3px 0 3px 5px;
+        &:hover {
+          background-color: $darkGrey;
+          color: $white;
+          padding: 3px 0 3px 5px;
+        }
+      }
+    }
+  }
+}

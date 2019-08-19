@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+    <title>Torres Properties</title>
+  </head>
+  <body class="torresPropertiesTheme">
+    <div class="l-pageContainer">
+      <header class="l-header" role="banner">
+        <div class="secondary-navigation">
+          <div class="container-fluid">
+            <div class="ctn">
+              <!--LOGO-->
+              <div class="logo">
+                <a href="./index.html">
+                  <img
+                    src="./images/propertiesWhite.png"
+                    alt="Logo"
+                    class="logoFigure"
+                  />
+                </a>
+              </div>
+              <!--LOGO END-->
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="container l-mainContainer">
+        <div class="l-content">
+          <div class="l-row">
+            <div class="l-12-cols">
+              <a class="ms-breadcrumbRootNode" href="./"
+                ><img src="./images/home.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="l-row">
+            <nav class="l-primaryNav l-3-cols">
+              <ul>
+                <li><a href="#">bottle shot</a></li>
+                <li><a href="#">key visual</a></li>
+                <li><a href="#">logos</a></li>
+                <li>
+                  <a href="#">prizes and awards</a>
+                </li>
+                <li>
+                  <a href="#">pictures</a>
+                </li>
+                <li><a href="#">technical sheets</a></li>
+                <li><a href="#">videos</a></li>
+              </ul>
+            </nav>
+            <div class="l-mainContent l-9-cols">
+              <section class="componentContent showSection" id="home">
+                <div class="componentContent__slogan">
+                  <div class="l-row">
+                    <div class="l-6-cols offset-md-3">
+                      <p>
+                        Under the same commitment of pursuing excellence and
+                        making premium wines through tradition and innovation,
+                        Familia Torres also has its own vineyards and wineries
+                        in leading Spanish wine regions – Rioja, Ribera del
+                        Duero, Rueda, and Rías Baixas La Carbonera: Focuses on
+                        the origin and the typicality of the Rioja area Pago Del
+                        Cielo 895 meters of altitude where vines and starry sky
+                        can almost touch each other in Ribera del Duero Bodega
+                        Magarín A path winds along the southern bank of the
+                        Duero River. The Magarín vineyard—where Verdejo vines
+                        thrive in soils with large pebbles Rías Baixas:
+                        territory of exceptional beaches, diverse landscapes,
+                        numerous vineyards and a rich cultural and historic
+                        heritage
+                      </p>
+                    </div>
+                  </div>
+                  <div class="l-row componentContent__gallery">
+                    <div class="l-4-cols">
+                      <img src="./images/propertiesHome1.png" alt="Picture 1" />
+                    </div>
+                    <div class="l-4-cols">
+                      <img src="./images/propertiesHome2.png" alt="Picture 2" />
+                    </div>
+                    <div class="l-4-cols">
+                      <img src="./images/propertiesHome3.png" alt="Picture 3" />
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <section class="hideSection" id="productRange">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  aliquam laudantium voluptatum maxime ipsum nostrum dolores,
+                  omnis eveniet magni magnam! Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Ea aliquam laudantium voluptatum
+                  maxime ipsum nostrum dolores, omnis eveniet magni magnam!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
+                  aliquam laudantium voluptatum maxime ipsum nostrum dolores,
+                  omnis eveniet magni magnam!
+                </p>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure
+                  molestias eius accusamus perspiciatis velit voluptatibus,
+                  veritatis nobis fugiat et ipsa! Voluptas dolorem beatae ipsum
+                  possimus optio amet consectetur earum corporis.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                  illo beatae eum maxime, quibusdam alias esse voluptatum amet
+                  laborum porro?
+                </p>
+              </section>
+              <section class="hideSection" id="media"></section>
+              <section class="hideSection" id="digitalAssets"></section>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="l-footer">
+        <div class="container-fluid">
+          <div class="ctn">
+            <nav>
+              <ul>
+                <li>
+                  <a href="https://www.vinaesmeralda.com/en/legal-notice"
+                    >LEGAL NOTICE</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.vinaesmeralda.com/en/cookie-policy"
+                    >COOKIES POLICY</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.vinaesmeralda.com/en/privacy-policy"
+                    >PRIVACY POLICY</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>

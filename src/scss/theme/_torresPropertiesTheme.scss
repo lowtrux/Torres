@@ -1,0 +1,42 @@
+.torresPropertiesTheme {
+  font: 18px "Caslon", serif;
+  line-height: 1.25em;
+  p {
+    font: 18px "Caslon", serif;
+    line-height: 1.25em;
+  }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $darkGrey;
+    }
+  }
+  .l-header {
+    .secondary-navigation {
+      background-color: $darkGrey;
+    }
+  }
+  .l-footer {
+    background-color: $darkGrey;
+    a {
+      color: $white;
+      font: 16px "Heroic", serif;
+    }
+    .ico-svg {
+      fill: $white;
+    }
+  }
+  .l-primaryNav {
+    a {
+      color: $darkGrey;
+      font: 22px "Heroic", serif;
+      letter-spacing: 0.1em;
+      line-height: normal;
+      padding: 0 0 0 5px;
+      &:hover {
+        background-color: $darkGrey;
+        color: $white;
+      }
+    }
+  }
+}

@@ -148,6 +148,12 @@ module.exports = {
       filename: "marimar.html"
     }),
     new HtmlWebpackPlugin({
+      template: "./src/otherBrands.html",
+      inject: false,
+      hash: false,
+      filename: "otherBrands.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "./src/rocado.html",
       inject: false,
       hash: false,
@@ -166,11 +172,17 @@ module.exports = {
       filename: "torresBrandy.html"
     }),
     new HtmlWebpackPlugin({
+      template: "./src/torresProperties.html",
+      inject: false,
+      hash: false,
+      filename: "torresProperties.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "./src/torresChile.html",
       inject: false,
       hash: false,
       filename: "torresChile.html"
-    }),    
+    }),
     new HtmlWebpackPlugin({
       template: "./src/vinaEsmeralda.html",
       inject: false,

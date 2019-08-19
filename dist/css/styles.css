@@ -1475,7 +1475,7 @@ th {
 
 .governadorTheme .l-content .labelDistro,
 .governadorTheme .l-content .labelSecondary {
-  color: #e1e640; }
+  color: #000; }
 
 .governadorTheme .l-primaryNav a {
   color: #000;
@@ -1493,7 +1493,7 @@ th {
 
 .magdalaTheme .l-content .labelDistro,
 .magdalaTheme .l-content .labelSecondary {
-  color: #f47d4c; }
+  color: #000; }
 
 .magdalaTheme .l-header {
   padding: 10px 0;
@@ -1530,9 +1530,9 @@ th {
     line-height: 1.25em; }
   .marimarTheme .l-content .labelDistro,
   .marimarTheme .l-content .labelSecondary {
-    color: #beb0aa; }
+    color: #000; }
   .marimarTheme .l-header .secondary-navigation {
-    background-color: #beb0aa; }
+    background-color: #a5945d; }
   .marimarTheme .l-header .logoFigure {
     width: 200px; }
   .marimarTheme .l-header .header-search {
@@ -1551,8 +1551,39 @@ th {
     line-height: normal;
     padding: 0 0 0 5px; }
     .marimarTheme .l-primaryNav a:hover {
-      background-color: #beb0aa;
+      background-color: #a5945d;
       color: #000; }
+
+.otherBrandsTheme p {
+  color: #262626;
+  font: 18px "Arial", serif;
+  line-height: 1.25em; }
+
+.otherBrandsTheme .l-content .labelDistro,
+.otherBrandsTheme .l-content .labelSecondary {
+  color: #262626; }
+
+.otherBrandsTheme .l-header .secondary-navigation {
+  background-color: #262626; }
+
+.otherBrandsTheme .l-footer {
+  background-color: #262626; }
+  .otherBrandsTheme .l-footer a {
+    color: #fff;
+    font: 16px "Heroic", serif; }
+  .otherBrandsTheme .l-footer .ico-svg {
+    fill: #fff; }
+
+.otherBrandsTheme .l-primaryNav li a {
+  color: #262626;
+  font: 16px "Georgia", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 3px 0 3px 5px; }
+  .otherBrandsTheme .l-primaryNav li a:hover {
+    background-color: #262626;
+    color: #fff;
+    padding: 3px 0 3px 5px; }
 
 .rocadoTheme .componentContent__slogan p {
   font: 16px "Roboto", serif;
@@ -1560,7 +1591,7 @@ th {
 
 .rocadoTheme .l-content .labelDistro,
 .rocadoTheme .l-content .labelSecondary {
-  color: #beb0aa; }
+  color: #000; }
 
 .rocadoTheme .l-header .logoFigure {
   width: 300px; }
@@ -1641,7 +1672,9 @@ th {
     background-color: #ffc000; }
     .torresBrandyTheme .l-footer a {
       color: #000;
-      font: 16px "Heroic", serif; }
+      font: 18px "Heroic", serif; }
+    .torresBrandyTheme .l-footer .ico-svg {
+      fill: #000; }
   .torresBrandyTheme .l-primaryNav a {
     color: #000;
     font: 22px "Heroic", serif;
@@ -1680,6 +1713,34 @@ th {
       background-color: #21362b;
       color: #ad976e; }
 
+.torresPropertiesTheme {
+  font: 18px "Caslon", serif;
+  line-height: 1.25em; }
+  .torresPropertiesTheme p {
+    font: 18px "Caslon", serif;
+    line-height: 1.25em; }
+  .torresPropertiesTheme .l-content .labelDistro,
+  .torresPropertiesTheme .l-content .labelSecondary {
+    color: #262626; }
+  .torresPropertiesTheme .l-header .secondary-navigation {
+    background-color: #262626; }
+  .torresPropertiesTheme .l-footer {
+    background-color: #262626; }
+    .torresPropertiesTheme .l-footer a {
+      color: #fff;
+      font: 16px "Heroic", serif; }
+    .torresPropertiesTheme .l-footer .ico-svg {
+      fill: #fff; }
+  .torresPropertiesTheme .l-primaryNav a {
+    color: #262626;
+    font: 22px "Heroic", serif;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    padding: 0 0 0 5px; }
+    .torresPropertiesTheme .l-primaryNav a:hover {
+      background-color: #262626;
+      color: #fff; }
+
 .veTheme .l-content .labelDistro,
 .veTheme .l-content .labelSecondary {
   color: #1b4624; }
@@ -1698,6 +1759,8 @@ th {
   .veTheme .l-footer a {
     color: #1b4624;
     font: 16px "Lato", serif; }
+  .veTheme .l-footer .ico-svg {
+    fill: #1b4624; }
 
 .veTheme .lmaincontainer .labelDistro {
   color: #1b4624; }
@@ -1760,10 +1823,10 @@ th {
   -webkit-box-align: center;
           align-items: center;
   background-color: #beb0aa;
-  margin-top: auto;
-  width: 100%;
   display: -webkit-box;
-  display: flex; }
+  display: flex;
+  margin-top: auto;
+  width: 100%; }
   .l-footer .ctn {
     padding: 50px 0;
     text-align: center; }
@@ -1781,11 +1844,11 @@ th {
         .l-footer .ctn nav ul li a {
           display: block;
           letter-spacing: 0.1em;
-          padding: 1em 0;
-          margin-left: 10px; }
+          padding: 1em 0; }
           @media only screen and (min-width: 768px) {
             .l-footer .ctn nav ul li a {
               border: none;
+              margin-left: 10px;
               padding: 0; } }
           .l-footer .ctn nav ul li a:hover {
             text-decoration: none; }
@@ -1796,26 +1859,23 @@ th {
       .l-footer .ctn .social-networks ul li {
         display: inline-block;
         border-bottom: 0 none; }
-        .l-footer .ctn .social-networks ul li:first-child a {
+        .l-footer .ctn .social-networks ul li:first-child .ico-svg {
           margin-left: 0; }
-        .l-footer .ctn .social-networks ul li a {
-          margin-left: 5px; }
         .l-footer .ctn .social-networks ul li a {
           border-bottom: none;
           display: block; }
-          @media only screen and (min-width: 320px) {
-            .l-footer .ctn .social-networks ul li a img {
-              width: 30px;
-              height: 30px; } }
-          @media only screen and (min-width: 768px) {
-            .l-footer .ctn .social-networks ul li a img {
-              width: 25px;
-              height: 25px; } }
     .l-footer .ctn .siteLink {
       font-size: 14px;
       display: block;
       letter-spacing: 0.1em;
       margin-top: 10px; }
+  .l-footer .ico-svg {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    fill: #fff;
+    margin-left: 5px; }
 
 .l-header {
   position: relative;
@@ -2260,6 +2320,8 @@ th {
 .componentContent__slogan {
   min-height: 400px;
   text-align: center; }
+  .componentContent__slogan p {
+    text-align: justify; }
 
 .componentContent__title {
   width: 220px; }

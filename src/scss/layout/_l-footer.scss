@@ -1,9 +1,9 @@
 .l-footer {
   align-items: center;
   background-color: $brown;
+  display: flex;
   margin-top: auto;
   width: 100%;
-  display: flex;
   .ctn {
     padding: 50px 0;
     text-align: center;
@@ -26,9 +26,9 @@
             display: block;
             letter-spacing: 0.1em;
             padding: 1em 0;
-            margin-left: 10px;
             @media only screen and (min-width: 768px) {
               border: none;
+              margin-left: 10px;
               padding: 0;
             }
             &:hover {
@@ -47,26 +47,13 @@
           display: inline-block;
           border-bottom: 0 none;
           &:first-child {
-            a {
+            .ico-svg {
               margin-left: 0;
             }
           }
           a {
-            margin-left: 5px;
-          }
-          a {
             border-bottom: none;
             display: block;
-            img {
-              @media only screen and (min-width: 320px) {
-                width: 30px;
-                height: 30px;
-              }
-              @media only screen and (min-width: 768px) {
-                width: 25px;
-                height: 25px;
-              }
-            }
           }
         }
       }
@@ -76,6 +63,16 @@
       display: block;
       letter-spacing: 0.1em;
       margin-top: 10px;
+    }
+  }
+  .ico-svg {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 25px;
+    fill: $white;
+    margin-left: 5px;
+    &.youtube {
     }
   }
 }

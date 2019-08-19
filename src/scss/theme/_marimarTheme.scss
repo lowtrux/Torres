@@ -8,12 +8,12 @@
   .l-content {
     .labelDistro,
     .labelSecondary {
-      color: $brown;
+      color: $black;
     }
   }
   .l-header {
     .secondary-navigation {
-      background-color: $brown;
+      background-color: $petro;
     }
     .logoFigure {
       width: 200px;
@@ -40,7 +40,7 @@
       line-height: normal;
       padding: 0 0 0 5px;
       &:hover {
-        background-color: $brown;
+        background-color: $petro;
         color: $black;
       }
     }
