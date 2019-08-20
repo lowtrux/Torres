@@ -1,0 +1,49 @@
+.jeanLeonTheme {
+  .componentContent__slogan {
+    p {
+      font: 20px "futura", serif;
+      line-height: 1.25em;
+    }
+  }
+  .l-header {
+    .logoFigure {
+      height: 100px;
+    }
+    .secondary-navigation {
+      background-color: $black;
+    }
+  }
+  .l-footer {
+    background-color: $grey;
+    a {
+      color: $black;
+      font: 18px "leaguegothic", serif;
+    }
+    .ctn {
+      .siteLink {
+        font-size: 16px;
+      }
+    }
+    .ico-svg {
+      fill: $black;
+    }
+  }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $black;
+    }
+  }
+  .l-primaryNav {
+    a {
+      color: $black;
+      font: 20px "leaguegothic", serif;
+      letter-spacing: 0.1em;
+      padding: 0 0 0 5px;
+      &:hover {
+        background-color: $black;
+        color: $white;
+      }
+    }
+  }
+}

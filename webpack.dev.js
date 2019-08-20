@@ -136,6 +136,12 @@ module.exports = {
       filename: "elgobernador.html"
     }),
     new HtmlWebpackPlugin({
+      template: "./src/jeanLeon.html",
+      inject: false,
+      hash: false,
+      filename: "jeanLeon.html"
+    }),
+    new HtmlWebpackPlugin({
       template: "./src/magdala.html",
       inject: false,
       hash: false,

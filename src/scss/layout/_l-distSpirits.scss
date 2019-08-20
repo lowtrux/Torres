@@ -1,0 +1,29 @@
+.l-distSpirits {
+  height: 100%;
+  body {
+    height: 100%;
+  }
+  .flex-row {
+    margin-top: 0;
+    &:first-child {
+      margin-top: 0;
+    }
+    @media only screen and (min-width: 1900px) {
+      margin-top: 50px;
+    }
+  }
+  main {
+    align-items: center;
+    flex: 1;
+    padding: 0;
+    display: flex;
+  }
+  .l-footer {
+    background-color: $black;
+    margin-top: 0;
+    a {
+      color: $white;
+      font-size: 14px;
+    }
+  }
+}

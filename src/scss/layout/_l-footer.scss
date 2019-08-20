@@ -39,7 +39,6 @@
       }
     }
     .social-networks {
-      display: inline-block;
       padding: 0.5em 3em 0 3em;
       text-align: center;
       ul {
@@ -66,12 +65,12 @@
     }
   }
   .ico-svg {
-    position: relative;
     display: inline-block;
-    width: auto;
-    height: 25px;
     fill: $white;
+    height: 25px;
     margin-left: 5px;
+    position: relative;
+    width: 25px;
     &.youtube {
     }
   }

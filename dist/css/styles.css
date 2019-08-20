@@ -996,6 +996,22 @@ ul {
   font-family: "PlayfairDisplay";
   src: url("../fonts/PlayfairDisplay-Regular.ttf"); }
 
+@font-face {
+  font-family: "leaguegothic";
+  src: url("../fonts/leaguegothic.ttf"); }
+
+@font-face {
+  font-family: "futura";
+  src: url("../fonts/futura.ttf"); }
+
+@font-face {
+  font-family: "Abril";
+  src: url("../fonts/AbrilFatface-Regular.ttf"); }
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLTStd-Medium.ttf"); }
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -1487,6 +1503,39 @@ th {
     background-color: #e1e640;
     color: #000; }
 
+.jeanLeonTheme .componentContent__slogan p {
+  font: 20px "futura", serif;
+  line-height: 1.25em; }
+
+.jeanLeonTheme .l-header .logoFigure {
+  height: 100px; }
+
+.jeanLeonTheme .l-header .secondary-navigation {
+  background-color: #000; }
+
+.jeanLeonTheme .l-footer {
+  background-color: #f0f0f0; }
+  .jeanLeonTheme .l-footer a {
+    color: #000;
+    font: 18px "leaguegothic", serif; }
+  .jeanLeonTheme .l-footer .ctn .siteLink {
+    font-size: 16px; }
+  .jeanLeonTheme .l-footer .ico-svg {
+    fill: #000; }
+
+.jeanLeonTheme .l-content .labelDistro,
+.jeanLeonTheme .l-content .labelSecondary {
+  color: #000; }
+
+.jeanLeonTheme .l-primaryNav a {
+  color: #000;
+  font: 20px "leaguegothic", serif;
+  letter-spacing: 0.1em;
+  padding: 0 0 0 5px; }
+  .jeanLeonTheme .l-primaryNav a:hover {
+    background-color: #000;
+    color: #fff; }
+
 .magdalaTheme .componentContent__slogan p {
   font: 16px "Roboto", serif;
   line-height: 1.25em; }
@@ -1686,10 +1735,9 @@ th {
       color: #000; }
 
 .torresChileTheme {
-  font: 18px "Caslon", serif;
   line-height: 1.25em; }
   .torresChileTheme p {
-    font: 18px "Caslon", serif;
+    font: 16px "Avenir", serif;
     line-height: 1.25em; }
   .torresChileTheme .l-content .labelDistro,
   .torresChileTheme .l-content .labelSecondary {
@@ -1705,7 +1753,7 @@ th {
       font: 16px "Heroic", serif; }
   .torresChileTheme .l-primaryNav a {
     color: #000;
-    font: 22px "Heroic", serif;
+    font: 16px "Abril", serif;
     letter-spacing: 0.1em;
     line-height: normal;
     padding: 0 0 0 5px; }
@@ -1813,11 +1861,31 @@ th {
       -webkit-box-pack: center;
               justify-content: center; } }
 
-.l-distMainMenu .l-footer {
-  background-color: #000; }
-  .l-distMainMenu .l-footer a {
-    color: #fff;
-    font-size: 14px; }
+.l-distSpirits {
+  height: 100%; }
+  .l-distSpirits body {
+    height: 100%; }
+  .l-distSpirits .flex-row {
+    margin-top: 0; }
+    .l-distSpirits .flex-row:first-child {
+      margin-top: 0; }
+    @media only screen and (min-width: 1900px) {
+      .l-distSpirits .flex-row {
+        margin-top: 50px; } }
+  .l-distSpirits main {
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-flex: 1;
+            flex: 1;
+    padding: 0;
+    display: -webkit-box;
+    display: flex; }
+  .l-distSpirits .l-footer {
+    background-color: #000;
+    margin-top: 0; }
+    .l-distSpirits .l-footer a {
+      color: #fff;
+      font-size: 14px; }
 
 .l-footer {
   -webkit-box-align: center;
@@ -1853,7 +1921,6 @@ th {
           .l-footer .ctn nav ul li a:hover {
             text-decoration: none; }
     .l-footer .ctn .social-networks {
-      display: inline-block;
       padding: 0.5em 3em 0 3em;
       text-align: center; }
       .l-footer .ctn .social-networks ul li {
@@ -1870,12 +1937,12 @@ th {
       letter-spacing: 0.1em;
       margin-top: 10px; }
   .l-footer .ico-svg {
-    position: relative;
     display: inline-block;
-    width: auto;
-    height: 25px;
     fill: #fff;
-    margin-left: 5px; }
+    height: 25px;
+    margin-left: 5px;
+    position: relative;
+    width: 25px; }
 
 .l-header {
   position: relative;
