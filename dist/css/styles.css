@@ -1503,6 +1503,41 @@ th {
     background-color: #e1e640;
     color: #000; }
 
+.familiaTorresTheme .componentContent__slogan p {
+  font: 16px "Roboto", serif;
+  line-height: 1.25em; }
+
+.familiaTorresTheme .l-content .labelDistro,
+.familiaTorresTheme .l-content .labelSecondary {
+  color: #000; }
+
+.familiaTorresTheme .l-header {
+  padding: 10px 0;
+  background-color: #262626; }
+  .familiaTorresTheme .l-header .logoFigure {
+    width: 180px; }
+  .familiaTorresTheme .l-header .secondary-navigation {
+    background-color: #262626;
+    overflow: hidden; }
+
+.familiaTorresTheme .l-footer {
+  background-color: #262626; }
+  .familiaTorresTheme .l-footer nav ul li a {
+    color: #fff;
+    font: 16px "Roboto", serif; }
+  .familiaTorresTheme .l-footer .siteLink {
+    color: #fff; }
+
+.familiaTorresTheme .l-primaryNav a {
+  color: #000;
+  font: 18px "Noto", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
+  .familiaTorresTheme .l-primaryNav a:hover {
+    color: #000;
+    background-color: #f47d4c; }
+
 .jeanLeonTheme .componentContent__slogan p {
   font: 20px "futura", serif;
   line-height: 1.25em; }
@@ -1863,8 +1898,17 @@ th {
 
 .l-distSpirits {
   height: 100%; }
-  .l-distSpirits body {
+  .l-distSpirits body,
+  .l-distSpirits form {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
     height: 100%; }
+  .l-distSpirits #s4-workspace {
+    height: auto !important;
+    width: 100% !important; }
   .l-distSpirits .flex-row {
     margin-top: 0; }
     .l-distSpirits .flex-row:first-child {

@@ -1,0 +1,54 @@
+.familiaTorresTheme {
+  .componentContent__slogan {
+    p {
+      font: 16px "Roboto", serif;
+      line-height: 1.25em;
+    }
+  }
+  .l-content {
+    .labelDistro,
+    .labelSecondary {
+      color: $black;
+    }
+  }
+  .l-header {
+    padding: 10px 0;
+    background-color: $darkGrey;
+    .logoFigure {
+      width: 180px;
+    }
+    .secondary-navigation {
+      background-color: $darkGrey;
+      overflow: hidden;
+    }
+  }
+  .l-footer {
+    background-color: $darkGrey;
+    nav {
+      ul {
+        li {
+          a {
+            color: $white;
+            font: 16px "Roboto", serif;
+          }
+        }
+      }
+    }
+    .siteLink {
+      color: $white;
+    }
+  }
+  .l-primaryNav {
+    a {
+      color: $black;
+      font: 18px "Noto", serif;
+      letter-spacing: 0.1em;
+      line-height: normal;
+      padding: 0 0 0 5px;
+      &:hover {
+        color: $black;
+        background-color: $orange;
+      }
+    }
+  }
+}

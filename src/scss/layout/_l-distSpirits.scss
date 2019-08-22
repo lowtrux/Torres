@@ -1,7 +1,14 @@
 .l-distSpirits {
   height: 100%;
-  body {
+  body,
+  form {
+    display: flex;
+    flex-direction: column;
     height: 100%;
+  }
+  #s4-workspace {
+    height: auto !important;
+    width: 100% !important;
   }
   .flex-row {
     margin-top: 0;

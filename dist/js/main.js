@@ -101,7 +101,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__(5);
 
-__webpack_require__(95);
+__webpack_require__(98);
 
 /***/ }),
 /* 1 */
@@ -721,12 +721,15 @@ var map = {
 	"./torresBrandyHome3.png": 86,
 	"./torresBrandyWhite.png": 87,
 	"./torresCorporateLogo.png": 88,
-	"./twitter.svg": 89,
-	"./vinaEsmeralda.png": 90,
-	"./vinaEsmeraldaGold.png": 91,
-	"./vinaEsmeraldaW.png": 92,
-	"./wineIcons.png": 93,
-	"./youtube.svg": 94
+	"./torresHome1.png": 89,
+	"./torresHome2.png": 90,
+	"./torresHome3.png": 91,
+	"./twitter.svg": 92,
+	"./vinaEsmeralda.png": 93,
+	"./vinaEsmeraldaGold.png": 94,
+	"./vinaEsmeraldaW.png": 95,
+	"./wineIcons.png": 96,
+	"./youtube.svg": 97
 };
 
 
@@ -1251,57 +1254,75 @@ module.exports = __webpack_require__.p + "images/torresCorporateLogo.png";
 /* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/twitter.svg";
+module.exports = __webpack_require__.p + "images/torresHome1.png";
 
 /***/ }),
 /* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeralda.png";
+module.exports = __webpack_require__.p + "images/torresHome2.png";
 
 /***/ }),
 /* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeraldaGold.png";
+module.exports = __webpack_require__.p + "images/torresHome3.png";
 
 /***/ }),
 /* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
+module.exports = __webpack_require__.p + "images/twitter.svg";
 
 /***/ }),
 /* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/wineIcons.png";
+module.exports = __webpack_require__.p + "images/vinaEsmeralda.png";
 
 /***/ }),
 /* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/youtube.svg";
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaGold.png";
 
 /***/ }),
 /* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
+
+/***/ }),
+/* 96 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/wineIcons.png";
+
+/***/ }),
+/* 97 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/youtube.svg";
+
+/***/ }),
+/* 98 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var map = {
-	"./AbrilFatface-Regular.ttf": 96,
-	"./AdobeCaslonProRegular.ttf": 97,
-	"./AvenirLTStd-Black.ttf": 98,
-	"./AvenirLTStd-Medium.ttf": 99,
-	"./HeroicCondensed-Bold.ttf": 100,
-	"./HoeflerText.ttf": 101,
-	"./Lato-Regular.ttf": 102,
-	"./Montserrat-Light.ttf": 103,
-	"./NotoSerif-Regular.ttf": 104,
-	"./PlayfairDisplay-Regular.ttf": 105,
-	"./Roboto-Regular.ttf": 106,
-	"./futura.ttf": 107,
-	"./leaguegothic.ttf": 108,
-	"./trailers.ttf": 109
+	"./AbrilFatface-Regular.ttf": 99,
+	"./AdobeCaslonProRegular.ttf": 100,
+	"./AvenirLTStd-Black.ttf": 101,
+	"./AvenirLTStd-Medium.ttf": 102,
+	"./HeroicCondensed-Bold.ttf": 103,
+	"./HoeflerText.ttf": 104,
+	"./Lato-Regular.ttf": 105,
+	"./Montserrat-Light.ttf": 106,
+	"./NotoSerif-Regular.ttf": 107,
+	"./PlayfairDisplay-Regular.ttf": 108,
+	"./Roboto-Regular.ttf": 109,
+	"./futura.ttf": 110,
+	"./leaguegothic.ttf": 111,
+	"./trailers.ttf": 112
 };
 
 
@@ -1322,88 +1343,88 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 95;
-
-/***/ }),
-/* 96 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AbrilFatface-Regular.ttf";
-
-/***/ }),
-/* 97 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AdobeCaslonProRegular.ttf";
-
-/***/ }),
-/* 98 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AvenirLTStd-Black.ttf";
+webpackContext.id = 98;
 
 /***/ }),
 /* 99 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/AvenirLTStd-Medium.ttf";
+module.exports = "../fonts/AbrilFatface-Regular.ttf";
 
 /***/ }),
 /* 100 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HeroicCondensed-Bold.ttf";
+module.exports = "../fonts/AdobeCaslonProRegular.ttf";
 
 /***/ }),
 /* 101 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HoeflerText.ttf";
+module.exports = "../fonts/AvenirLTStd-Black.ttf";
 
 /***/ }),
 /* 102 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Lato-Regular.ttf";
+module.exports = "../fonts/AvenirLTStd-Medium.ttf";
 
 /***/ }),
 /* 103 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Montserrat-Light.ttf";
+module.exports = "../fonts/HeroicCondensed-Bold.ttf";
 
 /***/ }),
 /* 104 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/NotoSerif-Regular.ttf";
+module.exports = "../fonts/HoeflerText.ttf";
 
 /***/ }),
 /* 105 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
+module.exports = "../fonts/Lato-Regular.ttf";
 
 /***/ }),
 /* 106 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Roboto-Regular.ttf";
+module.exports = "../fonts/Montserrat-Light.ttf";
 
 /***/ }),
 /* 107 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/futura.ttf";
+module.exports = "../fonts/NotoSerif-Regular.ttf";
 
 /***/ }),
 /* 108 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/leaguegothic.ttf";
+module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
 
 /***/ }),
 /* 109 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/Roboto-Regular.ttf";
+
+/***/ }),
+/* 110 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/futura.ttf";
+
+/***/ }),
+/* 111 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/leaguegothic.ttf";
+
+/***/ }),
+/* 112 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/trailers.ttf";
