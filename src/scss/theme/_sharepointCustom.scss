@@ -1,3 +1,7 @@
+#s4-workspace {
+  height: 100% !important;
+  overflow: inherit !important;
+}
 .ms-tileview-tile-detailsBox,
 .s4-itm-selected.ms-tileview-tile-selectionBox {
 }
@@ -14,4 +18,10 @@
       top: 0 !important;
     }
   }
+}
+.ms-tileview-tile-titleMedium,
+.ms-tileview-tile-titleMediumCollapsed,
+.ms-tileview-tile-titleExpanded {
+  font-size: 14px;
+  vertical-align: top;
 }

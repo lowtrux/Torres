@@ -1364,7 +1364,6 @@ th {
   padding: 0; }
 
 #s4-workspace {
-  height: 100% !important;
   overflow: hidden;
   width: auto !important; }
 
@@ -1491,6 +1490,7 @@ th {
 
 .governadorTheme .l-content .labelDistro,
 .governadorTheme .l-content .labelSecondary {
+  font: 20px "Roboto", serif;
   color: #000; }
 
 .governadorTheme .l-primaryNav a {
@@ -1504,11 +1504,12 @@ th {
     color: #000; }
 
 .familiaTorresTheme .componentContent__slogan p {
-  font: 16px "Roboto", serif;
+  font: 16px "Arial", serif;
   line-height: 1.25em; }
 
 .familiaTorresTheme .l-content .labelDistro,
 .familiaTorresTheme .l-content .labelSecondary {
+  font: 20px "Arial", serif;
   color: #000; }
 
 .familiaTorresTheme .l-header {
@@ -1529,14 +1530,13 @@ th {
     color: #fff; }
 
 .familiaTorresTheme .l-primaryNav a {
-  color: #000;
-  font: 18px "Noto", serif;
-  letter-spacing: 0.1em;
+  color: #262626;
+  font: 16px "Georgia", serif;
   line-height: normal;
-  padding: 0 0 0 5px; }
+  padding: 3px 0 3px 5px; }
   .familiaTorresTheme .l-primaryNav a:hover {
-    color: #000;
-    background-color: #f47d4c; }
+    color: #fff;
+    background-color: #262626; }
 
 .jeanLeonTheme .componentContent__slogan p {
   font: 20px "futura", serif;
@@ -1560,6 +1560,7 @@ th {
 
 .jeanLeonTheme .l-content .labelDistro,
 .jeanLeonTheme .l-content .labelSecondary {
+  font: 20px "futura", serif;
   color: #000; }
 
 .jeanLeonTheme .l-primaryNav a {
@@ -1577,6 +1578,7 @@ th {
 
 .magdalaTheme .l-content .labelDistro,
 .magdalaTheme .l-content .labelSecondary {
+  font: 20px "Roboto", serif;
   color: #000; }
 
 .magdalaTheme .l-header {
@@ -1614,6 +1616,7 @@ th {
     line-height: 1.25em; }
   .marimarTheme .l-content .labelDistro,
   .marimarTheme .l-content .labelSecondary {
+    font: 20px "Montserrat", serif;
     color: #000; }
   .marimarTheme .l-header .secondary-navigation {
     background-color: #a5945d; }
@@ -1645,6 +1648,7 @@ th {
 
 .otherBrandsTheme .l-content .labelDistro,
 .otherBrandsTheme .l-content .labelSecondary {
+  font: 20px "Arial", serif;
   color: #262626; }
 
 .otherBrandsTheme .l-header .secondary-navigation {
@@ -1675,6 +1679,7 @@ th {
 
 .rocadoTheme .l-content .labelDistro,
 .rocadoTheme .l-content .labelSecondary {
+  font: 20px "Roboto", serif;
   color: #000; }
 
 .rocadoTheme .l-header .logoFigure {
@@ -1710,6 +1715,7 @@ th {
 
 .stTheme .l-content .labelDistro,
 .stTheme .l-content .labelSecondary {
+  font: 20px "Arial", serif;
   color: #dd0b2b; }
 
 .stTheme .l-header .logoFigure {
@@ -1747,6 +1753,7 @@ th {
     line-height: 1.25em; }
   .torresBrandyTheme .l-content .labelDistro,
   .torresBrandyTheme .l-content .labelSecondary {
+    font: 20px "Caslon", serif;
     color: #000; }
   .torresBrandyTheme .l-header .secondary-navigation {
     background-color: #000; }
@@ -1776,6 +1783,7 @@ th {
     line-height: 1.25em; }
   .torresChileTheme .l-content .labelDistro,
   .torresChileTheme .l-content .labelSecondary {
+    font: 20px "Avenir", serif;
     color: #000; }
   .torresChileTheme .l-header .secondary-navigation {
     background-color: #21362b; }
@@ -1796,33 +1804,35 @@ th {
       background-color: #21362b;
       color: #ad976e; }
 
-.torresPropertiesTheme {
-  font: 18px "Caslon", serif;
+.torresPropertiesTheme p {
+  font: 16px "Arial", serif;
   line-height: 1.25em; }
-  .torresPropertiesTheme p {
-    font: 18px "Caslon", serif;
-    line-height: 1.25em; }
-  .torresPropertiesTheme .l-content .labelDistro,
-  .torresPropertiesTheme .l-content .labelSecondary {
-    color: #262626; }
-  .torresPropertiesTheme .l-header .secondary-navigation {
-    background-color: #262626; }
-  .torresPropertiesTheme .l-footer {
-    background-color: #262626; }
-    .torresPropertiesTheme .l-footer a {
-      color: #fff;
-      font: 16px "Heroic", serif; }
-    .torresPropertiesTheme .l-footer .ico-svg {
-      fill: #fff; }
-  .torresPropertiesTheme .l-primaryNav a {
-    color: #262626;
-    font: 22px "Heroic", serif;
-    letter-spacing: 0.1em;
-    line-height: normal;
-    padding: 0 0 0 5px; }
-    .torresPropertiesTheme .l-primaryNav a:hover {
-      background-color: #262626;
-      color: #fff; }
+
+.torresPropertiesTheme .l-content .labelDistro,
+.torresPropertiesTheme .l-content .labelSecondary {
+  font: 20px "Arial", serif;
+  color: #262626; }
+
+.torresPropertiesTheme .l-header .secondary-navigation {
+  background-color: #262626; }
+
+.torresPropertiesTheme .l-footer {
+  background-color: #262626; }
+  .torresPropertiesTheme .l-footer a {
+    color: #fff;
+    font: 16px "Heroic", serif; }
+  .torresPropertiesTheme .l-footer .ico-svg {
+    fill: #fff; }
+
+.torresPropertiesTheme .l-primaryNav a {
+  color: #262626;
+  font: 18px "Georgia", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 3px 0 3px 5px; }
+  .torresPropertiesTheme .l-primaryNav a:hover {
+    background-color: #262626;
+    color: #fff; }
 
 .veTheme .l-content .labelDistro,
 .veTheme .l-content .labelSecondary {
@@ -1861,6 +1871,10 @@ th {
   .veTheme .componentContent__slogan p {
     font: 18px "Hoefler", serif; }
 
+#s4-workspace {
+  height: 100% !important;
+  overflow: inherit !important; }
+
 .ms-listviewtable thead {
   display: none; }
 
@@ -1872,6 +1886,12 @@ th {
       bottom: 0 !important;
       right: 0 !important;
       top: 0 !important; }
+
+.ms-tileview-tile-titleMedium,
+.ms-tileview-tile-titleMediumCollapsed,
+.ms-tileview-tile-titleExpanded {
+  font-size: 14px;
+  vertical-align: top; }
 
 .l-content {
   margin: 20px 0 70px 0; }
@@ -2351,6 +2371,9 @@ th {
     font-size: 1.8em;
     margin-top: 20px; }
 
+.l-home #s4-workspace {
+  height: 100% !important; }
+
 .l-mainContent {
   padding-top: 20px; }
   @media only screen and (min-width: 768px) {
@@ -2366,7 +2389,7 @@ th {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  min-height: 100%; }
+  height: 100%; }
 
 .l-primaryNav ul li a {
   display: block;
@@ -2476,7 +2499,7 @@ th {
     text-decoration: underline; }
 
 .labelSecondary {
-  font: 24px "Heroic", serif; }
+  font: 20px "Heroic", serif; }
 
 .labelSecondaryVinaEsmeralda {
   color: #1b4624; }

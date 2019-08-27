@@ -1,13 +1,14 @@
 .familiaTorresTheme {
   .componentContent__slogan {
     p {
-      font: 16px "Roboto", serif;
+      font: 16px "Arial", serif;
       line-height: 1.25em;
     }
   }
   .l-content {
     .labelDistro,
     .labelSecondary {
+      font: 20px "Arial", serif;
       color: $black;
     }
   }
@@ -40,14 +41,13 @@
   }
   .l-primaryNav {
     a {
-      color: $black;
-      font: 18px "Noto", serif;
-      letter-spacing: 0.1em;
+      color: $darkGrey;
+      font: 16px "Georgia", serif;
       line-height: normal;
-      padding: 0 0 0 5px;
+      padding: 3px 0 3px 5px;
       &:hover {
-        color: $black;
-        background-color: $orange;
+        color: $white;
+        background-color: $darkGrey;
       }
     }
   }
