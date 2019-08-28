@@ -2399,30 +2399,30 @@ th {
     color: #fff;
     text-decoration: none; }
 
-.l-breadcrumb {
+.breadcrumb {
   margin-top: 20px; }
-  .l-breadcrumb .ms-breadcrumb span {
+  .breadcrumb .ms-breadcrumb span {
     display: inline-block; }
-    .l-breadcrumb .ms-breadcrumb span:first-child a {
+    .breadcrumb .ms-breadcrumb span:first-child a {
       margin-left: 0; }
-    .l-breadcrumb .ms-breadcrumb span:first-child img {
+    .breadcrumb .ms-breadcrumb span:first-child img {
       height: 15px;
       width: 15px;
       vertical-align: bottom; }
-    .l-breadcrumb .ms-breadcrumb span:last-child a {
+    .breadcrumb .ms-breadcrumb span:last-child a {
       background: none; }
-    .l-breadcrumb .ms-breadcrumb span a {
+    .breadcrumb .ms-breadcrumb span a {
       background: url("../images/icon-breadCrumb.png") no-repeat right 50%;
       color: #262626;
       display: block;
       font-weight: 400;
       margin-left: 5px;
       padding-right: 15px; }
-      .l-breadcrumb .ms-breadcrumb span a:hover {
+      .breadcrumb .ms-breadcrumb span a:hover {
         text-decoration: underline; }
-    .l-breadcrumb .ms-breadcrumb span.ms-breadcrumbCurrentNode a {
+    .breadcrumb .ms-breadcrumb span.ms-breadcrumbCurrentNode a {
       color: #262626; }
-    .l-breadcrumb .ms-breadcrumb span:nth-child(2n + 0) {
+    .breadcrumb .ms-breadcrumb span:nth-child(2n + 0) {
       display: none; }
 
 .b_regular {
