@@ -1,58 +1,46 @@
-.familiaTorresTheme {
-  .componentContent__slogan {
-    p {
-      font: 16px "Arial", serif;
-      line-height: 1.25em;
-    }
+.torresCorporateTheme {
+  p {
+    font: 16px "Arial", serif;
+    line-height: 1.25em;
   }
   .l-content {
     .labelDistro,
     .labelSecondary {
       font: 20px "Arial", serif;
-      color: $black;
+      color: $darkGrey;
     }
   }
+
   .l-content {
     .labelDistro {
       font: 18px "Georgia", serif;
     }
   }
   .l-header {
-    padding: 10px 0;
-    background-color: $darkGrey;
-    .logoFigure {
-      width: 180px;
-    }
     .secondary-navigation {
       background-color: $darkGrey;
-      overflow: hidden;
     }
   }
   .l-footer {
     background-color: $darkGrey;
-    nav {
-      ul {
-        li {
-          a {
-            color: $white;
-            font: 16px "Roboto", serif;
-          }
-        }
-      }
-    }
-    .siteLink {
+    a {
       color: $white;
+      font: 16px "Heroic", serif;
+    }
+    .ico-svg {
+      fill: $white;
     }
   }
   .l-primaryNav {
     a {
       color: $darkGrey;
       font: 18px "Georgia", serif;
+      letter-spacing: 0.1em;
       line-height: normal;
       padding: 3px 0 3px 5px;
       &:hover {
-        color: $white;
         background-color: $darkGrey;
+        color: $white;
       }
     }
   }

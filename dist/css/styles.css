@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Open Sans Light"),local(OpenSans-Light),url(//fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuht.eot?#) format("eot"),url(//fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuhp.woff2) format("woff2"),url(//fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN_r8OUuhv.woff) format("woff"); }
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open Sans Regular"),local(OpenSans-Regular),url(//fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0f.eot?#) format("eot"),url(//fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0b.woff2) format("woff2"),url(//fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFVZ0d.woff) format("woff"); }
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Open Sans Bold"),local(OpenSans-Bold),url(//fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuht.eot?#) format("eot"),url(//fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhp.woff2) format("woff2"),url(//fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOUuhv.woff) format("woff"); }
 /* Custom Breakpoints*/
 /* Custom max-widths containers */
 /*Containers Fluid*/
@@ -919,7 +904,6 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  font: 16px/100% "Open Sans", serif;
   min-height: 100vh;
   overflow-y: scroll; }
 
@@ -1011,6 +995,14 @@ ul {
 @font-face {
   font-family: "Avenir";
   src: url("../fonts/AvenirLTStd-Medium.ttf"); }
+
+@font-face {
+  font-family: "BrandonGrotesque";
+  src: url("../fonts/BrandonGrotesque-Bold.otf"); }
+
+@font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro-Regular.otf"); }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -1493,6 +1485,9 @@ th {
   font: 20px "Roboto", serif;
   color: #000; }
 
+.governadorTheme .l-content .labelDistro {
+  font: 18px "Noto", serif; }
+
 .governadorTheme .l-primaryNav a {
   color: #000;
   font: 18px "Noto", serif;
@@ -1511,6 +1506,9 @@ th {
 .familiaTorresTheme .l-content .labelSecondary {
   font: 20px "Arial", serif;
   color: #000; }
+
+.familiaTorresTheme .l-content .labelDistro {
+  font: 18px "Georgia", serif; }
 
 .familiaTorresTheme .l-header {
   padding: 10px 0;
@@ -1531,7 +1529,7 @@ th {
 
 .familiaTorresTheme .l-primaryNav a {
   color: #262626;
-  font: 16px "Georgia", serif;
+  font: 18px "Georgia", serif;
   line-height: normal;
   padding: 3px 0 3px 5px; }
   .familiaTorresTheme .l-primaryNav a:hover {
@@ -1563,6 +1561,9 @@ th {
   font: 20px "futura", serif;
   color: #000; }
 
+.jeanLeonTheme .l-content .labelDistro {
+  font: 20px "leaguegothic", serif; }
+
 .jeanLeonTheme .l-primaryNav a {
   color: #000;
   font: 20px "leaguegothic", serif;
@@ -1580,6 +1581,9 @@ th {
 .magdalaTheme .l-content .labelSecondary {
   font: 20px "Roboto", serif;
   color: #000; }
+
+.magdalaTheme .l-content .labelDistro {
+  font: 18px "Noto", serif; }
 
 .magdalaTheme .l-header {
   padding: 10px 0;
@@ -1608,38 +1612,45 @@ th {
     color: #000;
     background-color: #f47d4c; }
 
-.marimarTheme {
+.marimarTheme p {
   font: 18px "Montserrat", serif;
   line-height: 1.25em; }
-  .marimarTheme p {
-    font: 18px "Montserrat", serif;
-    line-height: 1.25em; }
-  .marimarTheme .l-content .labelDistro,
-  .marimarTheme .l-content .labelSecondary {
-    font: 20px "Montserrat", serif;
+
+.marimarTheme .l-content .labelDistro,
+.marimarTheme .l-content .labelSecondary {
+  font: 20px "Montserrat", serif;
+  color: #000; }
+
+.marimarTheme .l-content .labelDistro {
+  font: 18px "PlayfairDisplay", serif; }
+
+.marimarTheme .l-header .secondary-navigation {
+  background-color: #a5945d; }
+
+.marimarTheme .l-header .logoFigure {
+  width: 200px; }
+
+.marimarTheme .l-header .header-search {
+  display: none; }
+
+.marimarTheme .l-header nav ul li a {
+  color: #fff; }
+
+.marimarTheme .l-footer {
+  background-color: #000; }
+  .marimarTheme .l-footer a {
+    color: #fff;
+    font: 16px "Heroic", serif; }
+
+.marimarTheme .l-primaryNav a {
+  color: #000;
+  font: 18px "PlayfairDisplay", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
+  .marimarTheme .l-primaryNav a:hover {
+    background-color: #a5945d;
     color: #000; }
-  .marimarTheme .l-header .secondary-navigation {
-    background-color: #a5945d; }
-  .marimarTheme .l-header .logoFigure {
-    width: 200px; }
-  .marimarTheme .l-header .header-search {
-    display: none; }
-  .marimarTheme .l-header nav ul li a {
-    color: #fff; }
-  .marimarTheme .l-footer {
-    background-color: #000; }
-    .marimarTheme .l-footer a {
-      color: #fff;
-      font: 16px "Heroic", serif; }
-  .marimarTheme .l-primaryNav a {
-    color: #000;
-    font: 18px "PlayfairDisplay", serif;
-    letter-spacing: 0.1em;
-    line-height: normal;
-    padding: 0 0 0 5px; }
-    .marimarTheme .l-primaryNav a:hover {
-      background-color: #a5945d;
-      color: #000; }
 
 .otherBrandsTheme p {
   color: #262626;
@@ -1650,6 +1661,9 @@ th {
 .otherBrandsTheme .l-content .labelSecondary {
   font: 20px "Arial", serif;
   color: #262626; }
+
+.otherBrandsTheme .l-content .labelDistro {
+  font: 18px "Georgia", serif; }
 
 .otherBrandsTheme .l-header .secondary-navigation {
   background-color: #262626; }
@@ -1664,7 +1678,7 @@ th {
 
 .otherBrandsTheme .l-primaryNav li a {
   color: #262626;
-  font: 16px "Georgia", serif;
+  font: 18px "Georgia", serif;
   letter-spacing: 0.1em;
   line-height: normal;
   padding: 3px 0 3px 5px; }
@@ -1681,6 +1695,9 @@ th {
 .rocadoTheme .l-content .labelSecondary {
   font: 20px "Roboto", serif;
   color: #000; }
+
+.rocadoTheme .l-content .labelDistro {
+  font: 18px "Noto", serif; }
 
 .rocadoTheme .l-header .logoFigure {
   width: 300px; }
@@ -1718,6 +1735,9 @@ th {
   font: 20px "Arial", serif;
   color: #dd0b2b; }
 
+.stTheme .l-content .labelDistro {
+  font: 22px "Heroic", serif; }
+
 .stTheme .l-header .logoFigure {
   width: 200px; }
 
@@ -1745,36 +1765,41 @@ th {
   .stTheme .l-primaryNav a:hover {
     background-color: #000; }
 
-.torresBrandyTheme {
-  font: 18px "Caslon", serif;
+.torresBrandyTheme p {
+  font: 18px "MyriadPro", serif;
   line-height: 1.25em; }
-  .torresBrandyTheme p {
-    font: 18px "Caslon", serif;
-    line-height: 1.25em; }
-  .torresBrandyTheme .l-content .labelDistro,
-  .torresBrandyTheme .l-content .labelSecondary {
-    font: 20px "Caslon", serif;
-    color: #000; }
-  .torresBrandyTheme .l-header .secondary-navigation {
-    background-color: #000; }
-  .torresBrandyTheme .l-header nav ul li a {
-    color: #ffc000; }
-  .torresBrandyTheme .l-footer {
-    background-color: #ffc000; }
-    .torresBrandyTheme .l-footer a {
-      color: #000;
-      font: 18px "Heroic", serif; }
-    .torresBrandyTheme .l-footer .ico-svg {
-      fill: #000; }
-  .torresBrandyTheme .l-primaryNav a {
+
+.torresBrandyTheme .l-content .labelDistro,
+.torresBrandyTheme .l-content .labelSecondary {
+  font: 20px "MyriadPro", serif;
+  color: #000; }
+
+.torresBrandyTheme .l-content .labelDistro {
+  font: 22px "BrandonGrotesque", serif; }
+
+.torresBrandyTheme .l-header .secondary-navigation {
+  background-color: #000; }
+
+.torresBrandyTheme .l-header nav ul li a {
+  color: #ffc000; }
+
+.torresBrandyTheme .l-footer {
+  background-color: #ffc000; }
+  .torresBrandyTheme .l-footer a {
     color: #000;
-    font: 22px "Heroic", serif;
-    letter-spacing: 0.1em;
-    line-height: normal;
-    padding: 0 0 0 5px; }
-    .torresBrandyTheme .l-primaryNav a:hover {
-      background-color: #ffc000;
-      color: #000; }
+    font: 18px "Heroic", serif; }
+  .torresBrandyTheme .l-footer .ico-svg {
+    fill: #000; }
+
+.torresBrandyTheme .l-primaryNav a {
+  color: #000;
+  font: 22px "BrandonGrotesque", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 0 0 0 5px; }
+  .torresBrandyTheme .l-primaryNav a:hover {
+    background-color: #ffc000;
+    color: #000; }
 
 .torresChileTheme {
   line-height: 1.25em; }
@@ -1785,6 +1810,8 @@ th {
   .torresChileTheme .l-content .labelSecondary {
     font: 20px "Avenir", serif;
     color: #000; }
+  .torresChileTheme .l-content .labelDistro {
+    font: 16px "Abril", serif; }
   .torresChileTheme .l-header .secondary-navigation {
     background-color: #21362b; }
   .torresChileTheme .l-header nav ul li a {
@@ -1813,6 +1840,9 @@ th {
   font: 20px "Arial", serif;
   color: #262626; }
 
+.torresPropertiesTheme .l-content .labelDistro {
+  font: 18px "Georgia", serif; }
+
 .torresPropertiesTheme .l-header .secondary-navigation {
   background-color: #262626; }
 
@@ -1834,9 +1864,45 @@ th {
     background-color: #262626;
     color: #fff; }
 
+.torresCorporateTheme p {
+  font: 16px "Arial", serif;
+  line-height: 1.25em; }
+
+.torresCorporateTheme .l-content .labelDistro,
+.torresCorporateTheme .l-content .labelSecondary {
+  font: 20px "Arial", serif;
+  color: #262626; }
+
+.torresCorporateTheme .l-content .labelDistro {
+  font: 18px "Georgia", serif; }
+
+.torresCorporateTheme .l-header .secondary-navigation {
+  background-color: #262626; }
+
+.torresCorporateTheme .l-footer {
+  background-color: #262626; }
+  .torresCorporateTheme .l-footer a {
+    color: #fff;
+    font: 16px "Heroic", serif; }
+  .torresCorporateTheme .l-footer .ico-svg {
+    fill: #fff; }
+
+.torresCorporateTheme .l-primaryNav a {
+  color: #262626;
+  font: 18px "Georgia", serif;
+  letter-spacing: 0.1em;
+  line-height: normal;
+  padding: 3px 0 3px 5px; }
+  .torresCorporateTheme .l-primaryNav a:hover {
+    background-color: #262626;
+    color: #fff; }
+
 .veTheme .l-content .labelDistro,
 .veTheme .l-content .labelSecondary {
   color: #1b4624; }
+
+.veTheme .l-content .labelDistro {
+  font: 16px "Lato", serif; }
 
 .veTheme .l-header .secondary-navigation {
   background-color: #f1f6e9; }
@@ -1887,12 +1953,13 @@ th {
       right: 0 !important;
       top: 0 !important; }
 
+/*
 .ms-tileview-tile-titleMedium,
 .ms-tileview-tile-titleMediumCollapsed,
 .ms-tileview-tile-titleExpanded {
   font-size: 14px;
-  vertical-align: top; }
-
+  vertical-align: top;
+}*/
 .l-content {
   margin: 20px 0 70px 0; }
 
@@ -2276,6 +2343,11 @@ th {
     z-index: 1; }
     .l-header .secondary-navigation img {
       vertical-align: middle; }
+    .l-header .secondary-navigation svg {
+      width: 200px;
+      fill: #ffffff;
+      vertical-align: middle;
+      padding: 10px 0; }
     .l-header .secondary-navigation .logo {
       opacity: 1; }
     .l-header .secondary-navigation nav {
@@ -2496,7 +2568,7 @@ th {
   font-size: 1.2em; }
   .labelMenu:hover {
     color: #beb0aa;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 .labelSecondary {
   font: 20px "Heroic", serif; }

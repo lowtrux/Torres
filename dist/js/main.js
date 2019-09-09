@@ -101,7 +101,7 @@ __webpack_require__.r(__webpack_exports__);
 
 __webpack_require__(5);
 
-__webpack_require__(98);
+__webpack_require__(102);
 
 /***/ }),
 /* 1 */
@@ -720,16 +720,20 @@ var map = {
 	"./torresBrandyHome2.png": 85,
 	"./torresBrandyHome3.png": 86,
 	"./torresBrandyWhite.png": 87,
-	"./torresCorporateLogo.png": 88,
-	"./torresHome1.png": 89,
-	"./torresHome2.png": 90,
-	"./torresHome3.png": 91,
-	"./twitter.svg": 92,
-	"./vinaEsmeralda.png": 93,
-	"./vinaEsmeraldaGold.png": 94,
-	"./vinaEsmeraldaW.png": 95,
-	"./wineIcons.png": 96,
-	"./youtube.svg": 97
+	"./torresCorporate.png": 88,
+	"./torresCorporate01.jpg": 89,
+	"./torresCorporate02.jpg": 90,
+	"./torresCorporate03.jpg": 91,
+	"./torresCorporateLogo.png": 92,
+	"./torresHome1.png": 93,
+	"./torresHome2.png": 94,
+	"./torresHome3.png": 95,
+	"./twitter.svg": 96,
+	"./vinaEsmeralda.png": 97,
+	"./vinaEsmeraldaGold.png": 98,
+	"./vinaEsmeraldaW.png": 99,
+	"./wineIcons.png": 100,
+	"./youtube.svg": 101
 };
 
 
@@ -1248,81 +1252,106 @@ module.exports = __webpack_require__.p + "images/torresBrandyWhite.png";
 /* 88 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/torresCorporateLogo.png";
+module.exports = __webpack_require__.p + "images/torresCorporate.png";
 
 /***/ }),
 /* 89 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/torresHome1.png";
+module.exports = __webpack_require__.p + "images/torresCorporate01.jpg";
 
 /***/ }),
 /* 90 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/torresHome2.png";
+module.exports = __webpack_require__.p + "images/torresCorporate02.jpg";
 
 /***/ }),
 /* 91 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/torresHome3.png";
+module.exports = __webpack_require__.p + "images/torresCorporate03.jpg";
 
 /***/ }),
 /* 92 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/twitter.svg";
+module.exports = __webpack_require__.p + "images/torresCorporateLogo.png";
 
 /***/ }),
 /* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeralda.png";
+module.exports = __webpack_require__.p + "images/torresHome1.png";
 
 /***/ }),
 /* 94 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeraldaGold.png";
+module.exports = __webpack_require__.p + "images/torresHome2.png";
 
 /***/ }),
 /* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
+module.exports = __webpack_require__.p + "images/torresHome3.png";
 
 /***/ }),
 /* 96 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/wineIcons.png";
+module.exports = __webpack_require__.p + "images/twitter.svg";
 
 /***/ }),
 /* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/youtube.svg";
+module.exports = __webpack_require__.p + "images/vinaEsmeralda.png";
 
 /***/ }),
 /* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaGold.png";
+
+/***/ }),
+/* 99 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/vinaEsmeraldaW.png";
+
+/***/ }),
+/* 100 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/wineIcons.png";
+
+/***/ }),
+/* 101 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/youtube.svg";
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var map = {
-	"./AbrilFatface-Regular.ttf": 99,
-	"./AdobeCaslonProRegular.ttf": 100,
-	"./AvenirLTStd-Black.ttf": 101,
-	"./AvenirLTStd-Medium.ttf": 102,
-	"./HeroicCondensed-Bold.ttf": 103,
-	"./HoeflerText.ttf": 104,
-	"./Lato-Regular.ttf": 105,
-	"./Montserrat-Light.ttf": 106,
-	"./NotoSerif-Regular.ttf": 107,
-	"./PlayfairDisplay-Regular.ttf": 108,
-	"./Roboto-Regular.ttf": 109,
-	"./futura.ttf": 110,
-	"./leaguegothic.ttf": 111,
-	"./trailers.ttf": 112
+	"./AbrilFatface-Regular.ttf": 103,
+	"./AdobeCaslonProRegular.ttf": 104,
+	"./AvenirLTStd-Black.ttf": 105,
+	"./AvenirLTStd-Medium.ttf": 106,
+	"./HeroicCondensed-Bold.ttf": 107,
+	"./HoeflerText.ttf": 108,
+	"./Lato-Regular.ttf": 109,
+	"./Montserrat-Light.ttf": 110,
+	"./MyriadPro-Regular.ttf": 111,
+	"./NotoSerif-Regular.ttf": 112,
+	"./PlayfairDisplay-Regular.ttf": 113,
+	"./Roboto-Regular.ttf": 114,
+	"./futura.ttf": 115,
+	"./leaguegothic.ttf": 116,
+	"./trailers.ttf": 117
 };
 
 
@@ -1343,88 +1372,94 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 98;
-
-/***/ }),
-/* 99 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AbrilFatface-Regular.ttf";
-
-/***/ }),
-/* 100 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AdobeCaslonProRegular.ttf";
-
-/***/ }),
-/* 101 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AvenirLTStd-Black.ttf";
-
-/***/ }),
-/* 102 */
-/***/ (function(module, exports) {
-
-module.exports = "../fonts/AvenirLTStd-Medium.ttf";
+webpackContext.id = 102;
 
 /***/ }),
 /* 103 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HeroicCondensed-Bold.ttf";
+module.exports = "../fonts/AbrilFatface-Regular.ttf";
 
 /***/ }),
 /* 104 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HoeflerText.ttf";
+module.exports = "../fonts/AdobeCaslonProRegular.ttf";
 
 /***/ }),
 /* 105 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Lato-Regular.ttf";
+module.exports = "../fonts/AvenirLTStd-Black.ttf";
 
 /***/ }),
 /* 106 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Montserrat-Light.ttf";
+module.exports = "../fonts/AvenirLTStd-Medium.ttf";
 
 /***/ }),
 /* 107 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/NotoSerif-Regular.ttf";
+module.exports = "../fonts/HeroicCondensed-Bold.ttf";
 
 /***/ }),
 /* 108 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
+module.exports = "../fonts/HoeflerText.ttf";
 
 /***/ }),
 /* 109 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Roboto-Regular.ttf";
+module.exports = "../fonts/Lato-Regular.ttf";
 
 /***/ }),
 /* 110 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/futura.ttf";
+module.exports = "../fonts/Montserrat-Light.ttf";
 
 /***/ }),
 /* 111 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/leaguegothic.ttf";
+module.exports = "../fonts/MyriadPro-Regular.ttf";
 
 /***/ }),
 /* 112 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/NotoSerif-Regular.ttf";
+
+/***/ }),
+/* 113 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
+
+/***/ }),
+/* 114 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/Roboto-Regular.ttf";
+
+/***/ }),
+/* 115 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/futura.ttf";
+
+/***/ }),
+/* 116 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/leaguegothic.ttf";
+
+/***/ }),
+/* 117 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/trailers.ttf";

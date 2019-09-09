@@ -1,15 +1,18 @@
 .torresBrandyTheme {
-  font: 18px "Caslon", serif;
-  line-height: 1.25em;
   p {
-    font: 18px "Caslon", serif;
+    font: 18px "MyriadPro", serif;
     line-height: 1.25em;
   }
   .l-content {
     .labelDistro,
     .labelSecondary {
-      font: 20px "Caslon", serif;
+      font: 20px "MyriadPro", serif;
       color: $black;
+    }
+  }
+  .l-content {
+    .labelDistro {
+      font: 22px "BrandonGrotesque", serif;
     }
   }
   .l-header {
@@ -33,7 +36,7 @@
   .l-primaryNav {
     a {
       color: $black;
-      font: 22px "Heroic", serif;
+      font: 22px "BrandonGrotesque", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;

@@ -12,6 +12,11 @@
       color: $black;
     }
   }
+  .l-content {
+    .labelDistro {
+      font: 18px "Noto", serif;
+    }
+  }
   .l-header {
     padding: 10px 0;
     background-color: $orange;

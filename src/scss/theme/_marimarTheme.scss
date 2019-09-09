@@ -1,6 +1,4 @@
 .marimarTheme {
-  font: 18px "Montserrat", serif;
-  line-height: 1.25em;
   p {
     font: 18px "Montserrat", serif;
     line-height: 1.25em;
@@ -10,6 +8,11 @@
     .labelSecondary {
       font: 20px "Montserrat", serif;
       color: $black;
+    }
+  }
+  .l-content {
+    .labelDistro {
+      font: 18px "PlayfairDisplay", serif;
     }
   }
   .l-header {

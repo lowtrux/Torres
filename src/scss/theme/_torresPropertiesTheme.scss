@@ -10,6 +10,12 @@
       color: $darkGrey;
     }
   }
+
+  .l-content {
+    .labelDistro {
+      font: 18px "Georgia", serif;
+    }
+  }
   .l-header {
     .secondary-navigation {
       background-color: $darkGrey;

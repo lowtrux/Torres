@@ -11,6 +11,11 @@
       color: $black;
     }
   }
+  .l-content {
+    .labelDistro {
+      font: 16px "Abril", serif;
+    }
+  }
   .l-header {
     .secondary-navigation {
       background-color: $darkGreen;

@@ -11,6 +11,11 @@
       color: $darkGrey;
     }
   }
+  .l-content {
+    .labelDistro {
+      font: 18px "Georgia", serif;
+    }
+  }
   .l-header {
     .secondary-navigation {
       background-color: $darkGrey;
@@ -30,7 +35,7 @@
     li {
       a {
         color: $darkGrey;
-        font: 16px "Georgia", serif;
+        font: 18px "Georgia", serif;
         letter-spacing: 0.1em;
         line-height: normal;
         padding: 3px 0 3px 5px;
