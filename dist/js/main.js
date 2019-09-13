@@ -1337,21 +1337,22 @@ module.exports = __webpack_require__.p + "images/youtube.svg";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./AbrilFatface-Regular.ttf": 103,
-	"./AdobeCaslonProRegular.ttf": 104,
-	"./AvenirLTStd-Black.ttf": 105,
-	"./AvenirLTStd-Medium.ttf": 106,
-	"./HeroicCondensed-Bold.ttf": 107,
-	"./HoeflerText.ttf": 108,
-	"./Lato-Regular.ttf": 109,
-	"./Montserrat-Light.ttf": 110,
-	"./MyriadPro-Regular.ttf": 111,
-	"./NotoSerif-Regular.ttf": 112,
-	"./PlayfairDisplay-Regular.ttf": 113,
-	"./Roboto-Regular.ttf": 114,
-	"./futura.ttf": 115,
-	"./leaguegothic.ttf": 116,
-	"./trailers.ttf": 117
+	"./396989_3_0.ttf": 103,
+	"./AbrilFatface-Regular.ttf": 104,
+	"./AdobeCaslonProRegular.ttf": 105,
+	"./AvenirLTStd-Black.ttf": 106,
+	"./AvenirLTStd-Medium.ttf": 107,
+	"./HeroicCondensed-Bold.ttf": 108,
+	"./HoeflerText.ttf": 109,
+	"./Lato-Regular.ttf": 110,
+	"./Montserrat-Light.ttf": 111,
+	"./MyriadPro-Regular.ttf": 112,
+	"./NotoSerif-Regular.ttf": 113,
+	"./PlayfairDisplay-Regular.ttf": 114,
+	"./Roboto-Regular.ttf": 115,
+	"./futura.ttf": 116,
+	"./leaguegothic.ttf": 117,
+	"./trailers.ttf": 118
 };
 
 
@@ -1378,88 +1379,94 @@ webpackContext.id = 102;
 /* 103 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/AbrilFatface-Regular.ttf";
+module.exports = "../fonts/396989_3_0.ttf";
 
 /***/ }),
 /* 104 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/AdobeCaslonProRegular.ttf";
+module.exports = "../fonts/AbrilFatface-Regular.ttf";
 
 /***/ }),
 /* 105 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/AvenirLTStd-Black.ttf";
+module.exports = "../fonts/AdobeCaslonProRegular.ttf";
 
 /***/ }),
 /* 106 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/AvenirLTStd-Medium.ttf";
+module.exports = "../fonts/AvenirLTStd-Black.ttf";
 
 /***/ }),
 /* 107 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HeroicCondensed-Bold.ttf";
+module.exports = "../fonts/AvenirLTStd-Medium.ttf";
 
 /***/ }),
 /* 108 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HoeflerText.ttf";
+module.exports = "../fonts/HeroicCondensed-Bold.ttf";
 
 /***/ }),
 /* 109 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Lato-Regular.ttf";
+module.exports = "../fonts/HoeflerText.ttf";
 
 /***/ }),
 /* 110 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Montserrat-Light.ttf";
+module.exports = "../fonts/Lato-Regular.ttf";
 
 /***/ }),
 /* 111 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/MyriadPro-Regular.ttf";
+module.exports = "../fonts/Montserrat-Light.ttf";
 
 /***/ }),
 /* 112 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/NotoSerif-Regular.ttf";
+module.exports = "../fonts/MyriadPro-Regular.ttf";
 
 /***/ }),
 /* 113 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
+module.exports = "../fonts/NotoSerif-Regular.ttf";
 
 /***/ }),
 /* 114 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/Roboto-Regular.ttf";
+module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
 
 /***/ }),
 /* 115 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/futura.ttf";
+module.exports = "../fonts/Roboto-Regular.ttf";
 
 /***/ }),
 /* 116 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/leaguegothic.ttf";
+module.exports = "../fonts/futura.ttf";
 
 /***/ }),
 /* 117 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/leaguegothic.ttf";
+
+/***/ }),
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/trailers.ttf";

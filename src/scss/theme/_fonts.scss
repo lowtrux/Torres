@@ -55,10 +55,10 @@
   src: url("../fonts/AvenirLTStd-Medium.ttf");
 }
 @font-face {
-  font-family: "BrandonGrotesque";
-  src: url("../fonts/BrandonGrotesque-Bold.otf");
-}
-@font-face {
-  font-family: "MyriadPro";
-  src: url("../fonts/MyriadPro-Regular.otf");
+  font-family: "BrandonGrotesqueWeb-Bold";
+  src: url("../fonts/396989_3_0.eot");
+  src: url("../fonts/396989_3_0.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/396989_3_0.woff2") format("woff2"),
+    url("../fonts/396989_3_0.woff") format("woff"),
+    url("../fonts/396989_3_0.ttf") format("truetype");
 }

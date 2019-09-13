@@ -997,12 +997,9 @@ ul {
   src: url("../fonts/AvenirLTStd-Medium.ttf"); }
 
 @font-face {
-  font-family: "BrandonGrotesque";
-  src: url("../fonts/BrandonGrotesque-Bold.otf"); }
-
-@font-face {
-  font-family: "MyriadPro";
-  src: url("../fonts/MyriadPro-Regular.otf"); }
+  font-family: "BrandonGrotesqueWeb-Bold";
+  src: url("../fonts/396989_3_0.eot");
+  src: url("../fonts/396989_3_0.eot?#iefix") format("embedded-opentype"), url("../fonts/396989_3_0.woff2") format("woff2"), url("../fonts/396989_3_0.woff") format("woff"), url("../fonts/396989_3_0.ttf") format("truetype"); }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
@@ -1461,12 +1458,44 @@ th {
 .showSection {
   display: block !important; }
 
+.svg-120 {
+  width: 120px;
+  fill: #fff; }
+
+.svg-150 {
+  width: 150px;
+  fill: #fff; }
+
+.svg-180 {
+  width: 180px;
+  fill: #fff; }
+
+.svg-180-black {
+  width: 180px;
+  fill: #000; }
+
+.svg-200 {
+  width: 200px;
+  fill: #fff; }
+
+.svg-200-black {
+  width: 200px;
+  fill: #000; }
+
+.svg-215 {
+  width: 250px;
+  fill: #fff; }
+
 .governadorTheme .componentContent__slogan p {
   font: 18px "Roboto", serif;
   line-height: 1.25em; }
 
 .governadorTheme .l-header .logoFigure {
   width: 225px; }
+
+.governadorTheme .l-header .logo-svg {
+  width: 225px;
+  fill: #000; }
 
 .governadorTheme .l-header nav ul li a {
   color: #000; }
@@ -1515,6 +1544,8 @@ th {
   background-color: #262626; }
   .familiaTorresTheme .l-header .logoFigure {
     width: 180px; }
+  .familiaTorresTheme .l-header .logo-svg {
+    width: 200px; }
   .familiaTorresTheme .l-header .secondary-navigation {
     background-color: #262626;
     overflow: hidden; }
@@ -1590,6 +1621,9 @@ th {
   background-color: #f47d4c; }
   .magdalaTheme .l-header .logoFigure {
     width: 180px; }
+  .magdalaTheme .l-header .logo-svg {
+    width: 180px;
+    fill: #000; }
   .magdalaTheme .l-header .secondary-navigation {
     background-color: #f47d4c;
     overflow: hidden; }
@@ -1640,7 +1674,7 @@ th {
   background-color: #000; }
   .marimarTheme .l-footer a {
     color: #fff;
-    font: 16px "Heroic", serif; }
+    font: 16px "PlayfairDisplay", serif; }
 
 .marimarTheme .l-primaryNav a {
   color: #000;
@@ -1700,6 +1734,9 @@ th {
   font: 18px "Noto", serif; }
 
 .rocadoTheme .l-header .logoFigure {
+  width: 300px; }
+
+.rocadoTheme .l-header .logo-svg {
   width: 300px; }
 
 .rocadoTheme .l-header .secondary-navigation {
@@ -1775,7 +1812,7 @@ th {
   color: #000; }
 
 .torresBrandyTheme .l-content .labelDistro {
-  font: 22px "BrandonGrotesque", serif; }
+  font: 22px "BrandonGrotesqueWeb-Bold", serif; }
 
 .torresBrandyTheme .l-header .secondary-navigation {
   background-color: #000; }
@@ -1793,7 +1830,7 @@ th {
 
 .torresBrandyTheme .l-primaryNav a {
   color: #000;
-  font: 22px "BrandonGrotesque", serif;
+  font: 22px "BrandonGrotesqueWeb-Bold", serif;
   letter-spacing: 0.1em;
   line-height: normal;
   padding: 0 0 0 5px; }
@@ -1820,7 +1857,7 @@ th {
     background-color: #000; }
     .torresChileTheme .l-footer a {
       color: #fff;
-      font: 16px "Heroic", serif; }
+      font: 16px "Abril", serif; }
   .torresChileTheme .l-primaryNav a {
     color: #000;
     font: 16px "Abril", serif;
@@ -1910,6 +1947,9 @@ th {
 .veTheme .l-header .header-search {
   display: none; }
 
+.veTheme .l-header .logo-svg {
+  fill: #1b4624; }
+
 .veTheme .l-header nav ul li a {
   color: #fff; }
 
@@ -1952,6 +1992,19 @@ th {
       bottom: 0 !important;
       right: 0 !important;
       top: 0 !important; }
+
+.js-callout-closeButton {
+  width: 25px;
+  height: 25px; }
+
+.ms-tileview-tile-titleMediumCollapsed,
+.ms-tileview-tile-titleMediumCollapsed {
+  display: block; }
+
+.ms-tileview-tile-titleTextMediumCollapsed,
+.ms-tileview-tile-titleTextMediumExpanded {
+  word-wrap: break-word;
+  display: block; }
 
 /*
 .ms-tileview-tile-titleMedium,
@@ -2413,6 +2466,12 @@ th {
         .l-header .submenu-categories span a:hover {
           text-decoration: underline !important; }
 
+.l-home .svg-logocorporate {
+  width: 300px;
+  fill: #fff;
+  margin: 0 auto;
+  display: block; }
+
 .l-home body {
   background-color: transparent;
   height: 100%;
@@ -2422,8 +2481,7 @@ th {
     .l-home body {
       -webkit-box-align: center;
               align-items: center;
-      display: -webkit-box;
-      display: flex;
+      display: block;
       -webkit-box-pack: center;
               justify-content: center; } }
   @media only screen and (min-width: 768px) {
@@ -2532,6 +2590,9 @@ th {
 .componentContent__title {
   width: 220px; }
 
+.componentContent__bold {
+  font-weight: bold; }
+
 .imgWrapper {
   margin-top: 20px;
   text-align: center; }
@@ -2618,10 +2679,29 @@ th {
     font-weight: 400;
     line-height: 1.25em;
     margin-top: 10px; }
+  .product__imgcontainer {
+    width: 100%;
+    padding-top: 67%;
+    position: relative;
+    margin-top: 10px; }
+  .product__img {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%; }
   .product__picture {
     margin-top: 20px;
     max-height: 453px;
     max-width: 100%; }
+  .product__svgwines {
+    height: 453px;
+    fill: #fff; }
   .product__price {
     color: #979797;
     display: block;

@@ -1,4 +1,10 @@
 .l-home {
+  .svg-logocorporate {
+    width: 300px;
+    fill: $white;
+    margin: 0 auto;
+    display: block;
+  }
   body {
     background-color: transparent;
     height: 100%;
@@ -9,8 +15,8 @@
     background-size: cover;
     @media only screen and (min-width: 768px) {
       align-items: center;
-      display: -ms-flexbox;
-      display: flex;
+      // display: -ms-flexbox;
+      display: block;
       justify-content: center;
     }
     .container {
