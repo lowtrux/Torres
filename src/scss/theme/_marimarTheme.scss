@@ -2,17 +2,19 @@
   p {
     font: 18px "Montserrat", serif;
     line-height: 1.25em;
+    font-weight: 300;
   }
   .l-content {
     .labelDistro,
     .labelSecondary {
       font: 20px "Montserrat", serif;
       color: $black;
+      font-weight: 300;
     }
   }
   .l-content {
     .labelDistro {
-      font: 18px "PlayfairDisplay", serif;
+      font: 18px "Playfair Display", serif;
     }
   }
   .l-header {
@@ -33,13 +35,13 @@
     background-color: $black;
     a {
       color: $white;
-      font: 16px "PlayfairDisplay", serif;
+      font: 16px "Playfair Display", serif;
     }
   }
   .l-primaryNav {
     a {
       color: $black;
-      font: 18px "PlayfairDisplay", serif;
+      font: 18px "Playfair Display", serif;
       letter-spacing: 0.1em;
       line-height: normal;
       padding: 0 0 0 5px;

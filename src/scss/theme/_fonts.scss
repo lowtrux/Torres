@@ -1,59 +1,61 @@
+//imports-----------------------------------------------
+//Marimar title
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display&display=swap");
+//Marimar body
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300&display=swap");
+//El gobernador, rocado, magdala title
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+//El gobernador, rocado, magdala body
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+//Viña esmeralda title
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+//viña esmeralda body
 @font-face {
-  font-family: "Caslon";
-  src: url("../fonts/AdobeCaslonProRegular.eot");
-  src: url("../fonts/AdobeCaslonProRegular.eot#iefix")
-      format("embedded-opentype"),
-    url("../fonts/AdobeCaslonProRegular.ttf");
+  font-family: "Hoefler";
+  src: url("../fonts/HoeflerText-Roman.eot");
+  src: url("../fonts/HoeflerText-Roman.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/HoeflerText-Roman.ttf") format("truetype"),
+    url("../fonts/HoeflerText-Roman.woff") format("woff");
 }
+
+//sangre de toro title
 @font-face {
   font-family: "Heroic";
   src: url("../fonts/HeroicCondensed-Bold.eot");
   src: url("../fonts/HeroicCondensed-Bold.eot#iefix")
       format("embedded-opentype"),
     url("../fonts/HeroicCondensed-Bold.ttf"),
-    url("../fonts/HeroicCondensed-Bold.woff"),
-    url("../fonts/HeroicCondensed-Bold.woff2");
+    url("../fonts/HeroicCondensed-Bold.woff");
 }
-@font-face {
-  font-family: "Lato";
-  src: url("../fonts/Lato-Regular.ttf");
-}
-@font-face {
-  font-family: "Hoefler";
-  src: url("../fonts/HoeflerText.ttf");
-}
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.ttf");
-}
-@font-face {
-  font-family: "Noto";
-  src: url("../fonts/NotoSerif-Regular.ttf");
-}
-@font-face {
-  font-family: "Montserrat";
-  src: url("../fonts/Montserrat-Light.ttf");
-}
-@font-face {
-  font-family: "PlayfairDisplay";
-  src: url("../fonts/PlayfairDisplay-Regular.ttf");
-}
+
+//sangre de toro body
+
+@import url("https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap");
+
+//Jean Leon
 @font-face {
   font-family: "leaguegothic";
-  src: url("../fonts/leaguegothic.ttf");
+  src: url("../fonts/LeagueGothic-Regular.eot");
+  src: url("../fonts/LeagueGothic-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/LeagueGothic-Regular.ttf"),
+    url("../fonts/LeagueGothic-Regular.woff");
+
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: "futura";
-  src: url("../fonts/futura.ttf");
+  src: url("../fonts/FuturaStd-Medium.eot");
+  src: url("../fonts/FuturaStd-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/FuturaStd-Medium.ttf"), url("../fonts/FuturaStd-Medium.woff");
+
+  font-weight: normal;
+  font-style: normal;
 }
-@font-face {
-  font-family: "Abril";
-  src: url("../fonts/AbrilFatface-Regular.ttf");
-}
-@font-face {
-  font-family: "Avenir";
-  src: url("../fonts/AvenirLTStd-Medium.ttf");
-}
+
 @font-face {
   font-family: "BrandonGrotesqueWeb-Bold";
   src: url("../fonts/396989_3_0.eot");
@@ -61,4 +63,28 @@
     url("../fonts/396989_3_0.woff2") format("woff2"),
     url("../fonts/396989_3_0.woff") format("woff"),
     url("../fonts/396989_3_0.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+//Chile title
+@font-face {
+  font-family: "Abril";
+  src: url("../fonts/AbrilDisplay-SemiBold.eot");
+  src: url("../fonts/AbrilDisplay-SemiBold.eot#iefix")
+      format("embedded-opentype"),
+    url("../fonts/AbrilDisplay-SemiBold.ttf"),
+    url("../fonts/AbrilDisplay-SemiBold.woff"),
+    url("../fonts/AbrilDisplay-SemiBold.woff2"),
+    url("../fonts/AvenirLTStd-Light.svg");
+}
+
+//Chile body
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/AvenirLTStd-Light.eot");
+  src: url("../fonts/AvenirLTStd-Light.eot#iefix") format("embedded-opentype"),
+    url("../fonts/AvenirLTStd-Light.ttf"),
+    url("../fonts/AvenirLTStd-Light.woff"),
+    url("../fonts/AvenirLTStd-Light.woff2"),
+    url("../fonts/AbrilDisplay-SemiBold.svg");
 }
