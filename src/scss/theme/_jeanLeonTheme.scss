@@ -1,7 +1,7 @@
 .jeanLeonTheme {
   .componentContent__slogan {
     p {
-      font: 20px "futura", serif;
+      font: 20px "Roboto", serif;
       line-height: 1.25em;
     }
   }
@@ -17,7 +17,7 @@
     background-color: $grey;
     a {
       color: $black;
-      font: 18px "leaguegothic", serif;
+      font: 18px "Roboto", serif;
     }
     .ctn {
       .siteLink {
@@ -31,19 +31,19 @@
   .l-content {
     .labelDistro,
     .labelSecondary {
-      font: 20px "futura", serif;
+      font: 20px "Roboto", serif;
       color: $black;
     }
   }
   .l-content {
     .labelDistro {
-      font: 20px "leaguegothic", serif;
+      font: 20px "Roboto", serif;
     }
   }
   .l-primaryNav {
     a {
       color: $black;
-      font: 20px "leaguegothic", serif;
+      font: 20px "Roboto", serif;
       letter-spacing: 0.1em;
       padding: 0 0 0 5px;
       &:hover {

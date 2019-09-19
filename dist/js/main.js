@@ -1344,14 +1344,15 @@ var map = {
 	"./AvenirLTStd-Black.ttf": 107,
 	"./AvenirLTStd-Light.ttf": 108,
 	"./AvenirLTStd-Medium.ttf": 109,
-	"./FuturaStd-Medium.ttf": 110,
-	"./HeroicCondensed-Bold.ttf": 111,
-	"./HoeflerText-Roman.ttf": 112,
-	"./LeagueGothic-Regular.ttf": 113,
-	"./MyriadPro-Regular.ttf": 114,
-	"./PlayfairDisplay-Regular.ttf": 115,
-	"./leaguegothic.ttf": 116,
-	"./trailers.ttf": 117
+	"./Caslon224Std-Black.ttf": 110,
+	"./FuturaStd-Medium.ttf": 111,
+	"./HeroicCondensed-Bold.ttf": 112,
+	"./HoeflerText-Roman.ttf": 113,
+	"./LeagueGothic-Regular.ttf": 114,
+	"./MyriadPro-Regular.ttf": 115,
+	"./PlayfairDisplay-Regular.ttf": 116,
+	"./leaguegothic.ttf": 117,
+	"./trailers.ttf": 118
 };
 
 
@@ -1420,46 +1421,52 @@ module.exports = "../fonts/AvenirLTStd-Medium.ttf";
 /* 110 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/FuturaStd-Medium.ttf";
+module.exports = "../fonts/Caslon224Std-Black.ttf";
 
 /***/ }),
 /* 111 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HeroicCondensed-Bold.ttf";
+module.exports = "../fonts/FuturaStd-Medium.ttf";
 
 /***/ }),
 /* 112 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/HoeflerText-Roman.ttf";
+module.exports = "../fonts/HeroicCondensed-Bold.ttf";
 
 /***/ }),
 /* 113 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/LeagueGothic-Regular.ttf";
+module.exports = "../fonts/HoeflerText-Roman.ttf";
 
 /***/ }),
 /* 114 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/MyriadPro-Regular.ttf";
+module.exports = "../fonts/LeagueGothic-Regular.ttf";
 
 /***/ }),
 /* 115 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
+module.exports = "../fonts/MyriadPro-Regular.ttf";
 
 /***/ }),
 /* 116 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/leaguegothic.ttf";
+module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
 
 /***/ }),
 /* 117 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/leaguegothic.ttf";
+
+/***/ }),
+/* 118 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/trailers.ttf";

@@ -31,8 +31,13 @@
 }
 
 //sangre de toro body
-
-@import url("https://fonts.googleapis.com/css?family=Libre+Caslon+Text&display=swap");
+@font-face {
+  font-family: "Caslon224Std-Black";
+  src: url("../fonts/Caslon224Std-Black.eot");
+  src: url("../fonts/Caslon224Std-Black.eot#iefix") format("embedded-opentype"),
+    url("../fonts/Caslon224Std-Black.ttf"),
+    url("../fonts/Caslon224Std-Black.woff");
+}
 
 //Jean Leon
 @font-face {
