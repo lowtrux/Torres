@@ -21,10 +21,9 @@
   }
 }
 .flex-horizontal {
-  padding: 50px 0;
+  padding: 20px 0 0 20px;
   @media only screen and (min-width: 1024px) {
-    align-content: center;
-    align-items: center;
+    padding: 50px 0;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -37,10 +36,13 @@
   @media only screen and (min-width: 1024px) {
     align-items: center;
     display: flex;
-    margin-top: 40px;
+    justify-content: center;
     &:first-child {
       margin-top: 0;
     }
+  }
+  @media only screen and (min-width: 1400px) {
+    margin-top: 20px;
   }
   img {
     flex-shrink: 0;
@@ -54,8 +56,15 @@
 .flex-h-center {
   justify-content: center;
 }
+.full-height {
+  height: 100%;
+}
+.half {
+  height: 50%;
+}
 .halfBrown {
   background-color: #262626;
+  padding-bottom: 20px;
 }
 .hideSection {
   display: none !important;
@@ -99,17 +108,14 @@
 .showSection {
   display: block !important;
 }
-
 .svg-120 {
   width: 120px;
   fill: $white;
 }
-
 .svg-150 {
   width: 150px;
   fill: $white;
 }
-
 .svg-180 {
   width: 180px;
   fill: $white;
@@ -118,7 +124,6 @@
   width: 180px;
   fill: $black;
 }
-
 .svg-200 {
   width: 200px;
   fill: $white;
@@ -127,12 +132,10 @@
   width: 200px;
   fill: $black;
 }
-
 .svg-215 {
   width: 250px;
   fill: $white;
 }
-
 .svg-400 {
   width: 400px;
 }

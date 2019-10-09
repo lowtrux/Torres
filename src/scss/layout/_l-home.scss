@@ -1,4 +1,7 @@
 .l-home {
+  #s4-workspace {
+    height: 100% !important;
+  }
   .svg-logocorporate {
     width: 300px;
     fill: $white;
@@ -23,9 +26,11 @@
     }
     .container {
       .imageContainer {
-        @media only screen and (min-width: 768px) {
-          display: flex;
-          justify-content: center;
+        margin: 50px auto;
+        overflow: hidden;
+        .optionContainer {
+          float: left;
+          width: 50%;
         }
       }
       .logoCorporate {
@@ -42,7 +47,7 @@
       }
     }
   }
-  #s4-workspace {
-    height: 100% !important;
+  .imageContainer {
+    margin-top: 50px;
   }
 }

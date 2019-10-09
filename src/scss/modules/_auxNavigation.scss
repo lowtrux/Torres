@@ -1,0 +1,18 @@
+.icon-navigation {
+  ul {
+    li {
+      line-height: 0;
+      float: left;
+      margin-right: 14px;
+      margin-bottom: 10px;
+      a {
+        cursor: pointer;
+        svg {
+          height: 20px;
+          padding: 0;
+          width: 20px;
+        }
+      }
+    }
+  }
+}

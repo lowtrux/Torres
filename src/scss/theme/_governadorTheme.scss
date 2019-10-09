@@ -18,6 +18,9 @@
     }
     .secondary-navigation {
       background-color: $yellowGreen;
+      .ctn .icon-navigation ul li a svg {
+        fill: $black;
+      }
     }
   }
   .l-footer {

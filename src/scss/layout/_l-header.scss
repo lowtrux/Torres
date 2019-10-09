@@ -39,6 +39,7 @@
     }
     .container-fluid {
       height: 40px;
+
       padding-right: 0;
       padding-left: 0;
     }
@@ -391,23 +392,25 @@
     position: relative;
     text-align: center;
     z-index: 1;
+    .container-fluid {
+      padding: 0;
+    }
     img {
       vertical-align: middle;
     }
-    svg {
-      width: 200px;
-      fill: #ffffff;
-      vertical-align: middle;
-      padding: 10px 0;
-    }
     .logo {
       opacity: 1;
+      a {
+        svg {
+          width: 200px;
+          fill: #ffffff;
+          vertical-align: middle;
+          padding: 10px 0;
+        }
+      }
     }
     nav {
       display: inline-block;
-      float: right;
-    }
-    nav {
       .with-border {
         border-right: 1px solid $white;
         padding-right: 0em;
@@ -439,7 +442,10 @@
       }
     }
     .ctn {
+      margin: 0 auto;
+      max-width: 1366px;
       overflow: hidden;
+      padding: 0 15px;
       width: 100%;
     }
   }

@@ -30,6 +30,9 @@
     .secondary-navigation {
       background-color: $orange;
       overflow: hidden;
+      .ctn .icon-navigation ul li a svg {
+        fill: $black;
+      }
     }
   }
   .l-footer {

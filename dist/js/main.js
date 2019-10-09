@@ -1351,8 +1351,9 @@ var map = {
 	"./LeagueGothic-Regular.ttf": 114,
 	"./MyriadPro-Regular.ttf": 115,
 	"./PlayfairDisplay-Regular.ttf": 116,
-	"./leaguegothic.ttf": 117,
-	"./trailers.ttf": 118
+	"./TRADEGOTHICLTSTD-BOLDEXT.ttf": 117,
+	"./leaguegothic.ttf": 118,
+	"./trailers.ttf": 119
 };
 
 
@@ -1463,10 +1464,16 @@ module.exports = "../fonts/PlayfairDisplay-Regular.ttf";
 /* 117 */
 /***/ (function(module, exports) {
 
-module.exports = "../fonts/leaguegothic.ttf";
+module.exports = "../fonts/TRADEGOTHICLTSTD-BOLDEXT.ttf";
 
 /***/ }),
 /* 118 */
+/***/ (function(module, exports) {
+
+module.exports = "../fonts/leaguegothic.ttf";
+
+/***/ }),
+/* 119 */
 /***/ (function(module, exports) {
 
 module.exports = "../fonts/trailers.ttf";

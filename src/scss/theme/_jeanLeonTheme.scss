@@ -11,13 +11,18 @@
     }
     .secondary-navigation {
       background-color: $black;
+      .icon-navigation {
+        svg {
+          fill: #ffffff;
+        }
+      }
     }
   }
   .l-footer {
     background-color: $grey;
     a {
       color: $black;
-      font: 18px "Roboto", serif;
+      font: 18px "leaguegothic", serif;
     }
     .ctn {
       .siteLink {
@@ -37,14 +42,14 @@
   }
   .l-content {
     .labelDistro {
-      font: 20px "Roboto", serif;
+      font: 20px "leaguegothic", serif;
     }
   }
   .l-primaryNav {
     a {
       color: $black;
-      font: 20px "Roboto", serif;
-      letter-spacing: 0.1em;
+      font: 20px "leaguegothic", serif;
+      letter-spacing: 0;
       padding: 0 0 0 5px;
       &:hover {
         background-color: $black;

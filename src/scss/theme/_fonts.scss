@@ -82,7 +82,17 @@
     url("../fonts/AbrilDisplay-SemiBold.woff2"),
     url("../fonts/AvenirLTStd-Light.svg");
 }
-
+//Chile title
+@font-face {
+  font-family: "TradeGothicLtStd";
+  src: url("../fonts/TRADEGOTHICLTSTD-BOLDEXT.eot");
+  src: url("../fonts/TRADEGOTHICLTSTD-BOLDEXT.eot#iefix")
+      format("embedded-opentype"),
+    url("../fonts/TRADEGOTHICLTSTD-BOLDEXT.ttf"),
+    url("../fonts/TRADEGOTHICLTSTD-BOLDEXT.woff"),
+    url("../fonts/TRADEGOTHICLTSTD-BOLDEXT.woff2"),
+    url("../fonts/TRADEGOTHICLTSTD-BOLDEXT.svg");
+}
 //Chile body
 @font-face {
   font-family: "Avenir";

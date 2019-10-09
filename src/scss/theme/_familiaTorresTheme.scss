@@ -6,15 +6,12 @@
     }
   }
   .l-content {
-    .labelDistro,
+    .labelDistro {
+      font: 18px "Georgia", serif;
+    }
     .labelSecondary {
       font: 20px "Arial", serif;
       color: $black;
-    }
-  }
-  .l-content {
-    .labelDistro {
-      font: 18px "Georgia", serif;
     }
   }
   .l-header {
@@ -29,10 +26,18 @@
     .secondary-navigation {
       background-color: $darkGrey;
       overflow: hidden;
+      .icon-navigation {
+        svg {
+          fill: #ffffff;
+        }
+      }
     }
   }
   .l-footer {
     background-color: $darkGrey;
+    a {
+      font: 14px "Georgia", serif;
+    }
     nav {
       ul {
         li {
@@ -57,6 +62,11 @@
         color: $white;
         background-color: $darkGrey;
       }
+    }
+  }
+  .l-mainContent {
+    .componentContent__slogan p:first-child {
+      text-align: center;
     }
   }
 }

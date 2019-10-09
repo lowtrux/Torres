@@ -13,12 +13,15 @@
   .l-header {
     .secondary-navigation {
       background-color: $light-green;
+      .ctn .icon-navigation ul li a svg {
+        fill: $darkGreen2;
+      }
     }
     .header-search {
       display: none;
     }
     .logo-svg {
-      fill: $darkGreen2;
+      fill: $darkGreen2 !important;
     }
     nav ul li a {
       color: $white;

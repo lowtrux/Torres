@@ -1,10 +1,6 @@
 .stTheme {
   .componentContent__slogan {
     padding: 0 20px 0 20px;
-    p {
-      font: 16px "Caslon224Std-Black", serif;
-      line-height: 1.25em;
-    }
   }
   .l-content {
     .labelDistro,
@@ -13,7 +9,6 @@
       color: $red;
     }
   }
-
   .l-content {
     .labelDistro {
       font: 22px "Heroic", serif;

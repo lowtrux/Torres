@@ -10,10 +10,15 @@
     padding: 0;
     text-align: center;
     @media only screen and (min-width: 1024px) {
-      display: flex;
-      flex-flow: column nowrap;
-      height: 100vh;
-      justify-content: center;
+    }
+  }
+  .icon-navigation {
+    overflow: hidden;
+    @media only screen and (min-width: 1024px) {
+      padding: 20px 0 0 50px;
+    }
+    svg {
+      fill: #ffffff;
     }
   }
 }
