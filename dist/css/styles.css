@@ -2221,6 +2221,9 @@ th {
   .l-distMainMenu #s4-bodyContainer > div {
     height: 100%; }
 
+.l-distMainMenu #s4-workspace {
+  min-height: 100% !important; }
+
 .l-distMainMenu main {
   padding: 0;
   text-align: center; }
