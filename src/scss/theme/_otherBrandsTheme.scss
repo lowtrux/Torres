@@ -19,6 +19,9 @@
   .l-header {
     .secondary-navigation {
       background-color: $darkGrey;
+      .icon-navigation svg {
+        fill: #ffffff;
+      }
     }
   }
   .l-footer {

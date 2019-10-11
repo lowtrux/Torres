@@ -19,6 +19,9 @@
   .l-header {
     .secondary-navigation {
       background-color: $darkGreen;
+      .icon-navigation svg {
+        fill: #ffffff;
+      }
     }
     nav ul li a {
       color: $white;

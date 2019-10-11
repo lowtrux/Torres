@@ -18,6 +18,9 @@
   .l-header {
     .secondary-navigation {
       background-color: $black;
+      .icon-navigation svg {
+        fill: #ffffff;
+      }
     }
     nav ul li a {
       color: $yellow;

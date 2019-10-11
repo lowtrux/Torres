@@ -1890,6 +1890,8 @@ th {
 
 .otherBrandsTheme .l-header .secondary-navigation {
   background-color: #262626; }
+  .otherBrandsTheme .l-header .secondary-navigation .icon-navigation svg {
+    fill: #ffffff; }
 
 .otherBrandsTheme .l-footer {
   background-color: #262626; }
@@ -2002,6 +2004,8 @@ th {
 
 .torresBrandyTheme .l-header .secondary-navigation {
   background-color: #000; }
+  .torresBrandyTheme .l-header .secondary-navigation .icon-navigation svg {
+    fill: #ffffff; }
 
 .torresBrandyTheme .l-header nav ul li a {
   color: #ffc000; }
@@ -2040,6 +2044,8 @@ th {
     font: 16px "TradeGothicLtStd", serif; }
   .torresChileTheme .l-header .secondary-navigation {
     background-color: #21362b; }
+    .torresChileTheme .l-header .secondary-navigation .icon-navigation svg {
+      fill: #ffffff; }
   .torresChileTheme .l-header nav ul li a {
     color: #fff; }
   .torresChileTheme .l-footer {
@@ -2071,6 +2077,8 @@ th {
 
 .torresPropertiesTheme .l-header .secondary-navigation {
   background-color: #262626; }
+  .torresPropertiesTheme .l-header .secondary-navigation .icon-navigation svg {
+    fill: #ffffff; }
 
 .torresPropertiesTheme .l-footer {
   background-color: #262626; }
