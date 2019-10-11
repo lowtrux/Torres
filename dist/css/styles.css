@@ -2177,7 +2177,6 @@ th {
     font: 18px "Lato", serif; }
 
 #s4-workspace {
-  height: 100% !important;
   overflow: inherit !important; }
 
 .ms-listviewtable thead {
