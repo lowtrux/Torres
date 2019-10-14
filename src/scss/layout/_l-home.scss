@@ -29,8 +29,10 @@
         margin: 50px auto;
         overflow: hidden;
         .optionContainer {
-          float: left;
-          width: 50%;
+          @media only screen and (min-width: 1024px) {
+            float: left;
+            width: 50%;
+          }
         }
       }
       .logoCorporate {

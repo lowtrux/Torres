@@ -2214,6 +2214,13 @@ th {
 .l-content {
   margin: 20px 0 70px 0; }
 
+.l-distMainMenu > form {
+  height: 100%;
+  min-height: 100%; }
+
+.l-distMainMenu .l-mainContainer {
+  height: 100%; }
+
 .l-distMainMenu #s4-bodyContainer {
   height: 100%;
   padding-bottom: 0; }
@@ -2695,9 +2702,10 @@ th {
   .l-home body .container .imageContainer {
     margin: 50px auto;
     overflow: hidden; }
-    .l-home body .container .imageContainer .optionContainer {
-      float: left;
-      width: 50%; }
+    @media only screen and (min-width: 1024px) {
+      .l-home body .container .imageContainer .optionContainer {
+        float: left;
+        width: 50%; } }
   .l-home body .container .logoCorporate {
     width: 150px;
     height: auto;
