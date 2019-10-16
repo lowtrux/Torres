@@ -2297,6 +2297,13 @@ th {
     .l-distSpirits .l-footer a {
       color: #fff;
       font-size: 14px; }
+  .l-distSpirits .icon-navigation {
+    overflow: hidden; }
+    @media only screen and (min-width: 1024px) {
+      .l-distSpirits .icon-navigation {
+        padding: 0 0 0 50px; } }
+    .l-distSpirits .icon-navigation svg {
+      fill: #000; }
 
 .l-footer {
   -webkit-box-align: center;
