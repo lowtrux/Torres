@@ -1783,6 +1783,9 @@ th {
 .jeanLeonTheme .l-content .labelDistro {
   font: 20px "leaguegothic", serif; }
 
+.jeanLeonTheme .l-content .textBrandVideos {
+  font: 20px "Roboto", serif; }
+
 .jeanLeonTheme .l-primaryNav a {
   color: #000;
   font: 20px "leaguegothic", serif;
@@ -1958,10 +1961,12 @@ th {
 
 .stTheme .componentContent__slogan {
   padding: 0 20px 0 20px; }
+  .stTheme .componentContent__slogan p {
+    font: 18px "Caslon224Std-Black", serif; }
 
 .stTheme .l-content .labelDistro,
 .stTheme .l-content .labelSecondary {
-  font: 16px "Caslon224Std-Black", serif;
+  font: 18px "Caslon224Std-Black", serif;
   color: #dd0b2b; }
 
 .stTheme .l-content .labelDistro {
@@ -2246,7 +2251,7 @@ th {
 
 .l-distMainMenu #s4-workspace {
   min-height: 100% !important;
-  height: 100%; }
+  height: 100% !important; }
 
 .l-distMainMenu main {
   padding: 0;

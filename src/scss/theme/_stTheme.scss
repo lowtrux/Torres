@@ -1,11 +1,14 @@
 .stTheme {
   .componentContent__slogan {
     padding: 0 20px 0 20px;
+    p {
+      font: 18px "Caslon224Std-Black", serif;
+    }
   }
   .l-content {
     .labelDistro,
     .labelSecondary {
-      font: 16px "Caslon224Std-Black", serif;
+      font: 18px "Caslon224Std-Black", serif;
       color: $red;
     }
   }
