@@ -1,5 +1,5 @@
 .l-distMainMenu {
-  & > form {
+  form {
     height: 100%;
     min-height: 100%;
   }
@@ -15,6 +15,7 @@
   }
   #s4-workspace {
     min-height: 100% !important;
+    height: 100%;
   }
   main {
     padding: 0;

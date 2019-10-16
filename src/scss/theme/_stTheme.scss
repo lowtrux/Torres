@@ -13,6 +13,9 @@
     .labelDistro {
       font: 22px "Heroic", serif;
     }
+    .textBrandVideos {
+      font: 14px "Caslon224Std-Black", serif;
+    }
   }
   .l-header {
     .logoFigure {
@@ -20,6 +23,9 @@
     }
     .secondary-navigation {
       background-color: $red;
+      .ctn .icon-navigation ul li a svg {
+        fill: $white;
+      }
     }
     .header-search {
       display: none;

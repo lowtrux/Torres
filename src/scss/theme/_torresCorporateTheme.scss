@@ -1,4 +1,7 @@
 .torresCorporateTheme {
+  #s4-workspace {
+    height: auto !important;
+  }
   p {
     font: 16px "Arial", serif;
     line-height: 1.25em;
@@ -10,7 +13,6 @@
       color: $darkGrey;
     }
   }
-
   .l-content {
     .labelDistro {
       font: 18px "Georgia", serif;
@@ -19,6 +21,11 @@
   .l-header {
     .secondary-navigation {
       background-color: $darkGrey;
+      .icon-navigation {
+        svg {
+          fill: #ffffff;
+        }
+      }
     }
   }
   .l-footer {

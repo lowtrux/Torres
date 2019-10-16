@@ -1096,6 +1096,9 @@ h2 {
 h5 {
   margin: 0; }
 
+#s4-workspace {
+  height: auto !important; }
+
 main {
   min-height: 100%;
   padding: 20px 0; }
@@ -1839,7 +1842,8 @@ th {
   font-weight: 300; }
 
 .marimarTheme .l-content .labelDistro,
-.marimarTheme .l-content .labelSecondary {
+.marimarTheme .l-content .labelSecondary,
+.marimarTheme .l-content .textBrandVideos {
   font: 20px "Lato", serif;
   color: #000;
   font-weight: 300; }
@@ -1963,11 +1967,16 @@ th {
 .stTheme .l-content .labelDistro {
   font: 22px "Heroic", serif; }
 
+.stTheme .l-content .textBrandVideos {
+  font: 14px "Caslon224Std-Black", serif; }
+
 .stTheme .l-header .logoFigure {
   width: 200px; }
 
 .stTheme .l-header .secondary-navigation {
   background-color: #dd0b2b; }
+  .stTheme .l-header .secondary-navigation .ctn .icon-navigation ul li a svg {
+    fill: #fff; }
 
 .stTheme .l-header .header-search {
   display: none; }
@@ -2098,6 +2107,9 @@ th {
     background-color: #262626;
     color: #fff; }
 
+.torresCorporateTheme #s4-workspace {
+  height: auto !important; }
+
 .torresCorporateTheme p {
   font: 16px "Arial", serif;
   line-height: 1.25em; }
@@ -2112,6 +2124,8 @@ th {
 
 .torresCorporateTheme .l-header .secondary-navigation {
   background-color: #262626; }
+  .torresCorporateTheme .l-header .secondary-navigation .icon-navigation svg {
+    fill: #ffffff; }
 
 .torresCorporateTheme .l-footer {
   background-color: #262626; }
@@ -2137,6 +2151,9 @@ th {
 
 .veTheme .l-content .labelDistro {
   font: 16px "Lato", serif; }
+
+.veTheme .l-content .textBrandVideos {
+  font: 18px "Lato", serif; }
 
 .veTheme .l-header .secondary-navigation {
   background-color: #f1f6e9; }
@@ -2214,7 +2231,7 @@ th {
 .l-content {
   margin: 20px 0 70px 0; }
 
-.l-distMainMenu > form {
+.l-distMainMenu form {
   height: 100%;
   min-height: 100%; }
 
@@ -2228,7 +2245,8 @@ th {
     height: 100%; }
 
 .l-distMainMenu #s4-workspace {
-  min-height: 100% !important; }
+  min-height: 100% !important;
+  height: 100%; }
 
 .l-distMainMenu main {
   padding: 0;
@@ -2261,15 +2279,13 @@ th {
       margin-top: 0; }
     @media only screen and (min-width: 1900px) {
       .l-distSpirits .flex-row {
-        margin-top: 50px; } }
+        margin-top: 100px; } }
   .l-distSpirits main {
-    -webkit-box-align: center;
-            align-items: center;
-    -webkit-box-flex: 1;
-            flex: 1;
-    padding: 0;
     display: -webkit-box;
-    display: flex; }
+    display: flex;
+    min-height: auto;
+    height: 100% !important;
+    padding: 20px 0 0 0; }
   .l-distSpirits .l-footer {
     background-color: #000;
     margin-top: 0; }
@@ -2727,7 +2743,8 @@ th {
       padding-top: 0; } }
 
 .l-mainContainer {
-  min-height: 620px; }
+  min-height: 620px;
+  overflow: hidden; }
 
 .l-pageContainer {
   display: -webkit-box;
