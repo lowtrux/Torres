@@ -1724,6 +1724,7 @@ th {
   .familiaTorresTheme .l-header .logoFigure {
     width: 180px; }
   .familiaTorresTheme .l-header .logo-svg {
+    fill: #ffffff;
     width: 200px; }
   .familiaTorresTheme .l-header .secondary-navigation {
     background-color: #262626;
@@ -1764,6 +1765,9 @@ th {
   background-color: #000; }
   .jeanLeonTheme .l-header .secondary-navigation .icon-navigation svg {
     fill: #ffffff; }
+  .jeanLeonTheme .l-header .secondary-navigation .logo .logo-svg {
+    fill: #ffffff;
+    width: 200px; }
 
 .jeanLeonTheme .l-footer {
   background-color: #f0f0f0; }
@@ -2020,6 +2024,9 @@ th {
   background-color: #000; }
   .torresBrandyTheme .l-header .secondary-navigation .icon-navigation svg {
     fill: #ffffff; }
+  .torresBrandyTheme .l-header .secondary-navigation .logo .logo-svg {
+    fill: #ffffff;
+    width: 200px; }
 
 .torresBrandyTheme .l-header nav ul li a {
   color: #ffc000; }
@@ -2060,6 +2067,9 @@ th {
     background-color: #21362b; }
     .torresChileTheme .l-header .secondary-navigation .icon-navigation svg {
       fill: #ffffff; }
+    .torresChileTheme .l-header .secondary-navigation .logo .logo-svg {
+      fill: #ffffff;
+      width: 200px; }
   .torresChileTheme .l-header nav ul li a {
     color: #fff; }
   .torresChileTheme .l-footer {
@@ -2093,6 +2103,10 @@ th {
   background-color: #262626; }
   .torresPropertiesTheme .l-header .secondary-navigation .icon-navigation svg {
     fill: #ffffff; }
+
+.torresPropertiesTheme .l-header .logo .logo-svg {
+  fill: #ffffff;
+  width: 200px; }
 
 .torresPropertiesTheme .l-footer {
   background-color: #262626; }
@@ -2131,6 +2145,9 @@ th {
   background-color: #262626; }
   .torresCorporateTheme .l-header .secondary-navigation .icon-navigation svg {
     fill: #ffffff; }
+  .torresCorporateTheme .l-header .secondary-navigation .logo .logo-svg {
+    fill: #ffffff;
+    width: 200px; }
 
 .torresCorporateTheme .l-footer {
   background-color: #262626; }
@@ -2636,7 +2653,6 @@ th {
       opacity: 1; }
       .l-header .secondary-navigation .logo a svg {
         width: 200px;
-        fill: #ffffff;
         vertical-align: middle;
         padding: 10px 0; }
     .l-header .secondary-navigation nav {

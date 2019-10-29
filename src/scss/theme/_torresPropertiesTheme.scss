@@ -10,7 +10,6 @@
       color: $darkGrey;
     }
   }
-
   .l-content {
     .labelDistro {
       font: 18px "Georgia", serif;
@@ -21,6 +20,12 @@
       background-color: $darkGrey;
       .icon-navigation svg {
         fill: #ffffff;
+      }
+    }
+    .logo {
+      .logo-svg {
+        fill: #ffffff;
+        width: 200px;
       }
     }
   }

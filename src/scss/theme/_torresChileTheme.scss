@@ -22,6 +22,12 @@
       .icon-navigation svg {
         fill: #ffffff;
       }
+      .logo {
+        .logo-svg {
+          fill: #ffffff;
+          width: 200px;
+        }
+      }
     }
     nav ul li a {
       color: $white;
