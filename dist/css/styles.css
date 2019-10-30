@@ -1619,9 +1619,9 @@ th {
 .product > span:first-child {
   color: transparent;
   cursor: pointer;
-  margin: 13px 0;
+  margin: 0;
   background-size: auto 100%;
-  height: 33px;
+  height: 14px;
   background-repeat: no-repeat;
   background-position-x: center;
   background-image: url(../images/more-icon.png); }
@@ -1792,8 +1792,8 @@ th {
 
 .jeanLeonTheme .l-primaryNav a {
   color: #000;
-  font: 20px "leaguegothic", serif;
-  letter-spacing: 0;
+  font: 24px "leaguegothic", serif;
+  letter-spacing: 0.1em;
   padding: 0 0 0 5px; }
   .jeanLeonTheme .l-primaryNav a:hover {
     background-color: #000;
@@ -1858,8 +1858,13 @@ th {
 .marimarTheme .l-content .labelDistro {
   font: 18px "Playfair Display", serif; }
 
+.marimarTheme .l-header .logo-svg {
+  fill: #fff; }
+
 .marimarTheme .l-header .secondary-navigation {
   background-color: #a5945d; }
+  .marimarTheme .l-header .secondary-navigation .icon-navigation svg {
+    fill: #fff; }
 
 .marimarTheme .l-header .logoFigure {
   width: 200px; }
@@ -1984,6 +1989,9 @@ th {
 
 .stTheme .l-header .logoFigure {
   width: 200px; }
+
+.stTheme .l-header .logo-svg {
+  fill: #fff; }
 
 .stTheme .l-header .secondary-navigation {
   background-color: #dd0b2b; }

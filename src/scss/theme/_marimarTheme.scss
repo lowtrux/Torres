@@ -19,8 +19,16 @@
     }
   }
   .l-header {
+    .logo-svg {
+      fill: $white;
+    }
     .secondary-navigation {
       background-color: $petro;
+      .icon-navigation {
+        svg {
+          fill: $white;
+        }
+      }
     }
     .logoFigure {
       width: 200px;
